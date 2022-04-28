@@ -1,5 +1,6 @@
 {
   "lang": "en",
+  "title": "Lv105 耕作表 F105 - DFCAT",
   "common": {
     "option": " Option",
     "damage": "Damage",
