@@ -1,5 +1,5 @@
 {
-  "lang": "",
+  "lang": "jp",
   "title": "Lv105 ファーミングシート F105 - DFCAT",
   "common": {
     "option": " オプション",
