@@ -1,35 +1,35 @@
 {
-  "lang": "en",
+  "lang": "",
   "title": "Lv105 ファーミングシート F105 - DFCAT",
   "common": {
-    "option": " Option",
-    "damage": "Damage",
-    "buff": "Buff",
+    "option": " オプション",
+    "damage": "ダメージ",
+    "buff": "バフ",
     "availableLevel": "Available Level",
-    "status": "Status",
-    "buffOption": "Buffer Only"
+    "status": "ステータス",
+    "buffOption": "支援のみ"
   },
   "main": {
     "guide": {
-      "warning": "DFCAT F105 is more easier after read the guide",
-      "ask": "Would you read the guide?",
-      "nomore": "never",
-      "agree": "Yes",
-      "disagree": "No"
+      "warning": "説明書を読むとDFCAT F105が使いやすくなります",
+      "ask": "説明書を読みますか？",
+      "nomore": "表示しない",
+      "agree": "はい",
+      "disagree": "いいえ"
     }
   },
   "preset": {
-    "title": "Preset",
-    "loaded": "loaded",
-    "delete": "Delete",
-    "deleted": " is deleted",
-    "save": "Save",
-    "saved": "Saved",
-    "create": "Create New Preset",
-    "deleteConfirm": "Deleted preset cannot be recovered. Are you sure?",
-    "empty": "Empty presets.",
-    "emptyGuide": "You can save current state into preset by characters or settings.",
-    "adblock": "Under ADBLOCK, you can use presets upto 5"
+    "title": "プリセット",
+    "loaded": "読込完了",
+    "delete": "削除",
+    "deleted": " は削除されました",
+    "save": "保存",
+    "saved": "保存完了",
+    "create": "新規プリセット作成",
+    "deleteConfirm": "削除したプリセットは復元できません。本当に削除しますか？",
+    "empty": "プリセットなし",
+    "emptyGuide": "現在の状態をキャラクター別または設定別にプリセットに保存できます。",
+    "adblock": "広告ブロックを利用している場合プリセットは5個まで利用出来ます"
   },
   "set": {
     "placeholder": "Partial Search by ItemName (ex: ay dr -> 'dr'agon sl'ay'er)",
