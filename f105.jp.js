@@ -3,8 +3,8 @@
   "title": "Lv105 ファーミングシート F105 - DFCAT",
   "common": {
     "option": " オプション",
-    "damage": "ダメージ",
-    "buff": "バフ",
+    "damage": "被害増加",
+    "buff": "バフ力",
     "availableLevel": "Available Level",
     "status": "ステータス",
     "buffOption": "支援のみ"
@@ -13,7 +13,7 @@
     "guide": {
       "warning": "説明書を読むとDFCAT F105が使いやすくなります",
       "ask": "説明書を読みますか？",
-      "nomore": "表示しない",
+      "nomore": "二度と表示しない",
       "agree": "はい",
       "disagree": "いいえ"
     }
@@ -21,14 +21,14 @@
   "preset": {
     "title": "プリセット",
     "loaded": "読込完了",
-    "delete": "削除",
+    "delete": "削除する",
     "deleted": " は削除されました",
-    "save": "保存",
+    "save": "保存する",
     "saved": "保存完了",
     "create": "新規プリセット作成",
     "deleteConfirm": "削除したプリセットは復元できません。本当に削除しますか？",
     "empty": "プリセットなし",
-    "emptyGuide": "現在の状態をキャラクター別または設定別にプリセットに保存できます。",
+    "emptyGuide": "現在の状態をキャラクター別または設定別に保存できます。",
     "adblock": "広告ブロックを利用している場合プリセットは5個まで利用出来ます"
   },
   "set": {
@@ -56,32 +56,32 @@
     "labelItems": "Items can obtain in this dungeon",
     "labelMonsterCount": "Will be updated",
     "drops": " drops",
-    "modeRoad": "Road",
-    "modeBoss": "Boss",
-    "modeNamed": "All Named",
-    "modeMonster": "Monster Count",
+    "modeRoad": "マップ",
+    "modeBoss": "ボス",
+    "modeNamed": "全ネームド",
+    "modeMonster": "モンスター数",
     "modeSelected": "Selected Named",
     "labelExtension1": "Map of Nobless Code and",
     "labelExtension2": "Ruined Castle of the Dead",
     "labelExtension3": "changes everytime"
   },
   "dungeons": {
-    "normal": "Normal",
-    "extension": "Extension",
-    "all": "All"
+    "normal": "一般",
+    "extension": "上級",
+    "all": "全て"
   },
 
-  "상의": "Jacket",
-  "하의": "Pants",
-  "머리어깨": "Shoulder",
-  "허리": "Waist",
-  "신발": "Shoes",
-  "팔찌": "Wrist",
-  "목걸이": "Necklace",
-  "반지": "Ring",
-  "보조장비": "Support",
-  "마법석": "Magic Stone",
-  "귀걸이": "Earring",
+  "상의": "上着",
+  "하의": "パンツ",
+  "머리어깨": "肩",
+  "허리": "ベルト",
+  "신발": "靴",
+  "팔찌": "腕輪",
+  "목걸이": "ネックレス",
+  "반지": "指輪",
+  "보조장비": "補助",
+  "마법석": "魔法石",
+  "귀걸이": "イヤリング",
   "아칸 코어픽": "Archon Core",
   "아칸 추천셋": "Archon Optimal",
   "아칸 대체픽": "Archon Alter",
