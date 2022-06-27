@@ -61,9 +61,9 @@
     "modeNamed": "모든 네임드 모드",
     "modeMonster": "잡몹 모드",
     "modeSelected": "네임드 모드",
-    "labelExtension1": "노블레스 코드와",
-    "labelExtension2": "파괴된 죽은자의 성은",
-    "labelExtension3": "위치가 매번 바뀝니다"
+    "labelExtension1": "Map of Extended Dungeon",
+    "labelExtension2": "is not supported",
+    "labelExtension3": "in F105"
   },
   "dungeons": {
     "normal": "일반 던전만 보기",

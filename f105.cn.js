@@ -61,9 +61,9 @@
     "modeNamed": "All Named",
     "modeMonster": "Monster Count",
     "modeSelected": "Selected Named",
-    "labelExtension1": "Map of Nobless Code and",
-    "labelExtension2": "Ruined Castle of the Dead",
-    "labelExtension3": "changes everytime"
+    "labelExtension1": "Map of Extended Dungeon",
+    "labelExtension2": "is not supported",
+    "labelExtension3": "in F105"
   },
   "dungeons": {
     "normal": "Normal",
