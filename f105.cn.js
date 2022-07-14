@@ -1,5 +1,5 @@
 {
-  "lang": "en",
+  "lang": "cn",
   "title": "Lv105 耕作表 F105 - DFCAT",
   "common": {
     "option": " Option",
