@@ -36,7 +36,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 5604,
         "buff": 1958
       },
       "options": [
@@ -44,27 +44,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "크리티컬 히트 5회 발생 시 캐릭터 주변 450px 내에 모든 적을 화상 상태로 만듦 (쿨타임 10초)"
+            "When 5 critical hits occur, all enemies within 450px around the character are burned (Cooldown 10 seconds)"
           ],
-          "damage": 1212,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 데미지 15% 증가",
-            "화상 내성 10% 증가"
+            "Increases burn damage by 15%",
+            "Increases own burn resistance by 10%"
           ],
-          "damage": 1212,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -73,7 +73,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per burn target within 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -86,6 +86,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "상태 이상 내성",
+      "크리티컬 히트",
+      "피해 증가",
+      "화상",
+      "화상 데미지"
+    ],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -157,7 +164,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -166,7 +174,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -175,7 +183,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -184,7 +192,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -197,6 +205,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -266,11 +277,11 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 0이 될 때 5초 동안 광폭화 상태가 되며 사망하지 않음",
-            "- 광폭화 상태일 때 피격 시 데미지 무효화",
-            "- 광폭화 상태에서 피해 증가 +4446",
-            "- 스킬 시전 시 사용한 무색 큐브 조각 1개당 광폭화 유지 시간 0.1초 증가 (한 번에 증가되는 유지 시간은 최대 5초를 초과하지 않음)",
-            "- 광폭화 상태 종료 시 캐릭터 사망"
+            "When your HP becomes 0, you will go berserk for 5 seconds and you will not die.",
+            "- Damage is negated when attacked while in Berserk",
+            "- Damage increase +4446 while in Berserk",
+            "- Increases the duration of Berserk by 0.1 seconds per each colorless cube piece used when casting the skill",
+            "- Character dies when the Berserk state ends"
           ],
           "damage": 1078,
           "buff": 470
@@ -279,7 +290,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 30초 동안 공격 속도 5%, 캐스팅 속도 7.5% 증가 (쿨타임 5초, 최대 3중첩)"
+            "When casting a skill that consumes a colorless cube piece, increases attack speed by 5% and casting speed by 7.5% for 30 seconds (cooldown 5 seconds, stacks up to 3)"
           ],
           "damage": 1078,
           "buff": 470
@@ -288,7 +299,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -310,6 +321,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "무색 큐브 조각 소모 스킬",
+      "무적",
+      "부활",
+      "스킬 MP 소모량 감소",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -385,7 +405,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 맵에 떨어져 있는 아이템을 캐릭터 발밑으로 이동 (쿨타임 30초)"
+            "When [Equipment Option Control Key] is input, items on the map are moved to the feet of the character (cooldown 30 seconds)"
           ],
           "damage": 404,
           "buff": 446
@@ -394,7 +414,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "Y축 이동 속도 20% 증가"
+            "Increases Y-axis movement speed by 20%"
           ],
           "damage": 404,
           "buff": 446
@@ -403,7 +423,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -412,7 +432,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "인벤토리 무게 한도 +5kg"
+            "Inventory weight limit +5kg"
           ],
           "damage": 1186,
           "buff": 494
@@ -425,6 +445,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "아이템 습득",
+      "이동 속도",
+      "장비 옵션 조작키"
+    ],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -495,8 +520,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 30초 동안 유지되는 저주받은 허수아비를 소환하여 주변 500px 범위 내 적을 저주 상태로 만듦 (쿨타임 30초)",
-            "자신이 저주받은 허수아비 범위 내에 있을 때 쿨타임 회복 속도 20% 증가 (각성기 제외)"
+            "When [Equipment Option Control Key] is input, summons a cursed scarecrow that lasts for 30 seconds, and makes enemies within 500px around it a curse (30 seconds cooldown)",
+            "Increases cooldown recovery speed by 20% while within range of the cursed scarecrow (excluding awakening)"
           ],
           "damage": 1482,
           "buff": 480
@@ -505,7 +530,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "상태 이상에 걸린 적 공격 시 HP 1% 회복 (쿨타임 1초)"
+            "Recovers 1% HP when attacking enemies with status ailments (1 second cooldown)"
           ],
           "damage": 1482,
           "buff": 480
@@ -514,8 +539,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -524,7 +549,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 저주 상태인 대상 하나 당 피해 증가 +385 (최대 10중첩)"
+            "+385 damage per Cursed target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -537,6 +562,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "스킬 쿨타임",
+      "장비 옵션 조작키",
+      "저주",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -602,7 +634,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 6952,
         "buff": 1928
       },
       "options": [
@@ -610,26 +642,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 0이 될 때 자신을 수면 상태로 만들며 HP 10% 회복 (쿨타임 300초)"
+            "When HP becomes 0, puts you to sleep and recovers 10% of HP (300 seconds cooldown)"
           ],
-          "damage": 1347,
+          "damage": 2290,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수면이 지속되는 동안 피해를 받아도 깨지 않음",
-            "수면 상태에서 피격 시 HP 15% 회복 (쿨타임 1초)"
+            "Taking damage while sleeping does not wake you up",
+            "Recovers 15% HP when attacked while sleeping (1 second cooldown)"
           ],
-          "damage": 1347,
+          "damage": 2290,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -638,7 +670,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카운터 피격 시 받는 데미지 20% 감소"
+            "Reduces damage received from counter hits by 20%"
           ],
           "damage": 1186,
           "buff": 494
@@ -651,6 +683,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "무적",
+      "받는 데미지",
+      "부활",
+      "수면",
+      "카운터"
+    ],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -716,7 +756,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4379,
+        "damage": 6803,
         "buff": 1933
       },
       "options": [
@@ -724,30 +764,30 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 0이 될 때 영웅의 기백 버프 효과 적용",
-            "- 모든 HP 회복 효과 미적용",
-            "- 피격 시 HP 대신 MP가 소진되며 MP가 0이 될 때 사망 적용",
-            "- 영웅의 기백 버프 효과 적용 중일 때 MP 초당 2% 감소"
+            "When HP becomes 0, the hero's vitality buff is applied.",
+            "- All HP recovery effects are not applied",
+            "- MP is consumed instead of HP when attacked, and death is applied when MP becomes 0.",
+            "- MP per second decreases by 2% while the Hero's Spirit buff effect is applied"
           ],
-          "damage": 1078,
+          "damage": 2290,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 5% 증가",
-            "캐스팅 속도 7.5% 증가",
-            "스킬 MP 소모량 50% 증가"
+            "5% increased Attack Speed",
+            "Casting speed increased by 7.5%",
+            "Skill MP consumption increased by 50%"
           ],
-          "damage": 1078,
+          "damage": 2290,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 3500 회복 (쿨타임 1초)"
+            "Recover 3,500 MP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -769,6 +809,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 소모",
+      "MP 회복",
+      "공격 속도",
+      "무적",
+      "부활",
+      "스킬 MP 소모량 증가",
+      "캐스팅 속도"
+    ],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -835,7 +884,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5336,
         "buff": 1920
       },
       "options": [
@@ -843,27 +892,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 파티원 1명을 선택하여 내 위치로 데려옴 (쿨타임 50초, 파티원이 무적 상태인 경우에는 선택할 수 없음)",
-            "내 위치로 데려온 파티원에게 20초 동안 이동 속도 20% 증가 버프 적용"
+            "When entering [Equipment Option Control Key], select 1 party member and bring them to your location (Cooldown 50 seconds, cannot be selected when party members are invincible)",
+            "Increases movement speed by 20% for 20 seconds to party members brought to your location"
           ],
-          "damage": 808,
+          "damage": 1482,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신을 포함한 파티원 1명당 피해 증가 +371 (최대 4중첩)"
+            "Increase damage per party member including yourself +371 (stacks up to 4)"
           ],
-          "damage": 808,
+          "damage": 1482,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000\n",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -872,7 +921,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -885,6 +934,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "순간이동",
+      "이동 속도",
+      "장비 옵션 조작키",
+      "파티원",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -949,7 +1005,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 6414,
         "buff": 1958
       },
       "options": [
@@ -957,31 +1013,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 화속성 강화 수치에 따라 화속성 원소 공격 발동 (쿨타임 5초)",
-            "- 화속성 강화가 100이상 150미만일 때 파이어 익스플로전 발동",
-            "- 화속성 강화가 150이상 250미만일 때 파이어 로드 발동",
-            "- 화속성 강화가 250이상일 때 메테오 발동",
-            "- 메테오에 피격된 적을 10초 동안 화상 상태로 만듦 (쿨타임 15초)",
-            "- 메테오 발동 시 30초 동안 화속성 저항 +20 (최대 1중첩)"
+            "When attacking, there is a 50% chance to activate a fire element attack according to the fire element enhancement value (cooldown 5 seconds)\n",
+            "- Fire Explosion is activated when Fire attribute enhancement is between 100 and 150\n",
+            "- Activates Fire Rod when Fire attribute enhancement is greater than or equal to 150 and less than 250\n",
+            "- Meteor activates when Fire attribute enhancement is 250 or higher\n",
+            "- Burns enemies hit by Meteor for 10 seconds (15 seconds cooldown)\n",
+            "- Fire resistance +20 for 30 seconds when Meteor is activated (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 5당 공격 속도 1%, 캐스팅 속도 1.5% 증가 (최대 10중첩)",
-            "화속성 저항 -15"
+            "Increases attack speed by 1% and casting speed by 1.5% per 5 fire resistance (stacks up to 10)",
+            "Fire resistance -15"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases Fire Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -990,7 +1046,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per burn target within 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -1003,6 +1059,16 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "스킬 공격력 증가",
+      "오브젝트",
+      "캐스팅 속도",
+      "피해 증가",
+      "화상",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -1076,10 +1142,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 최대 HP의 15%를 소모하여 5초 동안 유지되는 성스러운 방패 소환 (쿨타임 45초, 해당 옵션으로 HP가 1% 미만으로 감소하지 않음)",
-            "- 성스러운 방패의 HP는 자신의 최대 HP의 30% 적용",
-            "- 전방 적의 공격 방어, 이동 제한 적용",
-            "- 성스러운 방패가 맵에 존재할 때 물리 방어력, 마법 방어력 20% 증가"
+            "[Equipment option control key] Consumes 15% of HP to summon a holy shield that lasts for 5 seconds (45 seconds cooldown, this option does not reduce HP to less than 1%)",
+            "- The Holy Shield's HP applies 30% of its maximum HP",
+            "- Defense of enemy attacks in front, movement restrictions applied",
+            "- Increases physical defense and magic defense by 20% when Holy Shield is present on the map"
           ],
           "damage": 1212,
           "buff": 466
@@ -1088,7 +1154,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 HP 5% 회복 (쿨타임 20초)"
+            "Recovers 5% HP when attacked (20 seconds cooldown)"
           ],
           "damage": 1212,
           "buff": 466
@@ -1106,7 +1172,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 2200 회복 (쿨타임 1초)"
+            "Recover 2,200 HP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -1119,6 +1185,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "HP 회복",
+      "방어력",
+      "오브젝트",
+      "장비 옵션 조작키",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -1185,7 +1259,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5336,
         "buff": 1938
       },
       "options": [
@@ -1193,28 +1267,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대기, 걷기, 대쉬 상태에서 [장비 옵션 조작키] 입력 시 일정거리만큼 이동된 위치로 순간이동 (쿨타임 20초)",
-            "- 순간이동 시전 시 방향키 입력을 통해 방향 조절 가능",
-            "순간이동 후 10초 동안 이동 속도 30% 증가"
+            "If you press [Equipment Option Control Key] in standby, walking, or dash status, you will be teleported to a location moved by a certain distance (20 seconds cooldown)",
+            "- When casting instantaneous movement, the direction can be adjusted by inputting the direction key.",
+            "30% increased Movement Speed ​​for 10 seconds after teleporting"
           ],
-          "damage": 1078,
+          "damage": 1482,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 20%당 가장 높은 속성 강화 6 증가 (최대 30 증가)"
+            "Increases the highest elemental attribute by 6 per 20% movement speed (up to 30)"
           ],
-          "damage": 1078,
+          "damage": 1482,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000\n",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -1223,7 +1297,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -1236,6 +1310,18 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "대쉬",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "순간이동",
+      "암속성 강화",
+      "이동 속도",
+      "이동 속도 조건",
+      "장비 옵션 조작키",
+      "화속성 강화"
+    ],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -1304,7 +1390,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 6144,
         "buff": 1920
       },
       "options": [
@@ -1312,32 +1398,32 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대기, 걷기, 대쉬 상태에서 [장비 옵션 조작키] 입력 시 25초 동안 캐릭터 소형화 시전 (쿨타임 60초)",
-            "- 캐릭터 크기 50% 감소",
-            "- 회피율 +75%",
-            "- 스킬 및 기본 공격 불가",
-            "- 이동 속도 30% 증가",
-            "- 초당 HP/MP 1% 회복",
-            "(지속시간 중 [장비 옵션 조작 키] 재입력, 행동불가 상태, 사망, 강제 스킬 발동 시 해제됩니다. [장비 옵션 조작 키] 재입력을 통한 효과 해제는 대기, 걷기, 대쉬 상태만 가능합니다.)"
+            "Casts character miniaturization for 25 seconds when [Equipment Option Control Key] is pressed while waiting, walking, or dashing (60 seconds cooldown)",
+            "- Character size reduced by 50%",
+            "- Evasion +75%",
+            "- Skills and basic attacks are not allowed",
+            "- Movement speed increased by 30%",
+            "- Recover 1% HP/MP per second",
+            "(During the duration, it is canceled when [Equipment Option Control Key] is re-entered, incapable of action, death, or forced skill is activated. Effect cancellation by re-entering [Equipment Option Control Key] is only available in Standby, Walking, and Dash.)"
           ],
-          "damage": 943,
+          "damage": 1886,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 10%당 이동 속도 5% 증가 (최대 25% 증가)"
+            "5% increased movement speed per 10% dodge rate (up to 25% increase)"
           ],
-          "damage": 943,
+          "damage": 1886,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000\n",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -1359,6 +1445,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "소형화",
+      "이동 속도",
+      "장비 옵션 조작키",
+      "회피율"
+    ],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -1435,7 +1529,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 2%를 소모하여, 주변 500px 이내 폭발 발생 (쿨타임 10초)"
+            "Consumes 2% of HP when attacking, causing an explosion within 500px of the area (Cooldown 10 seconds)"
           ],
           "damage": 1347,
           "buff": 480
@@ -1444,8 +1538,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 스킬 쿨타임 회복 속도 2% 증가 (각성기 제외, 쿨타임 1초, 최대 10중첩)",
-            "총 HP 1% 이상 데미지를 받을 시 스킬 쿨타임 회복 속도 증가 중첩수 2 감소"
+            "Increases skill cooldown recovery speed by 2% when attacking (excluding awakening, cooldown 1 second, stacks up to 10)",
+            "Increases skill cooldown recovery speed when receiving damage over 1% of total HP, reduces stack count by 2"
           ],
           "damage": 1347,
           "buff": 480
@@ -1454,7 +1548,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 2200 회복 (쿨타임 1초)"
+            "Recover 2,200 HP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -1476,6 +1570,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "HP 조건",
+      "HP 회복",
+      "스킬 쿨타임",
+      "오브젝트"
+    ],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -1539,7 +1640,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4379,
+        "damage": 5995,
         "buff": 1943
       },
       "options": [
@@ -1547,31 +1648,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 0이 될 때 5초 동안 불사의 버프 효과 적용 (쿨타임 300초)",
-            "- HP 10% 회복",
-            "- 모든 HP 회복 효과 미적용",
-            "- 피격 시 데미지 무효화",
-            "- 불사의 버프 효과 종료 시 HP MAX 30% 감소 (최대 1중첩)"
+            "When HP becomes 0, the buff effect of immortality is applied for 5 seconds (Cooldown 300 seconds)\n",
+            "- 10% HP recovery\n",
+            "- All HP recovery effects are not applied",
+            "- Damage negated when hit",
+            "- When the immortality buff effect ends, HP MAX is reduced by 30% (stacks up to 1)"
           ],
-          "damage": 1078,
+          "damage": 1886,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 데미지 10% 증가",
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Increases damage taken by 10%",
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
-          "damage": 1078,
+          "damage": 1886,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 2200 회복 (쿨타임 1초)"
+            "Recover 2,200 HP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -1580,7 +1681,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카운터 피격 시 받는 데미지 20% 감소"
+            "Reduces damage received from counter hits by 20%"
           ],
           "damage": 1186,
           "buff": 494
@@ -1593,6 +1694,20 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "HP 회복",
+      "명속성 강화",
+      "모든 속성 강화",
+      "무적",
+      "받는 데미지",
+      "부활",
+      "수속성 강화",
+      "암속성 강화",
+      "카운터",
+      "크리티컬 히트",
+      "화속성 강화"
+    ],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -1659,7 +1774,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 5874,
         "buff": 1948
       },
       "options": [
@@ -1667,25 +1782,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화, 수, 명, 암 속성 강화 수치가 모두 동일할 때 무기에 모든 속성 부여"
+            "When the fire, water, light, and dark attribute enhancement values ​​are all the same, all attributes are applied to the weapon"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화, 수, 명, 암 속성 강화 수치가 모두 동일할 때 모든 속성 저항 25 증가"
+            "When Fire, Water, Light, and Dark attribute enhancement values ​​are the same, all attribute resistances are increased by 25"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -1694,7 +1809,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -1707,6 +1822,20 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "속성 부여",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "피해 증가",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -1773,7 +1902,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3960,
+        "damage": 4768,
         "buff": 1910
       },
       "options": [
@@ -1781,30 +1910,30 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대기, 걷기, 대쉬 상태에서 [장비 옵션 조작키] 입력 시 25초 동안 캐릭터 거대화 시전 (쿨타임 60초)",
-            "- 받는 데미지 20% 감소",
-            "- 스킬 및 기본 공격 사용 불가",
-            "- 이동 속도 20% 감소",
-            "- 대쉬 상태에서 지속적으로 충격파 발생 및 점프 착지 시 더욱 강력한 충격파 발생",
-            "- 거대화 상태일 때 슈퍼아머"
+            "When [Equipment Option Control Key] is pressed in standby, walking, or dash state, character enlargement is cast for 25 seconds (60 seconds cooldown)",
+            "- Reduced damage received by 20%",
+            "- Cannot use skills and basic attacks",
+            "- Movement speed reduced by 20%",
+            "- Continuous shock wave generation in dash state and more powerful shock wave when jumping and landing",
+            "- Super Armor when in gigantic state"
           ],
-          "damage": 943,
+          "damage": 1347,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 10%당 물리 방어력, 마법 방어력 500 증가 (최대 20중첩)"
+            "Increases physical defense and magic defense by 500 per 10% of movement speed (stacks up to 20)"
           ],
-          "damage": 943,
+          "damage": 1347,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 2200 회복 (쿨타임 1초)"
+            "Recover 2,200 HP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -1813,7 +1942,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 3500 회복 (쿨타임 1초)"
+            "Recovers 3,500 MP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -1826,6 +1955,20 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "거대화",
+      "대쉬",
+      "받는 데미지",
+      "방어력",
+      "슈퍼 아머",
+      "이동 속도",
+      "이동 속도 조건",
+      "장비 옵션 조작키",
+      "점프",
+      "충격파"
+    ],
     "material": "판금",
     "slotName": "상의",
     "explain": [
@@ -1895,7 +2038,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 5604,
         "buff": 1948
       },
       "options": [
@@ -1903,26 +2046,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시, 무기의 공격 속성을 화, 수, 명, 암 순으로 변경 (쿨타임 0.5초)",
-            "해당 장비의 옵션으로 속성 부여 시 해당 속성 강화 10 감소, 해당 속성 저항 10 감소"
+            "When [Equipment Option Control Key] is input, the weapon's attack properties are changed in the order of fire, water, light, and dark (cooldown 0.5 seconds)",
+            "When an attribute is assigned as an option to the equipment, the attribute enhancement is reduced by 10, and the attribute resistance is reduced by 10"
           ],
-          "damage": 1347,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 저항의 합이 100 미만일 때 모든 속성 강화 30 증가"
+            "When the sum of all elemental resistances is less than 100, all elemental enhancements increase by 30"
           ],
-          "damage": 1347,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -1931,7 +2074,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -1944,6 +2087,21 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "속성 부여",
+      "속성 저항 조건",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "장비 옵션 조작키",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "판금",
     "slotName": "상의",
     "explain": [
@@ -2013,7 +2171,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 6414,
         "buff": 1928
       },
       "options": [
@@ -2021,31 +2179,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 2초 동안 유지되는 아공간 소환 (쿨타임 60초)",
-            "- 아공간 주변에서 점프 키 입력 시 아공간으로 진입",
-            "- 아공간에는 옵션 발동자만 진입 가능",
-            "- 아공간 내부에서는 무적 효과",
-            "- 아공간 종료 시 10초 동안 모든 속도 30% 증가"
+            "When [Equipment Option Control Key] is input, subspace is summoned for 2 seconds (cooldown 60 seconds)",
+            "- Enter into subspace when you press the jump key around subspace",
+            "- Only option triggers can enter subspace",
+            "- Invincible effect inside subspace",
+            "- When subspace ends, all speed is increased by 30% for 10 seconds"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 상태 이상 내성 +15%",
-            "HP MAX 300 감소"
+            "+15% to all status ailment resistance",
+            "Reduces HP MAX 300"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000\n",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -2054,7 +2212,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "비 카운터 피격 시 받는 데미지 20% 감소"
+            "Reduces damage received from non-counter attacks by 20%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2067,6 +2225,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "공격 속도",
+      "무적",
+      "받는 데미지",
+      "비 카운터",
+      "상태 이상 내성",
+      "이동 속도",
+      "장비 옵션 조작키",
+      "캐스팅 속도"
+    ],
     "material": "판금",
     "slotName": "상의",
     "explain": [
@@ -2134,7 +2303,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 6144,
         "buff": 1938
       },
       "options": [
@@ -2142,27 +2311,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 상태에서 [장비 옵션 조작키] 입력 시 10초 동안 회오리 바람을 타고 부유 상태로 이동 (쿨타임 40초)",
-            "- 회오리 바람의 힘으로 주변의 적들을 끌어모음",
-            "- 부유 상태일 때 슈퍼아머 적용"
+            "If you press [Equipment Option Control Key] while in a jump state, you will move to a floating state in a whirlwind for 10 seconds (cooldown 40 seconds)",
+            "- Gather nearby enemies with the power of a tornado",
+            "- Apply super armor when floating"
           ],
-          "damage": 1078,
+          "damage": 1886,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 상태일 때 공격 속도 10% 증가, 캐스팅 속도 15% 증가, 이동 속도 10% 감소"
+            "While jumping, attack speed increased by 10%, casting speed increased by 15%, movement speed decreased by 10%"
           ],
-          "damage": 1078,
+          "damage": 1886,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2171,8 +2340,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%\n",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2185,6 +2354,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "비행",
+      "이동 속도",
+      "장비 옵션 조작키",
+      "점프",
+      "캐스팅 속도"
+    ],
     "material": "판금",
     "slotName": "상의",
     "explain": [
@@ -2212,6 +2389,247 @@
       "이터널 플레임 연구소",
       "노블레스 코드",
       "파괴된 죽은 자의 성(상급)"
+    ]
+  },
+  {
+    "itemId": "6dd14f7d9d8b216ea32bed484d62dcd4",
+    "itemName": "컨퓨즈드 코어 슈트",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "\"이 반응물질로 심장을 대체해보려면... 수많은 실험체들이 죽어나가겠군!\""
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 7986
+      },
+      {
+        "name": "힘",
+        "value": 151
+      },
+      {
+        "name": "체력",
+        "value": 156
+      },
+      {
+        "name": "지능",
+        "value": 151
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 5336,
+        "buff": 1938
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 D011-Risa를 소환하여 아래의 효과 적용 (쿨타임 0.5초, 최대 5개)",
+            "- 맵에 있는 가장 강력한 적에게 적용중인 모든 상태이상을 동일하게 D011-Risa에게 적용",
+            "- 자신이 D011-Risa의 주변 500px 범위 내에 있을 때 모든 상태이상 내성 2% 증가 (최대 5중첩)"
+          ],
+          "damage": 1482,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착한 무기, 방어구, 악세서리, 특수장비로 인한 상태 이상 내성 증가 옵션 총 합의 5%만큼 모든 상태 이상 데미지 증가 (최대 10% 증가, 아바타, 엠블렘 포함)"
+          ],
+          "damage": 1482,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 크리티컬 히트 +5%",
+            "마법 크리티컬 히트 +5%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "스킬 MP 소모량 7% 감소"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무색 큐브 조각 소모 스킬",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "스킬 MP 소모량 감소",
+      "암흑",
+      "오브젝트",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "둔화",
+      "혼란",
+      "구속",
+      "상태 이상 내성 조건"
+    ],
+    "material": "판금",
+    "slotName": "상의",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "감전",
+      "구속",
+      "기절",
+      "둔화",
+      "무색 큐브 조각 소모 스킬",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "암흑",
+      "오브젝트",
+      "저주",
+      "중독",
+      "출혈",
+      "혼란",
+      "화상",
+      "감전 데미지",
+      "중독 데미지",
+      "출혈 데미지",
+      "화상 데미지",
+      "크리티컬 히트",
+      "스킬 MP 소모량 감소",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-2 이덴디테이트"
+  },
+  {
+    "itemId": "738965a105c6c04dda76950c621818ad",
+    "itemName": "공명하는 에너지 상의",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 1597
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 161
+      },
+      {
+        "name": "정신력",
+        "value": 161
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "material": "천",
+    "slotName": "상의",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "베리콜리스",
+      "헤블론의 예언소"
     ]
   },
   {
@@ -2259,8 +2677,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 5% 감소할 때마다 피해 증가 +156 (최대 19중첩)",
-            "스킬 시전 시 HP 1% 소모 (해당 옵션으로 HP가 1% 미만으로 감소하지 않음)"
+            "Increase damage +156 for every 5% HP decrease (stacks up to 19)",
+            "Consumes 1% of HP when casting a skill (HP does not decrease below 1% with this option)"
           ],
           "damage": 1347,
           "buff": 485
@@ -2269,7 +2687,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 10% 감소할 때마다 피해 증가 +165, 물리 방어력, 마법 방어력 2200 감소 (최대 9중첩)"
+            "Each time HP decreases by 10%, damage increase +165, physical defense and magic defense decrease by 2200 (up to 9 stacks)"
           ],
           "damage": 1347,
           "buff": 485
@@ -2287,8 +2705,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -2301,6 +2718,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "HP 조건",
+      "방어력",
+      "피해 증가"
+    ],
     "material": "천",
     "slotName": "하의",
     "explain": [
@@ -2371,8 +2794,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 5초 동안 불씨 1개 적용",
-            "불씨가 5개에 도달했을 때 불씨를 모두 소모하여 폭발 발생"
+            "Apply 1 Ember for 5 seconds to a Burned Enemy Attack",
+            "When 5 embers are reached, all embers are consumed to cause an explosion."
           ],
           "damage": 674,
           "buff": 470
@@ -2381,7 +2804,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 5초 동안 화속성 강화 5 증가, 화속성 저항 10 감소 (쿨타임 1초, 최대 5중첩)"
+            "When attacking an enemy with a burn state, increases fire property reinforcement by 4 for 5 seconds, and reduces fire property resistance by 10 (1 second cooldown, stacks up to 5)"
           ],
           "damage": 674,
           "buff": 470
@@ -2390,7 +2813,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases fire property enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -2399,7 +2822,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 10 증가"
+            "Increases fire resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -2412,6 +2835,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "오브젝트",
+      "화상",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "천",
     "slotName": "하의",
     "explain": [
@@ -2478,7 +2907,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -2487,7 +2917,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -2496,7 +2926,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -2505,7 +2935,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -2518,6 +2948,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "material": "천",
     "slotName": "하의",
     "explain": [
@@ -2584,8 +3017,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적 처치 시 모든 직업 1~80Lv 모든 스킬 범위 5% 증가 (각성기 제외, 최대 5중첩)",
-            "스킬 시전 시 10초 동안 스킬 공격력 4% 감소 (최대 1중첩)"
+            "When an enemy is killed, increases the range of all skills from 1 to 80 for all classes by 5% (except for awakening, stacks up to 5)",
+            "When casting a skill, reduces skill attack power by 4% for 10 seconds (stacks up to 1)"
           ],
           "damage": 1212,
           "buff": 480
@@ -2594,7 +3027,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 10초 동안 이동 속도 10% 증가 (최대 1중첩)"
+            "Increases movement speed by 10% for 10 seconds when casting a skill that consumes colorless cube fragments (stacks up to 1)"
           ],
           "damage": 1212,
           "buff": 480
@@ -2612,7 +3045,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2625,6 +3058,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "무색 큐브 조각 소모 스킬",
+      "스킬 범위",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "하의",
     "explain": [
@@ -2693,8 +3131,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 저항 1당 명속성 강화 1 증가 (최대 30 증가)",
-            "명속성 저항 20 감소"
+            "Increases light attribute strength by 1 for every 1 light resistance resistance (up to 30 increase)",
+            "Reduces light resistance by 20"
           ],
           "damage": 539,
           "buff": 485
@@ -2703,8 +3141,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 10초 동안 명속성 강화 20 증가 (최대 1중첩)",
-            "HP MAX 1000 감소"
+            "Increases light attribute enhancement by 20 for 10 seconds when attacked (stacks up to 1)",
+            "Reduces HP MAX 1000"
           ],
           "damage": 539,
           "buff": 485
@@ -2713,7 +3151,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 강화 15 증가"
+            "Increases Light Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -2722,7 +3160,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 피격 시 10초 동안 명속성 저항 20 증가 (쿨타임 5초, 최대 1중첩)"
+            "Increases light resistance by 20 for 10 seconds when you are attacked by light property (cooldown 5 seconds, stacks up to 1)"
           ],
           "damage": 1186,
           "buff": 494
@@ -2735,6 +3173,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "명속성 강화",
+      "명속성 저항"
+    ],
     "material": "가죽",
     "slotName": "하의",
     "explain": [
@@ -2793,7 +3236,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 4796,
         "buff": 1928
       },
       "options": [
@@ -2801,25 +3244,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "백스텝 시전 중 이동 속도 200% 증가"
+            "200% increased Movement Speed ​​while Backstepping"
           ],
-          "damage": 943,
+          "damage": 1212,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "백스텝 시전 중 받는 데미지 10% 감소"
+            "Reduces damage taken during Backstep by 10%"
           ],
-          "damage": 943,
+          "damage": 1212,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2828,7 +3271,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2841,6 +3284,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "백스텝",
+      "이동 속도",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "하의",
     "explain": [
@@ -2910,8 +3359,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 5초 동안 기본기 숙련 공격력 15% 증가 (쿨타임 0.1초, 최대 3중첩)",
-            "스킬 시전 시 기본기 숙련 중첩을 모두 소모하며, 소모량에 비례하여 5초 동안 스킬 공격력 5% 증가, 스킬 쿨타임 8% 증가 (해당 버프가 없을 때만 발동)"
+            "Increases basic skill Attack by 15% for 5 seconds with normal, jump, or dash attacks (Cooldown 0.1 seconds, stacks up to 3)",
+            "When casting a skill, consumes all stacks of basic skill proficiency, increases skill attack power by 5% for 5 seconds in proportion to consumption, and increases skill cooldown by 8% (only activates when there is no corresponding buff)"
           ],
           "damage": 943,
           "buff": 485
@@ -2920,7 +3369,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 5초 동안 공격 속도, 캐스팅 속도 10% 증가 (쿨타임 0.1초, 최대 3중첩)"
+            "Increases attack speed and casting speed by 10% for 5 seconds for normal attacks (Cooldown 0.1 seconds, stacks up to 3)"
           ],
           "damage": 943,
           "buff": 485
@@ -2929,7 +3378,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2938,8 +3387,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -2952,6 +3400,16 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "기본기 숙련",
+      "대시 공격",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "점프 공격",
+      "캐스팅 속도",
+      "평타"
+    ],
     "material": "가죽",
     "slotName": "하의",
     "explain": [
@@ -3013,7 +3471,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 6414,
         "buff": 1958
       },
       "options": [
@@ -3021,25 +3479,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 450px 범위 내 모든 적을 화상 상태로 만듦 (쿨타임 10초)"
+            "Burns all enemies within a 450px range when attacking a burned enemy (Cooldown 10 seconds)"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적에게 수속성 공격 시 익스플로전 발생 (쿨타임 0.5초)"
+            "Explosion occurs when water-type attacking an enemy with burn status (Cooldown 0.5 sec)"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per burn target within 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -3048,7 +3506,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3061,6 +3519,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "오브젝트",
+      "피해 증가",
+      "화상"
+    ],
     "material": "경갑",
     "slotName": "하의",
     "explain": [
@@ -3120,7 +3583,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5336,
         "buff": 1938
       },
       "options": [
@@ -3128,18 +3591,18 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하지 않는 스킬 시전 시 1.5초 동안 최대 HP의 10% 수치의 보호막 효과 적용 (쿨타임 0.5초, 최대 1중첩)"
+            "When casting a skill that does not consume colorless cube fragments, a shield effect of 10% of maximum HP is applied for 1.5 seconds (cooldown 0.5 seconds, stacks up to 1)"
           ],
-          "damage": 943,
+          "damage": 1482,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 10초 동안 MP 5% 회복 (쿨타임 10초)"
+            "Recover 5% MP for 10 seconds when casting a skill that consumes a colorless cube fragment (Cooldown 10 seconds)"
           ],
-          "damage": 943,
+          "damage": 1482,
           "buff": 475
         },
         {
@@ -3155,7 +3618,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3168,6 +3631,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 회복",
+      "무색 큐브 조각 소모 스킬",
+      "무색 큐브 조각 미소모 스킬",
+      "보호막",
+      "스킬 MP 소모량 감소",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "하의",
     "explain": [
@@ -3229,7 +3700,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 6682,
         "buff": 1958
       },
       "options": [
@@ -3237,27 +3708,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "백어택 공격 5회 성공 시 캐릭터 주변 450px 이내 모든 적을 중독 상태로 만듦 (쿨타임 10초)"
+            "After 5 successful back attacks, all enemies within 450px around the character are poisoned (10 seconds cooldown)"
           ],
-          "damage": 1212,
+          "damage": 2155,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "중독 데미지 15% 증가",
-            "중독 내성 10% 증가"
+            "Poison damage increased by 15%",
+            "Increases own poison resistance by 10%"
           ],
-          "damage": 1212,
+          "damage": 2155,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3266,7 +3737,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 중독 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per poisoned target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -3279,6 +3750,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "백어택",
+      "상태 이상 내성",
+      "중독",
+      "중독 데미지",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "하의",
     "explain": [
@@ -3350,8 +3828,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 저항 1당 암속성 강화 1 증가 (최대 30 증가)",
-            "암속성 저항 20 감소"
+            "Increases dark attribute enhancement by 1 per 1 dark attribute resistance (up to 30 increase)",
+            "Reduces dark resistance by 20"
           ],
           "damage": 539,
           "buff": 485
@@ -3360,8 +3838,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 10초 동안 암속성 강화 20 증가 (최대 1중첩)",
-            "HP MAX 1000 감소"
+            "Increases dark attribute strength by 20 for 10 seconds when attacked (stacks up to 1)",
+            "Reduces HP MAX 1000"
           ],
           "damage": 539,
           "buff": 485
@@ -3370,7 +3848,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 강화 15 증가"
+            "Increases dark attribute enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -3379,7 +3857,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 피격 시 10초 동안 암속성 저항 20 증가 (쿨타임 5초, 최대 1중첩)"
+            "Increases Dark resistance by 20 for 10 seconds when attacked by Dark property (Cooldown 5 seconds, stacks up to 1)"
           ],
           "damage": 1186,
           "buff": 494
@@ -3392,6 +3870,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "암속성 강화",
+      "암속성 저항"
+    ],
     "material": "경갑",
     "slotName": "하의",
     "explain": [
@@ -3451,7 +3934,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 2910,
+        "damage": 5604,
         "buff": 1928
       },
       "options": [
@@ -3459,30 +3942,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "아래의 스킬로 적의 공격을 정확하게 막아낸 경우 적을 2초 동안 홀드 상태로 변경",
-            "- 가드, 검막, 인듀어, 무기 막기, 방패 방어, 디바인 실드, 건가드",
-            "(해당 스킬 시전 후 0.5초 이내에 적의 공격을 막을 경우 정확하게 막아냅니다.)"
+            "If the enemy's attack is accurately blocked with the skills below, the enemy is put into hold for 2 seconds.",
+            "- Guard, Sword Shield, Endure, Parry, Shield Defense, Design Shield, Guard (If you block an enemy's attack within 0.5 seconds after casting this skill, it will accurately block.)"
           ],
-          "damage": 269,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "아래의 스킬로 적의 공격을 정확하게 막아낸 경우 2초 동안 스킬 1회에 한해 스킬 공격력 30% 증가",
-            "- 가드, 검막, 인듀어, 무기 막기, 방패 방어, 디바인 실드, 건가드",
-            "(해당 스킬 시전 후 0.5초 이내에 적의 공격을 막을 경우 정확하게 막아냅니다.)"
+            "If you block an enemy's attack correctly with the skills below, skill attack power is increased by 30% only once for 2 seconds",
+            "- Guard, Sword Shield, Endure, Parry, Shield Defense, Design Shield, Guard (If you block an enemy's attack within 0.5 seconds after casting this skill, it will accurately block.)"
           ],
-          "damage": 269,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -3491,7 +3972,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카운터 피격 시 받는 데미지 20% 감소"
+            "Reduces damage received from counter hits by 20%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3504,6 +3985,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "가드",
+      "무력화",
+      "받는 데미지",
+      "스킬 공격력 증가",
+      "카운터"
+    ],
     "material": "경갑",
     "slotName": "하의",
     "explain": [
@@ -3563,7 +4051,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 5066,
         "buff": 1928
       },
       "options": [
@@ -3571,26 +4059,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "35Lv 이하 스킬 사용 시 15초 동안 명속성 강화 4 증가 (최대 5중첩)"
+            "When using skills below Lv 35, increase light attribute strength by 4 for 15 seconds (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "40Lv 이상 스킬 사용 시 15초 동안 명속성 저항 3 증가 (최대 5중첩)"
+            "Increases Light resistance by 3 for 15 seconds when using skills above Lv 40 (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3599,8 +4087,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3613,6 +4101,19 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "피해 증가",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "중갑",
     "slotName": "하의",
     "explain": [
@@ -3681,8 +4182,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 1당 화속성 강화 1 증가 (최대 30 증가)",
-            "화속성 저항 20 감소"
+            "Increases fire attribute enhancement by 1 per 1 fire resistance resistance (up to 30 increase)",
+            "Reduces fire resistance by 20"
           ],
           "damage": 539,
           "buff": 485
@@ -3691,8 +4192,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 10초 동안 화속성 강화 20 증가 (최대 1중첩)",
-            "HP MAX 1000 감소"
+            "Increases fire property reinforcement by 20 for 10 seconds when attacked (stacks up to 1)",
+            "Reduces HP MAX 1000"
           ],
           "damage": 539,
           "buff": 485
@@ -3701,7 +4202,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases fire property enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -3710,7 +4211,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 피격 시 10초 동안 화속성 저항 20 증가 (쿨타임 5초, 최대 1중첩)"
+            "Increases fire resistance by 20 for 10 seconds when attacked by fire property (cooldown 5 seconds, stacks up to 1)"
           ],
           "damage": 1186,
           "buff": 494
@@ -3723,6 +4224,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "중갑",
     "slotName": "하의",
     "explain": [
@@ -3782,7 +4288,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 4796,
         "buff": 1928
       },
       "options": [
@@ -3790,26 +4296,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대기, 걷기 시 카모플라쥬 버프 적용 (버프 해제 시 재적용 쿨타임 5초)",
-            "대쉬, 피격 시 카모플라쥬 버프 해제"
+            "Camouflage buff applied when waiting or walking (reapplies cooldown when buff is removed 5 seconds)",
+            "Dash removes camouflage buff when attacked"
           ],
-          "damage": 943,
+          "damage": 1212,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카모플라쥬 버프가 적용 중인 상태에서 회피율 45% 증가, 피격 시 받는 데미지 10% 증가"
+            "While the camouflage buff is in effect, evasion rate is increased by 45%, damage taken from being attacked is increased by 10%"
           ],
-          "damage": 943,
+          "damage": 1212,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3818,7 +4324,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -3831,6 +4337,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "대쉬",
+      "받는 데미지",
+      "카모플라쥬",
+      "피해 증가",
+      "회피율"
+    ],
     "material": "중갑",
     "slotName": "하의",
     "explain": [
@@ -3899,8 +4412,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 1당 수속성 강화 1 증가 (최대 30 증가)",
-            "수속성 저항 20 감소"
+            "1 increase in water attribute reinforcement per 1 water resistance resistance (up to 30 increase)",
+            "Reduces water resistance by 20"
           ],
           "damage": 539,
           "buff": 485
@@ -3909,8 +4422,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 10초 동안 수속성 강화 20 증가 (최대 1중첩)",
-            "HP MAX 1000 감소"
+            "When attacked, increases water property reinforcement by 20 for 10 seconds (stacks up to 1)",
+            "Reduces HP MAX 1000"
           ],
           "damage": 539,
           "buff": 485
@@ -3919,7 +4432,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 강화 15 증가"
+            "Increases Water Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -3928,7 +4441,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 피격 시 10초 동안 수속성 저항 20 증가 (쿨타임 5초, 최대 1중첩)"
+            "Water property resistance increases by 20 for 10 seconds when attacked by water property (cooldown 5 seconds, stacks up to 1)"
           ],
           "damage": 1186,
           "buff": 494
@@ -3941,6 +4454,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "수속성 강화",
+      "수속성 저항"
+    ],
     "material": "판금",
     "slotName": "하의",
     "explain": [
@@ -4000,7 +4518,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 6414,
         "buff": 1928
       },
       "options": [
@@ -4008,26 +4526,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 시 MP 소모량의 10%만큼 HP 회복"
+            "Recovers HP equal to 10% of MP consumption when casting skills"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소모품, 장비로 인한 MP 회복 효과 10% 증가",
-            "분당 HP/MP 회복량 0으로 고정"
+            "10% increase in MP recovery effect from consumables and equipment",
+            "HP/MP recovery per minute fixed to 0"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4036,7 +4554,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4049,6 +4567,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "스킬 MP 소모량 감소"
+    ],
     "material": "판금",
     "slotName": "하의",
     "explain": [
@@ -4114,9 +4637,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "아바타 인벤토리에 아바타 개수가 많을 수록 추가 효과 발생",
-            "21~50개 : 피해 증가 +1482",
-            "51개 이상 : 피해 증가 +2668"
+            "Additional effects occur as the number of avatars increases in the avatar inventory.",
+            "21-50 pieces: Damage increase +1482",
+            "51 or more: Damage increase +2668"
           ],
           "damage": 808,
           "buff": 480
@@ -4125,7 +4648,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "아바타 인벤토리에 아바타 개수가 120개 이상일 때 스포트라이트 발생, 슈퍼아머 부여, 스킬 쿨타임 8% 감소 (각성기 제외)"
+            "When the number of avatars in the avatar inventory is 120 or more, spotlight occurs, super armor is applied, and skill cooldown is reduced by 8% (excluding awakening period)"
           ],
           "damage": 808,
           "buff": 480
@@ -4134,8 +4657,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4144,7 +4667,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4157,6 +4680,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "슈퍼 아머",
+      "스킬 쿨타임",
+      "아바타",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "하의",
     "explain": [
@@ -4221,7 +4750,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5604,
         "buff": 1948
       },
       "options": [
@@ -4229,29 +4758,29 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장착 시 20초마다 자신의 주변 250px 내의 적을 저주 상태로 만듦",
-            "대쉬 유지 시 저주 적용 범위 점차 증가, HP 초당 0.5% 감소 (해당 옵션으로 HP가 1% 미만으로 감소하지 않음)",
-            "대쉬 상태가 아닐 때 저주 적용 범위 점차 감소"
+            "Every 20 seconds when equipped, enemies within 250px around you are cursed.",
+            "Curse range gradually increases while dash is maintained, and HP decreases by 0.5% per second (HP does not decrease below 1% with this option)",
+            "Curse range gradually decreases when not in a dash state"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 70% 이상일 때 스킬 쿨타임 10% 감소 (각성기 제외)",
-            "HP가 50% 이상 70% 미만일 때 스킬 쿨타임 12% 감소 (각성기 제외)",
-            "HP가 50% 미만일 때 스킬 쿨타임 15% 감소 (각성기 제외)"
+            "When HP is above 70%, skill cooldown decreases by 10% (excluding awakening)\n",
+            "When HP is 50% or more and HP is less than 70%, skill cooldown is reduced by 12% (excluding awakening period)\n",
+            "When HP is below 50%, skill cooldown is reduced by 15% (excluding awakening)"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4260,7 +4789,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4273,6 +4802,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "HP 회복",
+      "대쉬",
+      "스킬 쿨타임",
+      "저주"
+    ],
     "material": "판금",
     "slotName": "하의",
     "explain": [
@@ -4286,7 +4822,7 @@
       "대쉬",
       "스킬 쿨타임",
       "이동 속도",
-      "저주 ",
+      "저주",
       "회피율",
       "구매 가능",
       "네임드"
@@ -4295,6 +4831,212 @@
       "파괴된 죽은 자의 성(상급)"
     ],
     "boss": "베키의 잃어버린 가방"
+  },
+  {
+    "itemId": "cab483b0a2723fd522ad6a173765a253",
+    "itemName": "로보티카 컴뱃 팬츠",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "\"이 정도면 쓸 만은 하겠지.\""
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 6655
+      },
+      {
+        "name": "힘",
+        "value": 151
+      },
+      {
+        "name": "체력",
+        "value": 156
+      },
+      {
+        "name": "지능",
+        "value": 151
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3988,
+        "buff": 1948
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착한 무기, 방어구, 악세서리, 특수장비의 강화/증폭 수치 합이 6 증가할 때 마다 피해 증가 +272 (최대 24중첩, 휘장, 보조무기 제외)"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착한 이 장비의 강화/증폭 수치 1 마다 모든 속도 +2% (최대 12중첩)"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 방어력 +7000",
+            "마법 방어력 +7000"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 강화 10 증가"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "공격 속도",
+      "이동 속도",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
+    "material": "판금",
+    "slotName": "하의",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "피해 증가",
+      "공격 속도",
+      "이동 속도",
+      "캐스팅 속도",
+      "방어력",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "화속성 강화",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-5 펠루헌 스타크"
+  },
+  {
+    "itemId": "22fb02f5603a037079a5ba59a98223c7",
+    "itemName": "공명하는 에너지 하의",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 1331
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 161
+      },
+      {
+        "name": "정신력",
+        "value": 161
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "material": "천",
+    "slotName": "하의",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "베리콜리스",
+      "퀸 팔트"
+    ]
   },
   {
     "itemId": "630d6c93e1652b76d34e9aba482fdf6d",
@@ -4341,7 +5083,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "10콤보 달성 시 30초 동안 피해 증가 +3705, 스킬 MP 소모량 175% 증가 (최대 1중첩)"
+            "Damage increase +3,705 for 30 seconds when 10 combo is achieved, skill MP consumption increases by 175% (stacks up to 1)"
           ],
           "damage": 1078,
           "buff": 475
@@ -4350,7 +5092,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "30콤보 달성 시 30초 동안 피해 증가 +2223 (최대 1중첩)"
+            "+2223 damage increase for 30 seconds when 30 combo is achieved (stacks up to 1)"
           ],
           "damage": 1078,
           "buff": 475
@@ -4359,7 +5101,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4368,7 +5110,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4381,6 +5123,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 MP 소모량 증가",
+      "콤보",
+      "피해 증가"
+    ],
     "material": "천",
     "slotName": "머리어깨",
     "explain": [
@@ -4449,7 +5196,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -4458,7 +5206,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -4467,7 +5215,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -4476,7 +5224,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -4489,6 +5237,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "material": "천",
     "slotName": "머리어깨",
     "explain": [
@@ -4547,7 +5298,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 4796,
         "buff": 1948
       },
       "options": [
@@ -4555,26 +5306,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 데미지 20% 증가"
+            "Increases burn damage by 20%"
           ],
-          "damage": 404,
+          "damage": 1212,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 화상 상태일 때 물리 크리티컬 히트 +10%, 마법 크리티컬 히트 +10%, 공격 속도 +5%, 캐스팅 속도 +7.5%",
-            "피격 시 자신을 화상 상태로 만듦 (쿨타임 5초)"
+            "Physical & Magic Critical Hit +10%, Attack Speed ​​+5%, Casting Speed ​​+7.5% while in Burn state",
+            "Burn yourself when attacked (Cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1212,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per burn target within 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -4583,7 +5334,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -4596,6 +5347,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가",
+      "화상",
+      "화상 데미지"
+    ],
     "material": "천",
     "slotName": "머리어깨",
     "explain": [
@@ -4666,8 +5425,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "바닥에 떨어진 아이템을 습득할 때마다 10초 동안 이동 속도 10% 증가 (최대 3중첩)",
-            "5초마다 이동 속도 5% 감소 (최대 5중첩, 아이템 습득 시 중첩 해제)"
+            "Every time you pick up an item that falls on the floor, your movement speed increases by 10% for 10 seconds (stacks up to 3).",
+            "Movement speed decreases by 5% every 5 seconds (stacks up to 5, stacks are removed when acquiring items)"
           ],
           "damage": 404,
           "buff": 446
@@ -4676,7 +5435,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 100% 이상일 때 30Lv 이하 스킬 공격 범위 10% 증가"
+            "When the movement speed is 100% or higher, the attack range of skills below Lv 30 is increased by 10%"
           ],
           "damage": 404,
           "buff": 446
@@ -4685,7 +5444,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "인벤토리 무게 한도 +5kg"
+            "Inventory weight limit +5kg"
           ],
           "damage": 1186,
           "buff": 494
@@ -4694,7 +5453,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -4707,6 +5466,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 범위",
+      "아이템 습득",
+      "이동 속도",
+      "이동 속도 조건"
+    ],
     "material": "가죽",
     "slotName": "머리어깨",
     "explain": [
@@ -4776,7 +5541,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 10% 확률로 공격력이 300% 증가한 공격력으로 적용"
+            "When attacking with a normal hit, jump, or dash, 10% chance to apply 300% increased attack power"
           ],
           "damage": 1078,
           "buff": 480
@@ -4785,7 +5550,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "기본기 숙련 스킬의 공격력 증가량 30% 증가"
+            "Increases Attack Of Basic Skills By 30%"
           ],
           "damage": 1078,
           "buff": 480
@@ -4794,8 +5559,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4804,7 +5569,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4817,6 +5582,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "기본기 숙련",
+      "대시 공격",
+      "점프",
+      "평타"
+    ],
     "material": "가죽",
     "slotName": "머리어깨",
     "explain": [
@@ -4877,7 +5648,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5604,
         "buff": 1938
       },
       "options": [
@@ -4885,26 +5656,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵 스탠딩 유지 시 최대 4초 동안 초당 HP 5% 회복"
+            "Recover 5% HP per second for up to 4 seconds while in quick standing"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵 스탠딩 종료 시 60초 동안 피해 증가 +2519 (최대 1중첩)"
+            "+2,519 damage increase for 60 seconds at the end of quick standing (stacks up to 1)"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -4913,7 +5684,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -4926,6 +5697,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "스킬 쿨타임",
+      "퀵 스탠딩",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "머리어깨",
     "explain": [
@@ -4986,7 +5763,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 4528,
         "buff": 1948
       },
       "options": [
@@ -4994,26 +5771,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 데미지 20% 증가"
+            "Increases electric shock damage by 20%"
           ],
-          "damage": 404,
+          "damage": 1078,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 감전 상태일 때 물리 크리티컬 히트 +10%, 마법 크리티컬 히트 +10%, 공격 속도 +5%, 캐스팅 속도 +7.5%",
-            "피격 시 자신을 감전 상태로 만듦 (쿨타임 5초)"
+            "Physical & Magical Critical Hit +10%, Attack Speed ​​+5%, Casting Speed ​​+7.5% when you are electrocuted\n",
+            "Inflicts an electric shock when attacked (Cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1078,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 감전 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per Shocked target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -5022,7 +5799,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -5035,6 +5812,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "머리어깨",
     "explain": [
@@ -5097,7 +5882,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5066,
         "buff": 1938
       },
       "options": [
@@ -5105,26 +5890,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태 적 1마리당 모든 속도 3%, 화속성 저항 1 증가 (최대 10중첩)",
-            "네임드, 보스 몬스터가 화상 상태일 때 모든 속도, 화속성 저항 증가 최대 중첩 적용"
+            "Increases all speed by 3% and fire resistance by 1 for each burned enemy within a 500px range (stacks up to 10)",
+            "When Named and Boss monsters are in burn state, increase all speed and fire property resistance and apply maximum stacking"
           ],
-          "damage": 943,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 20% 이상 데미지를 받을 시 10초 동안 피격 데미지 25% 감소 (쿨타임 10초)"
+            "When taking damage over 20% of total HP, reduces damage taken by 25% for 10 seconds (10 seconds cooldown)"
           ],
-          "damage": 943,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per burn target within 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -5133,7 +5918,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases fire property enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -5146,6 +5931,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "공격 속도",
+      "받는 데미지",
+      "이동 속도",
+      "캐스팅 속도",
+      "피해 증가",
+      "화상"
+    ],
     "material": "경갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5210,7 +6004,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 6414,
         "buff": 1958
       },
       "options": [
@@ -5218,31 +6012,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 수속성 강화 수치에 따라 수속성 원소 공격 발동 (쿨타임 5초)",
-            "- 수속성 강화가 100이상 150미만일 때 아이스 니들 발동",
-            "- 수속성 강화가 150이상 250미만일 때 아이스 브레스 발동",
-            "- 수속성 강화가 250이상일 때 블리자드 발동",
-            "- 블리자드에 피격된 적을 10초 동안 빙결 상태로 만듦 (쿨타임 30초)",
-            "- 블리자드 발동 시 30초 동안 수속성 저항 +20 (최대 1중첩)"
+            "When attacking, there is a 50% chance to activate a water element attack according to the water attribute enhancement value (cooldown 5 seconds)\n",
+            "- Ice needle activates when water attribute enhancement is between 100 and 150\n",
+            "- Ice Breath is activated when water attribute enhancement is between 150 and 250\n",
+            "- Blizzard activates when Water attribute enhancement is 250 or higher\n",
+            "- Freezes enemies hit by Blizzard for 10 seconds (30 seconds cooldown)\n",
+            "- Water resistance +20 for 30 seconds when Blizzard is activated (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 5당 공격 속도 1%, 캐스팅 속도 1.5% 증가 (최대 10중첩)",
-            "수속성 저항 -15"
+            "Increases attack speed by 1% and casting speed by 1.5% per 5 water resistance (stacks up to 10)",
+            "Water resistance -15"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 강화 15 증가"
+            "Increases Water Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -5251,7 +6045,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 빙결 상태인 대상 하나 당 피해 증가 +385 (최대 10중첩)"
+            "+385 damage per frozen target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -5264,6 +6058,16 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "빙결",
+      "수속성 강화",
+      "수속성 저항",
+      "스킬 공격력 증가",
+      "오브젝트",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5326,7 +6130,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 5604,
         "buff": 1948
       },
       "options": [
@@ -5334,26 +6138,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "중독 데미지 20% 증가"
+            "Poison damage increased by 20%"
           ],
-          "damage": 404,
+          "damage": 1616,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 중독 상태일 때 물리 크리티컬 히트 +10%, 마법 크리티컬 히트 +10%, 공격 속도 +5%, 캐스팅 속도 +7.5%",
-            "피격 시 자신을 중독 상태로 만듦 (쿨타임 5초)"
+            "When poisoned, physical & magic critical hit +10%, attack speed +5%, casting speed +7.5%\n",
+            "Inflicts poison on yourself when attacked (cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1616,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 중독 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per poisoned target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -5362,7 +6166,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -5375,6 +6179,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "중독",
+      "중독 데미지",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5447,7 +6259,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "1~35레벨 스킬 사용 시 20초 동안 1~35Lv 스킬 공격력 2% 감소, 40~80Lv 스킬 쿨타임 회복 속도 10% 증가 (최대 5중첩, 각성기 제외)"
+            "When using a level 1 to 35 skill, for 20 seconds, for 20 seconds, decreases the attack power of Lv 1~35 skills by 2%, and increases the cooldown recovery speed of Lv 40~80 skills by 10% (stacks up to 5, excluding awakening)"
           ],
           "damage": 808,
           "buff": 480
@@ -5456,7 +6268,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "40~80레벨 스킬 사용 시 20초 동안 40~80Lv 스킬 공격력 2% 감소, 1~35Lv 스킬 쿨타임 회복 속도 10% 증가 (최대 5중첩)"
+            "When using a level 40-80 skill, for 20 seconds, decreases the attack power of Lv 40-80 skills by 2% and increases cooldown recovery speed of Lv 1-35 skills by 10% (stacks up to 5)"
           ],
           "damage": 808,
           "buff": 480
@@ -5465,8 +6277,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -5475,7 +6287,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -5488,6 +6300,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 쿨타임"
+    ],
     "material": "경갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5557,10 +6372,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 후 3초 이내에 적 공격 시 각 시간에 따라 받은 데미지 회복 (쿨타임 3초)",
-            "- 1초 이내 공격 시 받은 데미지의 70% 회복",
-            "- 2초 이내 공격 시 받은 데미지의 50% 회복",
-            "- 3초 이내 공격 시 받은 데미지의 20% 회복"
+            "Recovers damage received according to each time when attacking an enemy within 3 seconds after being attacked (Cooldown 3 seconds)",
+            "- Recovers 70% of damage received when attacking within 1 second",
+            "- Recover 50% of damage received when attacking within 2 seconds",
+            "- Recover 20% of damage received when attacking within 3 seconds"
           ],
           "damage": 1078,
           "buff": 470
@@ -5569,8 +6384,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장비로 인한 HP 회복 효과 10% 증가",
-            "피격 시 받는 데미지 20% 증가"
+            "Increases HP recovery effect from equipment by 10%",
+            "Increases damage received by 20%"
           ],
           "damage": 1078,
           "buff": 470
@@ -5579,7 +6394,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -5601,6 +6416,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 데미지"
+    ],
     "material": "경갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5659,7 +6478,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 5874,
         "buff": 1928
       },
       "options": [
@@ -5667,26 +6486,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "35Lv 이하 스킬 사용 시 15초 동안 화속성 강화 4 증가 (최대 5중첩)"
+            "When using skills below Lv 35, increase fire property reinforcement by 4 for 15 seconds (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "40Lv 이상 스킬 사용 시 15초 동안 화속성 저항 3 증가 (최대 5중첩)"
+            "Increases fire resistance by 3 for 15 seconds when using skills above Lv 40 (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -5695,8 +6514,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -5709,6 +6528,19 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "피해 증가",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "중갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5769,7 +6601,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 4528,
         "buff": 1948
       },
       "options": [
@@ -5777,26 +6609,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 데미지 20% 증가"
+            "Increases bleeding damage by 20%"
           ],
-          "damage": 404,
+          "damage": 1078,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 출혈 상태일 때 물리 크리티컬 히트 +10%, 마법 크리티컬 히트 +10%, 공격 속도 +5%, 캐스팅 속도 +7.5%",
-            "피격 시 자신을 출혈 상태로 만듦 (쿨타임 5초)"
+            "Physical & Magic Critical Hit +10%, Attack Speed ​​+5%, Casting Speed ​​+7.5% while in bleeding state",
+            "Make yourself bleed when hit (cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1078,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 출혈 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per target bleeding within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -5805,7 +6637,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -5818,6 +6650,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "material": "중갑",
     "slotName": "머리어깨",
     "explain": [
@@ -5882,7 +6722,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5604,
         "buff": 1968
       },
       "options": [
@@ -5890,30 +6730,30 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "30초마다 레어 소울 1개를 소모하여 30초 동안 피해 증가 +2371",
-            "레어 소울 누적 5개 소모 시 피해 증가 +1186"
+            "Consumes 1 Rare Soul every 30 seconds to increase damage for 30 seconds +2371",
+            "Increases damage by consuming 5 accumulated Rare Souls +1186"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "30초마다 균등한 확률로 커먼 소울, 언커먼 소울 중 1개를 소모하여 아래의 효과 적용",
-            "- 커먼 소울 1개를 소모하여 HP 10% 회복",
-            "- 커먼 소울 1개를 소모하여 MP 10% 회복",
-            "- 언커먼 소울 1개 소모하여 HP/MP 10% 회복"
+            "Consumes 1 of Common Soul or Uncommon Soul with an equal probability every 30 seconds to apply the following effects",
+            "- Consume 1 Common Soul to recover 10% HP",
+            "- Consume 1 Common Soul to recover 10% MP",
+            "- Consume 1 Uncommon Soul to recover 10% HP/MP"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -5922,7 +6762,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -5935,6 +6775,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "소울",
+      "피해 증가"
+    ],
     "material": "중갑",
     "slotName": "머리어깨",
     "explain": [
@@ -6007,7 +6853,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "15콤보 성공 시 캐릭터 주변 450px 내 모든 적을 출혈 상태로 만듦 (쿨타임 8초)"
+            "When the 15 combo is successful, all enemies within 450px around the character are bled (cooldown 8 seconds)"
           ],
           "damage": 1212,
           "buff": 480
@@ -6016,8 +6862,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 데미지 15% 증가",
-            "출혈 내성 10% 증가"
+            "Increases bleeding damage by 15%",
+            "Increases own bleeding resistance by 10%"
           ],
           "damage": 1212,
           "buff": 480
@@ -6026,7 +6872,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 2200 회복 (쿨타임 1초)"
+            "Recover 2200 HP every 5 attacks (Cooldown 0.1 seconds)"
           ],
           "damage": 1037,
           "buff": 489
@@ -6035,7 +6881,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 출혈 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per target bleeding within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -6048,6 +6894,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "상태 이상 내성",
+      "출혈",
+      "출혈 데미지",
+      "콤보",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "머리어깨",
     "explain": [
@@ -6108,7 +6962,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5604,
         "buff": 1920
       },
       "options": [
@@ -6116,28 +6970,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "맵 안의 가장 강한 적에게 징표 생성",
-            "500px 범위 내 징표가 생성된 적이 있을 때 백스텝 시전 시 징표가 생성된 적의 후방으로 이동 (쿨타임 20초)",
-            "징표가 생성된 적을 백어택 공격 시 5초 동안 스킬 공격력 8% 증가 (최대 1중첩)"
+            "Create a mark on the strongest enemy on the map",
+            "When backstepping when there is a token within a 500px range, move to the rear of the marked enemy (20 seconds cooldown)",
+            "Increases skill attack power by 8% for 5 seconds when back attacking an enemy with a mark (stacks up to 1)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "백어택 공격 시 적에게 10초 동안 유지되는 출혈, 화상, 중독, 감전 상태 이상 중 1개 적용 (쿨타임 10초)",
-            "모든 상태 이상 내성 10% 증가"
+            "In case of back attack, apply 1 of bleeding, burn, poison, or electric shock status to the enemy for 10 seconds (10 seconds cooldown)",
+            "10% increased resistance to all status ailments"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -6146,8 +7000,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000\n",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -6160,6 +7014,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "백스텝",
+      "백어택",
+      "상태 이상 내성",
+      "순간이동",
+      "스킬 공격력 증가",
+      "중독",
+      "출혈",
+      "화상"
+    ],
     "material": "판금",
     "slotName": "머리어깨",
     "explain": [
@@ -6232,7 +7097,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 2% 확률로 300px 범위 내의 적을 석화 상태로 만듦 (쿨타임 30초)"
+            "When attacking, there is a 2% chance to petrify an enemy within a 300px range (30 seconds cooldown)"
           ],
           "damage": 808,
           "buff": 470
@@ -6241,7 +7106,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "석화 상태의 적 공격 시 맵에 존재하는 모든 석화된 적이 받은 피해의 20%를 공유함"
+            "When attacking a petrified enemy, all petrified enemies on the map share 20% of the damage taken"
           ],
           "damage": 808,
           "buff": 470
@@ -6250,7 +7115,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 석화 상태인 대상 하나 당 피해 증가 +385 (최대 10중첩)"
+            "+385 damage per petrified target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -6259,8 +7124,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%\n",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -6273,6 +7138,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "석화",
+      "스킬 공격력 증가",
+      "피해 공유",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "머리어깨",
     "explain": [
@@ -6343,7 +7214,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 시 남은 HP 30%를 소모하여 30초 동안 피해 증가 +2223, 스킬 공격력 6% 증가 (쿨타임 30초)"
+            "When casting a skill, consumes 30% of remaining HP to increase damage for 30 seconds +2,223, Increases skill attack power by 6% (30 seconds cooldown)"
           ],
           "damage": 1078,
           "buff": 504
@@ -6352,7 +7223,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 90% 이하일 때 공격 시 HP 2% 회복 (쿨타임 5초)"
+            "Recover 2% HP when attacking when HP is below 90% (Cooldown 5 seconds)"
           ],
           "damage": 1078,
           "buff": 504
@@ -6361,7 +7232,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -6370,8 +7241,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%\n",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -6384,6 +7255,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "HP 조건",
+      "HP 회복",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "머리어깨",
     "explain": [
@@ -6408,6 +7287,206 @@
       "파괴된 죽은 자의 성(상급)"
     ],
     "boss": "심연을 걷는 자"
+  },
+  {
+    "itemId": "a6046bd7548b484f1f3c735b37a74e17",
+    "itemName": "메탈기어 암 숄더",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "\"사람은 왜 팔이 두 개 뿐이지? 아! 이번 기회에 팔이 세 개인 사람도 만들어 볼까?\""
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 5324
+      },
+      {
+        "name": "힘",
+        "value": 141
+      },
+      {
+        "name": "체력",
+        "value": 145
+      },
+      {
+        "name": "지능",
+        "value": 141
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3450,
+        "buff": 1948
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "던전 입장 시 스킬 쿨타임 회복 속도 25% 증가 버프 적용 (최대 1중첩, 각성기 제외)",
+            "적에게 6콤보마다 스킬 쿨타임 회복 속도 5% 감소 (최대 5중첩)",
+            "- 스킬 시전 시 스킬 쿨타임 회복 속도 감소 중첩 수 1 감소"
+          ],
+          "damage": 539,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "던전 입장 시 피해 증가 +2223",
+            "콤보 유지 시간 0.5초 감소"
+          ],
+          "damage": 539,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 크리티컬 히트 +5%",
+            "마법 크리티컬 히트 +5%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP MAX +5%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
+    "material": "판금",
+    "slotName": "머리어깨",
+    "explain": [
+      "스킬 공격력 34% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "스킬 쿨타임",
+      "피해 증가",
+      "크리티컬 히트",
+      "MP MAX",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-3 에네기"
+  },
+  {
+    "itemId": "49745aabf2b3e0719ed044fe22a11bf1",
+    "itemName": "공명하는 에너지 어깨",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 1065
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 149
+      },
+      {
+        "name": "정신력",
+        "value": 149
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "material": "천",
+    "slotName": "머리어깨",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "퀸 팔트"
+    ]
   },
   {
     "itemId": "e843f9a249b27252aacfacb962ee9a6d",
@@ -6503,6 +7582,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "무색 큐브 조각 소모 스킬",
+      "무색 큐브 조각 미소모 스킬",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가"
+    ],
     "material": "천",
     "slotName": "허리",
     "explain": [
@@ -6567,7 +7652,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5336,
         "buff": 1928
       },
       "options": [
@@ -6575,27 +7660,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 11마다 모든 속도 5% 증가 (최대 45% 증가)",
-            "피격 시 10초 동안 모든 속도 30% 감소 (최대 1중첩)"
+            "Increases all speed by 5% for every 11 fire resistance resistance (up to 45% increase)",
+            "Reduces all speed by 30% for 10 seconds when attacked (stacks up to 1)"
           ],
-          "damage": 943,
+          "damage": 1482,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 90% 이상일 때 쿨타임 회복 속도 10% 증가 (각성기 제외)",
-            "피격 데미지 30% 증가"
+            "When HP is 90% or higher, cooldown recovery speed is increased by 10% (excluding awakening period)",
+            "Increases damage taken by 30%"
           ],
-          "damage": 943,
+          "damage": 1482,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 10 증가"
+            "Increases fire resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -6604,7 +7689,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 피격 시 10초 동안 화속성 저항 20 증가 (쿨타임 5초, 최대 1중첩)"
+            "Increases fire resistance by 20 when being attacked by fire elements (cooldown 5 seconds, stacks up to 1)"
           ],
           "damage": 1186,
           "buff": 494
@@ -6617,6 +7702,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "공격 속도",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "이동 속도",
+      "캐스팅 속도",
+      "화속성 저항"
+    ],
     "material": "천",
     "slotName": "허리",
     "explain": [
@@ -6690,7 +7784,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -6699,7 +7794,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -6708,7 +7803,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -6717,7 +7812,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -6730,6 +7825,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "material": "천",
     "slotName": "허리",
     "explain": [
@@ -6792,7 +7890,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 6414,
         "buff": 1948
       },
       "options": [
@@ -6800,26 +7898,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 20% 확률로 300px 범위 내의 적들에게 번개 발동 (쿨타임 1초)",
-            "번개에 피격된 적을 감전 상태로 만듦 (쿨타임 15초)"
+            "20% chance to trigger lightning to enemies within a 300px range when attacking (Cooldown 1 second)",
+            "Shocks enemies hit by lightning (15 sec cooldown)"
           ],
-          "damage": 1078,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 상태 적 공격 시 라이트 익스플로전 발생 (쿨타임 0.5초)"
+            "Light Explosion occurs when attacking an electric shock enemy (Cooldown 0.5 sec)"
           ],
-          "damage": 1078,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 감전 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per Shocked target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -6828,7 +7926,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 강화 15 증가"
+            "Increases Light Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -6841,6 +7939,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "스킬 공격력 증가",
+      "오브젝트",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "허리",
     "explain": [
@@ -6912,8 +8016,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하지 않는 스킬 공격력 20% 증가",
-            "무색 큐브 조각을 소모하는 스킬 공격력 10% 감소"
+            "Increases the attack power of skills that do not consume colorless cube pieces by 20%",
+            "Reduces skill attack power that consumes colorless cube pieces by 10%"
           ],
           "damage": 1347,
           "buff": 480
@@ -6922,8 +8026,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하지 않는 스킬 시전 시 10초 동안 스킬 MP 소모량 10% 감소 (최대 3중첩)",
-            "무색 큐브 조각을 소모하는 스킬 시전 시 스킬 MP 소모량 감소 중첩 초기화"
+            "When casting a skill that does not consume a colorless cube fragment, reduces skill MP consumption by 10% for 10 seconds (stacks up to 3)",
+            "When casting a skill that consumes a colorless cube fragment, reduces skill MP consumption and resets stacking"
           ],
           "damage": 1347,
           "buff": 480
@@ -6932,7 +8036,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 3500 회복 (쿨타임 1초)"
+            "Recovers 3,500 MP Per Attack (1 Second Cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -6941,7 +8045,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -6954,6 +8058,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 회복",
+      "무색 큐브 조각 소모 스킬",
+      "무색 큐브 조각 미소모 스킬",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가"
+    ],
     "material": "가죽",
     "slotName": "허리",
     "explain": [
@@ -7019,7 +8130,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5066,
         "buff": 1928
       },
       "options": [
@@ -7027,26 +8138,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대쉬 중 0.5초마다 받는 데미지 3% 감소 (최대 10중첩, 정지 시 1초마다 중첩수 1 감소)"
+            "Reduces damage received by 3% every 0.5 seconds while dashing",
+            "(Maximum 10 stacks, the number of stacks decreases by 1 every second when stopped)"
           ],
-          "damage": 1078,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "정지 시 0.5초마다 피해 증가 +445 (최대 10중첩, 이동 시 1초마다 중첩수 1 감소)"
+            "+445 damage increase every 0.5 sec while stationary",
+            "(Up to 10 stacks, the number of stacks decreases by 1 every second when moving)"
           ],
-          "damage": 1078,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -7055,7 +8168,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -7068,6 +8181,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "허리",
     "explain": [
@@ -7134,7 +8252,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5336,
+        "damage": 6414,
         "buff": 1948
       },
       "options": [
@@ -7142,19 +8260,19 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP 3% 회복 (쿨타임 5초)",
-            "스킬, 소모품으로 인한 HP 회복 효과 99% 감소"
+            "Recovers 3% HP when attacking (Cooldown 5 seconds)",
+            "99% reduction in HP recovery effect from skills and consumables"
           ],
-          "damage": 1482,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장비로 인한 HP 회복 효과 20% 증가"
+            "Increases HP recovery effect from equipment by 20%"
           ],
-          "damage": 1482,
+          "damage": 2021,
           "buff": 480
         },
         {
@@ -7170,8 +8288,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -7184,6 +8302,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "소모품",
+      "수면",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "허리",
     "explain": [
@@ -7246,7 +8370,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4164,
+        "damage": 6318,
         "buff": 1925
       },
       "options": [
@@ -7254,28 +8378,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소모품 사용 시 자신을 스킬, 소모품으로 해제되지 않는 중독 상태로 만듦",
-            "자신이 중독 상태일 때 스킬 쿨타임 회복 속도 25% 증가 (각성기 제외)"
+            "When using consumables, make yourself poisoned that cannot be removed with skills or consumables.",
+            "Increases skill cooldown recovery speed by 25% when poisoned (excluding awakening)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 중독 상태일 때 공격 시 적을 중독 상태로 만듦 (쿨타임 5초)"
+            "Makes the enemy poisoned when attacking while poisoned (Cooldown 5 seconds)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -7284,7 +8408,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 중독 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per poisoned target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -7297,6 +8421,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "소모품",
+      "스킬 쿨타임",
+      "중독",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "허리",
     "explain": [
@@ -7370,8 +8500,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "정면 피격 시 받는 데미지 40% 감소",
-            "백어택, 카운터 피격 시 받는 데미지 20% 증가"
+            "Reduces damage taken from frontal attacks by 40%",
+            "Increases damage received by back attack and counter hits by 20%"
           ],
           "damage": 1347,
           "buff": 470
@@ -7380,7 +8510,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "정면 피격 시 20% 확률로 최대 HP의 10% 수치의 보호막 효과 적용 (최대 1중첩)"
+            "20% chance to apply a shield effect equal to 10% of max HP when being hit from the front (stacks up to 1)"
           ],
           "damage": 1347,
           "buff": 470
@@ -7389,7 +8519,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -7411,6 +8541,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "보호막"
+    ],
     "material": "경갑",
     "slotName": "허리",
     "explain": [
@@ -7475,7 +8609,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 6414,
         "buff": 1958
       },
       "options": [
@@ -7483,31 +8617,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 명속성 강화 수치에 따라 명속성 원소 공격 발동 (쿨타임 5초)",
-            "- 명속성 강화가 100이상 150미만일 때 라이트 익스플로전 발동",
-            "- 명속성 강화가 150이상 250미만일 때 라이트닝 발동",
-            "- 명속성 강화가 250이상일 때 썬더 스톰 발동",
-            "- 썬더 스톰에 피격된 적을 10초 동안 감전 상태로 만듦 (쿨타임 15초)",
-            "- 썬더 스톰 발동 시 30초 동안 명속성 저항 +20 (최대 1중첩)"
+            "When attacking, there is a 50% chance to activate a light element attack according to the light attribute enhancement value (cooldown 5 seconds)\n",
+            "- Activates Light Explosion when light attribute enhancement is between 100 and 150\n",
+            "- Lightning is activated when the light attribute enhancement is 150 or more and less than 250\n",
+            "- Activates Thunder Storm when Light attribute enhancement is 250 or higher\n",
+            "- Enemies hit by Thunder Storm are electrocuted for 10 seconds (15 seconds cooldown)\n",
+            "- Light property resistance +20 for 30 seconds when Thunder Storm is activated (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 저항 5당 공격 속도 1%, 캐스팅 속도 1.5% 증가 (최대 10중첩)",
-            "명속성 저항 -15"
+            "Increases attack speed by 1% and casting speed by 1.5% per 5 light resistance resistance (stacks up to 10)",
+            "Light resistance -15"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 강화 15 증가"
+            "Increases Light Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -7516,7 +8650,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 감전 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per Shocked target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -7529,6 +8663,16 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "공격 속도",
+      "명속성 강화",
+      "명속성 저항",
+      "스킬 공격력 증가",
+      "오브젝트",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "허리",
     "explain": [
@@ -7597,7 +8741,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 6414,
         "buff": 1958
       },
       "options": [
@@ -7605,27 +8749,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카운터 공격 3회 성공 시 캐릭터 주변 450px 내 모든 적을 감전 상태로 만듦 (쿨타임 15초)"
+            "After 3 successful counter attacks, all enemies within 450px around the character are electrocuted (15 seconds cooldown)"
           ],
-          "damage": 1212,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 데미지 15% 증가",
-            "감전 내성 10% 증가"
+            "Increases electric shock damage by 15%",
+            "Increases own shock resistance by 10%"
           ],
-          "damage": 1212,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -7634,7 +8778,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 감전 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per Shocked target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -7647,6 +8791,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "상태 이상 내성",
+      "카운터",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "허리",
     "explain": [
@@ -7712,7 +8863,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5874,
         "buff": 1928
       },
       "options": [
@@ -7720,13 +8871,13 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 자신의 발 밑에 빛의 영역을 생성 (쿨타임 5초)",
-            "빛의 영역 위에 있을 때 받는 데미지 10% 감소",
-            "빛의 영역을 벗어날 때 빛의 영역 즉시 삭제",
-            "빛의 영역은 최대 1개까지만 생성",
-            "- 빛의 영역 위에서 20회 공격 시 빛의 영역 크기 증가 (최대 5회)"
+            "Creates an area of ​​light under your feet when attacking (cooldown 5 seconds)",
+            "Reduces damage received by 10% while in the light area",
+            "Instantly delete the light area when leaving the light area",
+            "Creates up to 1 area of ​​light",
+            "- Increases the size of the area of ​​light when attacking 20 times on the area of ​​light (up to 5 times)"
           ],
-          "damage": 1078,
+          "damage": 1751,
           "buff": 470
         },
         {
@@ -7734,17 +8885,17 @@
           "expRate": 0,
           "explain": [
             "HP MAX +10%",
-            "모든 상태 이상 내성 +10%"
+            "Resistance to all status ailments +10%"
           ],
-          "damage": 1078,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -7766,6 +8917,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "명속성 강화",
+      "모든 속성 강화",
+      "받는 데미지",
+      "상태 이상 내성",
+      "수속성 강화",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "material": "경갑",
     "slotName": "허리",
     "explain": [
@@ -7830,7 +8992,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5874,
         "buff": 1948
       },
       "options": [
@@ -7838,26 +9000,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장착 시 10초마다 10초 동안 자신을 스킬, 소모품으로 해제되지 않는 출혈 상태로 만듦",
-            "출혈로 감소한 HP 1100마다 피해 증가 +326 (최대 10중첩)"
+            "Every 10 seconds when equipped, causes yourself to bleed, which cannot be dispelled by skills or consumables.\n",
+            "+326 damage increase for every 1100 HP reduced by bleeding (stacks up to 10)"
           ],
-          "damage": 1078,
+          "damage": 1751,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 출혈 상태일 때 공격 시 적을 출혈 상태로 만듦 (쿨타임 8초)"
+            "Makes the enemy bleed when attacking while you are bleeding (cooldown 8 seconds)"
           ],
-          "damage": 1078,
+          "damage": 1751,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 출혈 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per target bleeding within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -7879,6 +9041,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "소모품",
+      "스킬 공격력 증가",
+      "출혈",
+      "피해 증가"
+    ],
     "material": "중갑",
     "slotName": "허리",
     "explain": [
@@ -7951,8 +9119,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "던전 입장 시 피해 증가 +2223",
-            "스킬 MP 소모량 100% 증가"
+            "Damage increase when entering dungeon +2223",
+            "100% increase in skill MP consumption"
           ],
           "damage": 1347,
           "buff": 490
@@ -7961,7 +9129,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "누적 MP 30000 사용 시마다 20초 동안 피해 증가 +889 (최대 5중첩)"
+            "+889 damage increase for 20 seconds for every 30000 accumulated MP used (stacks up to 5)"
           ],
           "damage": 1347,
           "buff": 490
@@ -7979,7 +9147,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 3500 회복 (쿨타임 1초)"
+            "Recover 3,500 MP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -7992,6 +9160,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 조건",
+      "MP 회복",
+      "스킬 MP 소모량 증가",
+      "피해 증가"
+    ],
     "material": "중갑",
     "slotName": "허리",
     "explain": [
@@ -8055,7 +9229,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 5874,
         "buff": 1928
       },
       "options": [
@@ -8063,26 +9237,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "35Lv 이하 스킬 사용 시 15초 동안 수속성 강화 4 증가 (최대 5중첩)"
+            "When using skills below Lv 35, water property enhancement increases by 4 for 15 seconds (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "40Lv 이상 스킬 사용 시 15초 동안 수속성 저항 3 증가 (최대 5중첩)"
+            "When using skills above Lv 40, water resistance increases by 3 for 15 seconds (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8091,8 +9265,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8105,6 +9279,19 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "피해 증가",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "중갑",
     "slotName": "허리",
     "explain": [
@@ -8177,7 +9364,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 15% 이상 데미지를 받을 시 500px 범위 내 적을 석화 상태로 만듦 (쿨타임 30초)"
+            "When taking damage equal to or more than 15% of total HP, petrifies enemies within a 500px range (30 sec cooldown)"
           ],
           "damage": 943,
           "buff": 470
@@ -8186,7 +9373,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 석화 상태일 때 받는 데미지 30% 감소"
+            "Reduces damage received by 30% while in petrified state"
           ],
           "damage": 943,
           "buff": 470
@@ -8195,7 +9382,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 석화 상태인 대상 하나 당 피해 증가 +385 (최대 10중첩)"
+            "+385 damage per petrified target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -8204,8 +9391,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -8218,6 +9405,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "받는 데미지",
+      "석화",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "허리",
     "explain": [
@@ -8292,7 +9485,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 2642,
+        "damage": 3450,
         "buff": 1948
       },
       "options": [
@@ -8300,26 +9493,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "확장 스킬 퀵슬롯에 등록한 스킬 1개마다 확장 스킬 퀵슬롯에 등록하지 않은 스킬 공격력 2% 증가 (최대 14% 증가)",
-            "확장 스킬 퀵슬롯에 등록한 스킬 공격력 20% 감소"
+            "For each skill registered in the extended skill quick slot, the attack power of skills not registered in the extended skill quick slot increases by 2% (up to 14% increase)",
+            "Skill ATK registered in the Expansion Skill Quick Slot is reduced by 20%"
           ],
-          "damage": 135,
+          "damage": 539,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각 3개 이상 소모하는 스킬 시전 시 20초 동안 모든 속성 강화 20 증가 (최대 1중첩)"
+            "When casting a skill that consumes 3 or more colorless cube pieces, all attribute enhancements increase by 20 for 20 seconds (stacks up to 1)"
           ],
-          "damage": 135,
+          "damage": 539,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8328,7 +9521,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8341,6 +9534,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "모든 속성 강화",
+      "무색 큐브 조각 소모 스킬",
+      "수속성 강화",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "퀵슬롯",
+      "화속성 강화"
+    ],
     "material": "판금",
     "slotName": "허리",
     "explain": [
@@ -8418,10 +9622,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "\"와\"를 포함한 채팅 입력 시 탑승 가능한 prototype-0를 소환 (쿨타임 120초, 맵 안에 소환된 prototype-0가 있는 경우 소환되지 않음)",
-            "prototype-0 유지 시간 : 40초",
-            "적 처치 시 소환 쿨타임 1초 감소",
-            "스킬 시전 시 소환 쿨타임 1초 감소"
+            "Summons a rideable prototype-0 when chatting with \"wa\" (cooldown is 120 seconds, not summoned if there is prototype-0 on the map)",
+            "Prototype-0 retention time: 40 seconds",
+            "When an enemy is killed, the summon cooldown is reduced by 1 second.",
+            "Reduces summon cooldown by 1 second when casting a skill"
           ],
           "damage": 539,
           "buff": 451
@@ -8430,7 +9634,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "주변 250px 이내 적이 있을 때 1초마다 HP 100 회복"
+            "Recover 100 HP every second when there are enemies within 250px"
           ],
           "damage": 539,
           "buff": 451
@@ -8439,8 +9643,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -8449,7 +9653,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8462,6 +9666,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "오브젝트"
+    ],
     "material": "판금",
     "slotName": "허리",
     "explain": [
@@ -8528,7 +9736,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 6414,
         "buff": 1968
       },
       "options": [
@@ -8536,25 +9744,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "5번째 사용하는 스킬마다 스킬 공격력 20% 증가, 쿨타임 10% 증가"
+            "Increases skill attack power by 20% and cooldown by 10% for every 5th skill used"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각 누적 50개 소모할 때마다 HP 10% 회복"
+            "Recovers 10% of HP every 50 accumulated cubes of colorless cubes."
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8563,8 +9771,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8577,6 +9785,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "큐브 조각",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가"
+    ],
     "material": "판금",
     "slotName": "허리",
     "explain": [
@@ -8600,6 +9814,215 @@
       "파괴된 죽은 자의 성(상급)"
     ],
     "boss": "되살아난 골드 크라운"
+  },
+  {
+    "itemId": "d9d7063bbe9f41d3e6d7b110d15e5cad",
+    "itemName": "쿨링 서포트 벨트",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "\"켈켈켈, 편한 게 최고야!\""
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 2662
+      },
+      {
+        "name": "힘",
+        "value": 131
+      },
+      {
+        "name": "체력",
+        "value": 133
+      },
+      {
+        "name": "지능",
+        "value": 131
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "인벤토리 무게 한도",
+        "value": "3kg"
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3988,
+        "buff": 1900
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신의 물리방어율과 마법방어율의 총 합이 60% 이상일 때 피해 증가 +4001",
+            "파티원 1명 당 자신의 모든 스킬 범위 5% 증가 (최대 4중첩, 각성기 제외)"
+          ],
+          "damage": 808,
+          "buff": 456
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신의 물리방어율과 마법방어율의 총 합이 60% 이상일 때 스킬 쿨타임 회복 속도 15% 증가 (각성기 제외)"
+          ],
+          "damage": 808,
+          "buff": 456
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 크리티컬 히트 +5%",
+            "마법 크리티컬 히트 +5%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP 1분당 348 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "스킬 범위",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
+    "material": "판금",
+    "slotName": "허리",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "스킬 범위",
+      "피해 증가",
+      "스킬 쿨타임",
+      "크리티컬 히트",
+      "MP 회복",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-3 에네기"
+  },
+  {
+    "itemId": "95d9c1cf529331b8dddab9ff0b6d0b9a",
+    "itemName": "공명하는 에너지 벨트",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 532
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 136
+      },
+      {
+        "name": "정신력",
+        "value": 136
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      },
+      {
+        "name": "인벤토리 무게 한도",
+        "value": "3kg"
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "material": "천",
+    "slotName": "허리",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "이터널 플레임 연구소",
+      "헤블론의 예언소"
+    ]
   },
   {
     "itemId": "8e1ab829b097de0bb3cf46795dbffd27",
@@ -8650,7 +10073,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -8659,7 +10083,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -8668,7 +10092,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -8677,7 +10101,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -8690,6 +10114,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "material": "천",
     "slotName": "신발",
     "explain": [
@@ -8752,7 +10179,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 6414,
         "buff": 1948
       },
       "options": [
@@ -8760,20 +10187,20 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장착 시 20초마다 20초 동안 불 버프 생성",
-            "- 불 버프 상태일 때 화(火) 공격속성 부여",
-            "수속성 피격 시 20초 동안 불 버프 삭제"
+            "장착 시 20초마다 25초 동안 불 버프를 생성하여 무기에 화속성 부여",
+            "- 수속성 피격 시 20초 동안 불 버프 삭제"
           ],
-          "damage": 1212,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성으로 공격 시 적을 화상 상태로 만듦 (쿨타임 10초)"
+            "화속성으로 공격 시 적을 15초 동안 화상 상태로 만듦 (쿨타임 10초)",
+            "화상 상태의 적을 화속성으로 공격 시 스킬 공격력 5% 증가"
           ],
-          "damage": 1212,
+          "damage": 2021,
           "buff": 475
         },
         {
@@ -8802,6 +10229,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "속성 부여",
+      "스킬 공격력 증가",
+      "피해 증가",
+      "화상"
+    ],
     "material": "천",
     "slotName": "신발",
     "explain": [
@@ -8865,7 +10298,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5604,
         "buff": 1958
       },
       "options": [
@@ -8873,27 +10306,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "던전 입장 후 소모한 HP 10% 마다 피해 증가 +400 (최대 10중첩)"
+            "After entering the dungeon, +400 damage for every 10% of HP consumed (stacks up to 10)"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 10% 이하일 때 15초 동안 HP 50% 회복 (쿨타임 60초)",
-            "스킬, 소모품, 장비로 인한 HP 회복 효과 20% 감소"
+            "Recovers 50% of HP for 15 seconds when HP is below 10% (60 seconds cooldown)",
+            "Reduces HP recovery effect from skills, consumables, and equipment by 20%"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -8902,7 +10335,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -8915,6 +10348,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "HP 회복",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "material": "천",
     "slotName": "신발",
     "explain": [
@@ -8979,7 +10418,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4702,
+        "damage": 6858,
         "buff": 1963
       },
       "options": [
@@ -8987,25 +10426,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 상태 적 공격 시 주변 300px 내 랜덤한 위치에 번개를 떨어뜨려 적과 자신을 감전 상태로 만듦 (쿨타임 15초)"
+            "When attacking an enemy in the electric shock state, lightning strikes a random location within 300px around the enemy to shock the enemy and himself (15 sec cooldown)"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 감전 상태일 때 공격, 이동 속도 20%, 캐스팅 속도 30% 증가"
+            "Increases attack, movement speed by 20%, and casting speed by 30% while you are electrocuted"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 감전 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per Shocked target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -9014,9 +10453,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -9029,6 +10468,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "스킬 공격력 증가",
+      "오브젝트",
+      "이동 속도",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "material": "가죽",
     "slotName": "신발",
     "explain": [
@@ -9103,8 +10550,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "30레벨 이하 스킬 시전 시 10초 동안 기본기 숙련 공격력 15% 증가, 15~30레벨 액티브 스킬 공격력 5% 증가 (쿨타임 1초, 최대 3중첩)",
-            "45레벨 이상 스킬 시전 시 기본기 숙련 공격력 증가, 15~30레벨 액티브 스킬 공격력 증가 중첩수 1 감소"
+            "When casting a skill level 30 or lower, basic skill attack power increases by 15% for 10 seconds, skill attack power at level 15~30 increases by 5% (Cooldown 1 second, stacks up to 3)",
+            "When casting a skill level 45 or higher, basic skill attack power increases, and skill attack power increase at level 15~30, decreases the number of stacks by 1"
           ],
           "damage": 1347,
           "buff": 480
@@ -9113,7 +10560,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 2초 동안 공격 속도 10%, 캐스팅 속도 10% 증가 (최대 3중첩)"
+            "Normal attack increases attack speed by 10% and casting speed by 10% for 2 seconds (stacks up to 3)"
           ],
           "damage": 1347,
           "buff": 480
@@ -9122,7 +10569,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9144,6 +10591,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "기본기 숙련",
+      "대시 공격",
+      "스킬 공격력 증가",
+      "점프 공격",
+      "캐스팅 속도",
+      "평타"
+    ],
     "material": "가죽",
     "slotName": "신발",
     "explain": [
@@ -9209,7 +10665,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 6952,
         "buff": 1920
       },
       "options": [
@@ -9217,28 +10673,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "착지 시 충격파가 발생하여 주변 적에게 피해를 줌",
-            "충격파 발생 시 30% 확률로 매우 강력한 충격파가 발생하며 적을 기절 상태로 만듦 (쿨타임 20초)"
+            "Upon landing, a shock wave is generated, dealing damage to nearby enemies.",
+            "When a shock wave occurs, there is a 30% chance to generate a very powerful shock wave and stuns the enemy (20 sec cooldown)"
           ],
-          "damage": 808,
+          "damage": 2290,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "착지 시 1초 동안 최대 HP의 10% 수치의 보호막 효과 적용 (쿨타임 5초)",
-            "점프력 -100"
+            "Upon landing, a shield effect of 10% of maximum HP is applied for 1 second (cooldown 5 seconds)"
           ],
-          "damage": 808,
+          "damage": 2290,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9247,7 +10702,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9260,6 +10715,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "기절",
+      "보호막",
+      "충격파"
+    ],
     "material": "가죽",
     "slotName": "신발",
     "explain": [
@@ -9333,7 +10793,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵 스탠딩 상태에서 방향키 조작 시 2초 동안 그림자에 숨어 이동 가능 (쿨타임 5초)"
+            "In quick standing state, you can move by hiding in the shadows for 2 seconds when you press the arrow keys (Cooldown 5 seconds)"
           ],
           "damage": 808,
           "buff": 470
@@ -9342,7 +10802,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵 스탠딩 앉아있을 때 최대 무적시간 1초 증가"
+            "Increases the maximum invincibility time by 1 second when sitting in quick standing"
           ],
           "damage": 808,
           "buff": 470
@@ -9351,8 +10811,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9361,7 +10821,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9374,6 +10834,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "무적",
+      "퀵 스탠딩"
+    ],
     "material": "가죽",
     "slotName": "신발",
     "explain": [
@@ -9438,7 +10902,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 6414,
         "buff": 1958
       },
       "options": [
@@ -9446,31 +10910,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 암속성 강화 수치에 따라 암속성 원소 공격 발동 (쿨타임 5초)",
-            "- 암속성 강화가 100이상 150미만일 때 다크 익스플로전 발동",
-            "- 암속성 강화가 150이상 250미만일 때 다크 볼 발동",
-            "- 암속성 강화가 250이상일 때 블랙홀 발동",
-            "- 블랙홀에 피격된 적을 10초 동안 암흑 상태로 만듦 (쿨타임 30초)",
-            "- 블랙홀 발동 시 30초 동안 암속성 저항 +20 (최대 1중첩)"
+            "When attacking, there is a 50% chance to activate a dark element attack according to the dark attribute enhancement value (cooldown 5 seconds)\n",
+            "- Activates Dark Explosion when Dark attribute enhancement is between 100 and 150\n",
+            "- Activates Dark Ball when Dark attribute enhancement is more than 150 and less than 250\n",
+            "- Activates Black Hole when Dark attribute enhancement is 250 or higher\n",
+            "- Makes enemies hit by a black hole in a dark state for 10 seconds (cooldown 30 seconds)\n",
+            "- Dark property resistance +20 for 30 seconds when black hole is activated (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 저항 5당 공격 속도 1%, 캐스팅 속도 1.5% 증가 (최대 10중첩)",
-            "암속성 저항 -15"
+            "Increases attack speed by 1% and casting speed by 1.5% per 5 darkness resistance (stacks up to 10)",
+            "Dark resistance -15"
           ],
-          "damage": 1347,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 강화 15 증가"
+            "Increases dark attribute enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -9479,7 +10943,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 암흑 상태인 대상 하나 당 피해 증가 +385 (최대 10중첩)"
+            "+356 damage for each dark target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -9492,6 +10956,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "속성 저항 조건",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암속성 저항",
+      "암흑",
+      "오브젝트",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "신발",
     "explain": [
@@ -9558,7 +11033,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4432,
+        "damage": 5510,
         "buff": 1943
       },
       "options": [
@@ -9566,31 +11041,31 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신에게 중독 상태만 적용 중일 때 10초마다 10초 동안 균등한 확률로 아래의 효과 중 1개 효과 적용",
-            "- 모든 속도 30% 증가",
-            "- 스킬 공격력 10% 증가",
-            "- 쿨타임 회복 속도 30% 증가 (각성기 제외)"
+            "When only poison is applied to yourself, there is an equal chance for 10 seconds to apply one of the following effects every 10 seconds\n",
+            "- All speed increased by 30%\n",
+            "- Increases skill attack power by 10%\n",
+            "- 30% increase in cooldown recovery speed (excluding awakening)"
           ],
-          "damage": 808,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "중독 데미지 10% 증가",
-            "중독 내성 20% 감소"
+            "Poison damage increased by 10%",
+            "20% reduction in poison tolerance"
           ],
-          "damage": 808,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -9599,8 +11074,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9613,6 +11088,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "상태 이상 내성",
+      "스킬 쿨타임",
+      "이동 속도",
+      "중독",
+      "중독 데미지",
+      "캐스팅 속도"
+    ],
     "material": "경갑",
     "slotName": "신발",
     "explain": [
@@ -9681,7 +11165,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3894,
+        "damage": 5510,
         "buff": 1935
       },
       "options": [
@@ -9689,25 +11173,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬의 커맨드 사용 효과 400% 증가 (각성기 제외)"
+            "Increases the command use effect of skills that consume colorless cube fragments by 400% (excluding awakening)"
           ],
-          "damage": 539,
+          "damage": 1347,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "커맨드로 스킬 시전 시 해당 스킬 공격력 5% 증가 (각성기 제외)"
+            "When casting a skill with a command, the attack power of the skill is increased by 5% (excluding awakening period)"
           ],
-          "damage": 539,
+          "damage": 1347,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9716,8 +11200,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -9730,6 +11214,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "무색 큐브 조각 소모 스킬",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "커맨드"
+    ],
     "material": "경갑",
     "slotName": "신발",
     "explain": [
@@ -9798,7 +11288,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5604,
         "buff": 1910
       },
       "options": [
@@ -9806,19 +11296,19 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "10초마다 10초 동안 자신에게 스킬, 소모품으로 해제되지 않는 감전 상태 이상 적용",
-            "자신이 감전상태일 때 모든 속성 강화 15 증가, 모든 속성 저항 15 증가"
+            "Every 10 seconds, applies to yourself an electric shock condition that cannot be dispelled by skills or consumables for 10 seconds",
+            "Increases all property enhancements by 15 and all property resistances by 15 when you are electrocuted"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "가장 높은 속성 저항 수치 25마다 각성기를 제외한 스킬 쿨타임 5% 감소 (최대 15% 감소)"
+            "Reduces skill cooldown by 5% (up to 15% reduction) except for awakening for every 25 of the highest elemental resistance value"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
@@ -9834,7 +11324,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9847,6 +11337,21 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "명속성 강화",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "소모품",
+      "속성 저항 조건",
+      "수속성 강화",
+      "수속성 저항",
+      "스킬 쿨타임",
+      "암속성 강화",
+      "암속성 저항",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "경갑",
     "slotName": "신발",
     "explain": [
@@ -9921,7 +11426,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5604,
         "buff": 1920
       },
       "options": [
@@ -9929,26 +11434,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공중에서 피격 상태일 때 경매장 키 입력 시 체공 자세 회복 (쿨타임 10초)"
+            "When hit in mid-air, enter the auction house key to recover the hovering posture (10 seconds cooldown)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "착지 시 10초 동안 물리, 마법 방어력 20% 증가, 피해 증가 +593 (최대 1중첩)"
+            "Increases physical and magical defense by 20% for 10 seconds upon landing, damage increase +593 (stacks up to 1)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9957,7 +11462,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -9970,6 +11475,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "방어력",
+      "스킬 공격력 증가",
+      "자세 회복",
+      "피해 증가"
+    ],
     "material": "경갑",
     "slotName": "신발",
     "explain": [
@@ -10034,7 +11545,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 6414,
         "buff": 1928
       },
       "options": [
@@ -10042,26 +11553,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 적에게 적용 중인 상태 이상 종류가 증가할 때마다 피해 증가 +889 (최대 3중첩)"
+            "+889 damage increase for each increase in the type of status ailment applied to the enemy when attacking (stacks up to 3)"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 적에게 적용 중인 상태 이상 종류가 증가할 때마다 물리, 마법 방어력 4000 증가 (최대 3중첩)"
+            "When attacking, increases physical and magical defense by 4000 whenever the type of status ailment applied to the enemy increases (stacks up to 3)"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -10070,8 +11581,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10084,6 +11595,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "방어력",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "material": "중갑",
     "slotName": "신발",
     "explain": [
@@ -10147,7 +11663,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 5874,
         "buff": 1928
       },
       "options": [
@@ -10155,25 +11671,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "35Lv 이하 스킬 사용 시 15초 동안 암속성 강화 4 증가 (최대 5중첩)"
+            "When using skills below Lv 35, increase dark attribute strength by 4 for 15 seconds (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "40Lv 이상 스킬 사용 시 15초 동안 암속성 저항 3 증가 (최대 5중첩)"
+            "Increases Dark resistance by 3 for 15 seconds when using skills above Lv 40 (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10182,8 +11698,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10196,6 +11712,19 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 강화",
+      "모든 속성 저항",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "피해 증가",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "material": "중갑",
     "slotName": "신발",
     "explain": [
@@ -10270,8 +11799,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 증가 옵션 총합의 5% 만큼 스킬 공격력 증가 (최대 25%)",
-            "스킬 MP 소모량 100% 증가"
+            "Skill MP consumption increase Increases skill attack power by 5% of the total of options (up to 25%)",
+            "100% increase in skill MP consumption"
           ],
           "damage": 269,
           "buff": 490
@@ -10280,7 +11809,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP가 10% 감소할 때마다 피해 증가 +362 (최대 9중첩)"
+            "Damage increase +362 for every 10% MP decrease (Max 9 stacks)"
           ],
           "damage": 269,
           "buff": 490
@@ -10289,7 +11818,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10298,7 +11827,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP MAX +945"
+            "HP MAX +600"
           ],
           "damage": 1186,
           "buff": 494
@@ -10311,6 +11840,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 조건",
+      "스킬 MP 소모량 증가",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "material": "중갑",
     "slotName": "신발",
     "explain": [
@@ -10377,7 +11912,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 6414,
         "buff": 1920
       },
       "options": [
@@ -10385,25 +11920,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "캐릭터의 적중률이 50% 이상일 때 모든 직업 1~25 레벨 모든 스킬 Lv +1"
+            "When the character's hit rate is 50% or higher, all skill levels 1~25 all skill Lv +1"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "캐릭터의 이동 속도가 80% 이상일 때 모든 직업 1~25 레벨 모든 스킬 Lv +1"
+            "When the character's movement speed is 80% or higher, all skill levels 1~25 all skill Lv +1"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10412,7 +11947,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10425,6 +11960,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 레벨",
+      "이동 속도 조건",
+      "적중률",
+      "적중률 조건",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "신발",
     "explain": [
@@ -10493,7 +12035,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3031,
+        "damage": 4917,
         "buff": 1923
       },
       "options": [
@@ -10502,27 +12044,27 @@
           "expRate": 0,
           "explain": [
             "MP MAX +4196",
-            "남아있는 MP 20000마다 피해 증가 +267 (최대 10중첩)",
-            "남아있는 MP가 60% 이하일 때 스킬 공격력 4% 감소"
+            "+267 damage increase for every 20000 remaining MP (stacks up to 10)",
+            "When remaining MP is below 60%, skill attack power decreases by 4%"
           ],
-          "damage": 404,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 100% 증가",
-            "스킬 쿨타임 12% 감소 (각성기 제외)"
+            "100% increase in skill MP consumption",
+            "Decrease skill cooldown by 12% (excluding awakening)"
           ],
-          "damage": 404,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -10531,7 +12073,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 3500 회복 (쿨타임 1초)"
+            "Recovers 3,500 MP when attacking (1 second cooldown)"
           ],
           "damage": 1037,
           "buff": 489
@@ -10544,6 +12086,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP MAX",
+      "MP 조건",
+      "MP 회복",
+      "스킬 MP 소모량 증가",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "신발",
     "explain": [
@@ -10557,7 +12107,8 @@
       "MP 조건",
       "MP 회복",
       "스킬 MP 소모량 증가",
-      "스킬 쿨타임 피해 증가",
+      "스킬 쿨타임",
+      "피해 증가",
       "아칸",
       "구매 가능"
     ],
@@ -10617,8 +12168,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 25% 이상 데미지를 받을 시 자신을 석화 상태로 만듦 (쿨타임 20초)",
-            "자신이 석화 상태에 걸릴 때 사용한 스킬의 남은 쿨타임 5% 감소 (각성기 제외)"
+            "When taking damage equal to or more than 25% of total HP, make yourself petrified (20 seconds cooldown)\n",
+            "Reduces the remaining cooldown of skills used when you are in the petrified state by 5% (excluding awakening)"
           ],
           "damage": 1078,
           "buff": 470
@@ -10627,7 +12178,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 석화 상태일 때 피격 시 500px 범위 내 모든 적을 석화 상태로 만듦 (쿨타임 30초)"
+            "When attacked while in petrified state, all enemies within a 500px range will be petrified (30 sec cooldown)"
           ],
           "damage": 1078,
           "buff": 470
@@ -10636,9 +12187,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -10647,7 +12198,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 석화 상태인 대상 하나 당 피해 증가 +385 (최대 10중첩)"
+            "+385 damage per petrified target within a 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -10660,6 +12211,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "석화",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
     "material": "판금",
     "slotName": "신발",
     "explain": [
@@ -10731,7 +12288,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "백스텝 시전 시 회피의 외침을 하며 착지하기 전까지 회피율 50% 증가 (3초이내 3회까지 연속 사용 가능, 3초 이후 옵션 발동 쿨타임 7초)"
+            "When backstepping, evade shouts and increases evasion by 50% until landing (can be used up to 3 times within 3 seconds, cooldown after 3 seconds 7 seconds)"
           ],
           "damage": 1078,
           "buff": 470
@@ -10740,7 +12297,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "백스텝 시전 시 10초 동안 공격 속도, 캐스팅 속도 8% 증가 (최대 3중첩)"
+            "Increases attack speed and casting speed by 8% for 10 seconds when backstepping (stacks up to 3)"
           ],
           "damage": 1078,
           "buff": 470
@@ -10749,7 +12306,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10758,7 +12315,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10771,6 +12328,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "백스텝",
+      "캐스팅 속도",
+      "회피율"
+    ],
     "material": "판금",
     "slotName": "신발",
     "explain": [
@@ -10792,6 +12355,213 @@
       "왕의 요람",
       "노블레스 코드",
       "파괴된 죽은 자의 성(상급)"
+    ]
+  },
+  {
+    "itemId": "cd31ebbe837c297a6738220efa7ba4ea",
+    "itemName": "사이버틱 스피드 부츠",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "\"작동만 잘 되면 되는 거 아니겠어?\""
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 3993
+      },
+      {
+        "name": "힘",
+        "value": 131
+      },
+      {
+        "name": "체력",
+        "value": 133
+      },
+      {
+        "name": "지능",
+        "value": 131
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "이동속도",
+        "value": "4%"
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 2642,
+        "buff": 1968
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착한 방어구, 악세서리, 특수장비로 인한 공격 속도 증가 옵션의 총 합이 140% 이상일 때 스킬 공격력 30% 증가 (아바타, 엠블렘, 젬, 크리쳐, 칭호 포함)"
+          ],
+          "damage": 135,
+          "buff": 490
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "스킬 MP 소모량 50% 감소",
+            "피격 시 받는 데미지 15% 증가"
+          ],
+          "damage": 135,
+          "buff": 490
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "HP 1분당 460.2 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP 1분당 348 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "공격 속도 조건"
+    ],
+    "material": "판금",
+    "slotName": "신발",
+    "explain": [
+      "스킬 공격력 29% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "공격 속도 조건",
+      "스킬 공격력 증가",
+      "스킬 MP 소모량 감소",
+      "HP 회복",
+      "MP 회복",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-5 펠루헌 스타크"
+  },
+  {
+    "itemId": "8c75a15ec8fe745b4be1639fa42f6588",
+    "itemName": "공명하는 에너지 신발",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 799
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 136
+      },
+      {
+        "name": "정신력",
+        "value": 136
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      },
+      {
+        "name": "이동속도",
+        "value": "4%"
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "material": "천",
+    "slotName": "신발",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "이터널 플레임 연구소"
     ]
   },
   {
@@ -10833,7 +12603,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5604,
         "buff": 1910
       },
       "options": [
@@ -10841,26 +12611,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프력 +100",
-            "점프 중에 경매장 키 입력 시 바로 낙하를 시작하며, 낙하 속도 증가 (쿨타임 10초)"
+            "Jump +100",
+            "If you press the auction house key while jumping, it immediately starts falling and increases the fall speed (10 seconds cooldown)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "착지 시 2초 동안 피해 증가 +2223, 이동 속도 100% 증가 (최대 1중첩)"
+            "+2223 damage increase for 2 seconds on landing, 100% movement speed increase (stacks up to 1)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10869,7 +12639,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10882,6 +12652,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "이동 속도",
+      "점프",
+      "점프력",
+      "피해 증가"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -10948,7 +12724,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5066,
         "buff": 1910
       },
       "options": [
@@ -10956,10 +12732,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 HP보다 MP 먼저 소모",
+            "MP consumed before HP when attacked",
             "HP MAX -99%"
           ],
-          "damage": 808,
+          "damage": 1347,
           "buff": 461
         },
         {
@@ -10967,16 +12743,16 @@
           "expRate": 0,
           "explain": [
             "MP MAX +4196",
-            "스킬 MP 소모량 50% 증가"
+            "Skill MP consumption increased by 50%"
           ],
-          "damage": 808,
+          "damage": 1347,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -10985,8 +12761,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -10999,6 +12775,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP MAX",
+      "MP 소모",
+      "스킬 MP 소모량 증가"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11062,7 +12843,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3638,
+        "damage": 4176,
         "buff": 1920
       },
       "options": [
@@ -11070,28 +12851,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신 주변 300px 이내의 적을 3초 동안 마주볼 시 적을 석화 상태로 만듦 (쿨타임 30초)",
-            "자신이 상태 이상에 걸릴 때 HP 2.5% 감소 (해당 옵션으로 HP가 1% 미만으로 감소하지 않음, 쿨타임 20초)",
-            "석화 상태 적 공격 시 스킬 공격력 5% 증가"
+            "If you face an enemy within 300px around you for 3 seconds, the enemy becomes petrified (30 seconds cooldown)",
+            "Reduces HP by 2.5% when you are afflicted with a status ailment (HP does not decrease below 1% with this option, cooldown 20 seconds)",
+            "Increases Skill Attack Power By 5% When Attacking Petrified Enemies"
           ],
-          "damage": 1078,
+          "damage": 1347,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "상태 이상에 걸린 적 공격 시 HP 1500 회복 (쿨타임 0.5초)",
-            "자신이 상태 이상에 걸릴 때 HP 2.5% 감소 (해당 옵션으로 HP가 1% 미만으로 감소하지 않음, 쿨타임 20초)"
+            "Recovers 1500 HP when attacking enemies with status ailments (Cooldown 0.5 seconds)\n",
+            "Reduces HP by 2.5% when you are afflicted with a status ailment (HP does not decrease below 1% with this option, cooldown 20 seconds)"
           ],
-          "damage": 1078,
+          "damage": 1347,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 석화 지속 시간 2초 증가"
+            "Increases the duration of your petrification by 2 seconds"
           ],
           "damage": 1186,
           "buff": 494
@@ -11100,7 +12881,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "석화 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking petrified enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -11113,6 +12894,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "HP 회복",
+      "지속 시간 증가",
+      "석화",
+      "스킬 공격력 증가"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11177,7 +12965,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4393,
+        "damage": 5066,
         "buff": 1948
       },
       "options": [
@@ -11185,17 +12973,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 피해 증가 +356 (최대 10중첩, 피격 시 1중첩 감소)",
-            "해당 장비 옵션의 피해 증가 중첩 수마다 이동 속도 2% 감소 (최대 10중첩)"
-          ],
-          "damage": 674,
-          "buff": 480
-        },
-        {
-          "level": 1,
-          "expRate": 0,
-          "explain": [
-            "물리 방어력, 마법 방어력 21000 감소, 스킬 쿨타임 10% 감소 (각성기 제외)"
+            "Increases damage when attacking +356 (stacks up to 10, reduces stacks by 1 when attacked)",
+            "Reduces movement speed by 2% for each damage increase stack of this equipment option (up to 10 stacks)"
           ],
           "damage": 1347,
           "buff": 480
@@ -11204,8 +12983,17 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical defense and magic defense reduced by 21000, skill cooldown reduced by 10% (excluding awakening period)"
+          ],
+          "damage": 1347,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -11214,8 +13002,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -11228,6 +13016,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "방어력",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11298,8 +13091,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "데미지의 50%를 감전 데미지로 전환",
-            "감전 데미지 10% 증가"
+            "50% of damage converted to electric shock damage",
+            "Increases electric shock damage by 10%"
           ],
           "damage": 1212,
           "buff": 475
@@ -11308,8 +13101,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 피격 데미지의 50%를 감전 데미지로 받음",
-            "감전 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Receive 50% of all damage taken as electric shock damage",
+            "Increases Skill Attack Power By 2% When Attacking Shocked Enemies"
           ],
           "damage": 1212,
           "buff": 475
@@ -11318,7 +13111,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking an enemy in an electric shock state"
           ],
           "damage": 445,
           "buff": 504
@@ -11327,7 +13120,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 데미지 10% 증가"
+            "Increases electric shock damage by 10%"
           ],
           "damage": 296,
           "buff": 499
@@ -11340,6 +13133,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "스킬 공격력 증가"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11408,8 +13206,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 받은 피해의 50%를 10초 동안 나누어 받음",
-            "피해를 나누어 받는 동안 소모품으로 인한 HP 회복 효과 20% 증가"
+            "50% of damage taken is divided over 10 seconds",
+            "Increases HP recovery effect from consumables by 20% while taking damage"
           ],
           "damage": 1078,
           "buff": 470
@@ -11418,7 +13216,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬, 장비로 인한 HP 회복 효과 20% 증가"
+            "Increases HP recovery effect from skills and equipment by 20%"
           ],
           "damage": 1078,
           "buff": 470
@@ -11449,6 +13247,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 데미지"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11518,7 +13320,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -11527,7 +13330,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -11536,7 +13339,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -11545,7 +13348,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -11558,6 +13361,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11628,8 +13434,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "남아있는 MP 8% 마다 각성기를 제외한 스킬 쿨타임 회복 속도 3% 증가 (최대 30% 증가)",
-            "스킬 MP 소모량 100% 증가"
+            "Increases skill cooldown recovery speed by 3% for every 8% of remaining MP (up to 30% increase)",
+            "100% increase in skill MP consumption"
           ],
           "damage": 539,
           "buff": 456
@@ -11638,8 +13444,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "남아있는 MP 8% 마다 물리 크리티컬 히트, 마법 크리티컬 히트 3% 증가 (최대 30% 증가)",
-            "스킬 MP 소모량 100% 증가"
+            "Increases physical critical hit and magic critical hit by 3% for every 8% of remaining MP (up to 30% increase)",
+            "100% increase in skill MP consumption"
           ],
           "damage": 539,
           "buff": 456
@@ -11657,7 +13463,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -11670,6 +13476,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 MP 소모량 증가",
+      "스킬 쿨타임",
+      "크리티컬 히트"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11741,9 +13552,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "기본기 숙련 스킬의 공격력 증가량 30% 증가",
-            "15~30레벨 액티브 스킬 공격력 10% 증가",
-            "무색 큐브 조각을 소모하는 스킬 공격력 15% 감소"
+            "Increases attack power of basic skills by 30%",
+            "Level 15~30 skill attack power increased by 10%",
+            "Reduces skill damage that consumes colorless cube pieces by 15%"
           ],
           "damage": 1347,
           "buff": 480
@@ -11752,9 +13563,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "기본기 숙련 스킬의 공격력 증가량 30% 증가",
-            "15~30레벨 액티브 스킬 공격력 10% 증가",
-            "무색 큐브 조각을 소모하는 스킬 쿨타임 10% 증가"
+            "Increases attack power of basic skill skills by 30%",
+            "Level 15~30 skill attack power increased by 10%",
+            "Skill cooldown that consumes colorless cube pieces increases by 10%"
           ],
           "damage": 1347,
           "buff": 480
@@ -11763,8 +13574,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -11773,7 +13584,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -11786,6 +13597,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "기본기 숙련",
+      "스킬 공격력 증가",
+      "스킬 쿨타임"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11855,8 +13671,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 상태 적 공격 시 EMP 쇼크를 일으켜 MP 2%를 소모하고 적에게 명속성 데미지를 줌 (쿨타임 10초)",
-            "감전 상태 적 공격 시 EMP 쇼크 쿨타임 1초 감소"
+            "When attacking an enemy in an electric shock state, causes an EMP shock, consuming 2% of MP and inflicting light damage to the enemy (Cooldown 10 seconds)",
+            "Reduces EMP Shock cooldown by 1 second when attacking an electric shocked enemy"
           ],
           "damage": 1212,
           "buff": 475
@@ -11865,8 +13681,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 상태 적 공격 시 기절 상태로 만듦 (쿨타임 20초)",
-            "기절 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Makes the enemy stunned when attacking an electric shock state (20 sec cooldown)",
+            "Increases Skill Attack Power By 5% When Attacking Stunned Enemies"
           ],
           "damage": 1212,
           "buff": 475
@@ -11875,7 +13691,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "기절 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking stunned enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -11884,7 +13700,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 기절 지속 시간 2초 증가"
+            "Increases the duration of your stun by 2 seconds"
           ],
           "damage": 1186,
           "buff": 494
@@ -11897,6 +13713,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 소모",
+      "감전",
+      "기절",
+      "지속 시간 증가",
+      "스킬 공격력 증가",
+      "오브젝트"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -11966,8 +13790,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "데미지의 50%를 출혈 데미지로 전환",
-            "출혈 데미지 10% 증가"
+            "50% of damage converted to bleeding damage",
+            "Increases bleeding damage by 10%"
           ],
           "damage": 1212,
           "buff": 475
@@ -11976,8 +13800,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 피격 데미지의 50%를 출혈 데미지로 받음",
-            "출혈 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Receive 50% of all damage taken as bleeding damage",
+            "Increases Skill Atk By 2% When Attacking Bleeding Enemies"
           ],
           "damage": 1212,
           "buff": 475
@@ -11986,7 +13810,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking bleeding enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -11995,7 +13819,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 데미지 10% 증가"
+            "Increases bleeding damage by 10%"
           ],
           "damage": 296,
           "buff": 499
@@ -12008,6 +13832,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "출혈",
+      "출혈 데미지"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12068,7 +13897,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4608,
+        "damage": 5416,
         "buff": 1998
       },
       "options": [
@@ -12076,28 +13905,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하지 않는 스킬 공격력 5% 감소",
-            "무색 큐브 조각을 소모하는 스킬 공격력 10% 증가",
-            "무색 큐브 조각을 소모하는 스킬 시전 시마다 해당 스킬의 무색 큐브 조각 소모량 2배씩 증가 (최대 3중첩)"
+            "Skill damage that does not consume colorless cube pieces decreases by 5%",
+            "Skill damage that consumes colorless cube pieces increases by 10%",
+            "Each time you cast a skill that consumes colorless cube fragments, the skill's colorless cube fragment consumption is doubled (stacks up to 3)"
           ],
-          "damage": 674,
+          "damage": 1078,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 10초 동안 모든 속성 강화 3 증가 (최대 5중첩)"
+            "When casting a skill that consumes a colorless cube piece, all attribute enhancements increase by 3 for 10 seconds (stacks up to 5)"
           ],
-          "damage": 674,
+          "damage": 1078,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -12106,9 +13935,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -12121,6 +13950,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "모든 속성 강화",
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "수속성 강화",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12196,7 +14034,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "캐릭터가 화상, 중독, 출혈, 감전 중 1개 이상이 걸린 상태에서 적 공격 시 5% 확률로 적을 캐릭터와 동일한 상태 이상으로 만듦 (쿨타임 10초)"
+            "When a character attacks an enemy while one or more of burn, poison, bleeding, or electric shock is applied, there is a 5% chance to make the enemy have the same status as the character's (Cooldown 10 seconds)"
           ],
           "damage": 1078,
           "buff": 475
@@ -12205,7 +14043,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신에게 걸린 상태 이상이 많을수록 피격 시 받는 데미지 5% 감소 (최대 30%)"
+            "The more status ailments you have, the less damage you take from being hit by 5% (up to 15%)"
           ],
           "damage": 1078,
           "buff": 475
@@ -12214,9 +14052,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -12238,6 +14076,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "받는 데미지",
+      "스킬 공격력 증가",
+      "중독",
+      "출혈",
+      "화상"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12249,7 +14095,8 @@
       "- 100레벨 이하 장비 장착 시 미적용"
     ],
     "tags": [
-      "HP MAX 감전",
+      "HP MAX",
+      "감전",
       "받는 데미지",
       "중독",
       "출혈",
@@ -12302,7 +14149,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 5604,
         "buff": 1938
       },
       "options": [
@@ -12310,27 +14157,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "버프 스킬을 제외한 모든 직업 35레벨 액티브 스킬 Lv +10, 크리에이터 플레임 허리케인, 아이스 실드 스킬 Lv +10 (제외되는 버프 스킬 : 갈증, 컨제스트, 도발, 섀도우 박서, 잔영 남기기)",
-            "35레벨 스킬 시전 시 해당 스킬 Lv -1, 크리에이터 플레임 허리케인, 아이스 실드 스킬 시전 시 해당 스킬 Lv -1 (최대 10Lv까지 감소, 해당 효과는 던전 클리어 시까지 적용)",
-            "남아있는 HP가 70% 이하인 상태로 120초 유지 시 감소된 스킬 레벨 복구 (쿨타임 120초)"
+            "All classes except buff skills level 35 active skill Lv +10\n",
+            "When casting a level 35 skill, the skill Lv -1 (reduces to a maximum of 10 Lv, the effect is applied until the dungeon is cleared)\n",
+            "Recovers reduced skill level when remaining HP is below 70% for 120 seconds (Cooldown 120 seconds)"
           ],
-          "damage": 1212,
+          "damage": 1616,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "35레벨 스킬 시전 시 30초 동안 모든 속성 강화 20 증가 (최대 1중첩)"
+            "When casting a level 35 skill, all attribute enhancements increase by 20 for 30 seconds (stacks up to 1)"
           ],
-          "damage": 1212,
+          "damage": 1616,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -12339,8 +14186,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -12353,6 +14200,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "스킬 레벨",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12428,8 +14284,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "데미지의 50%를 화상 데미지로 전환",
-            "화상 데미지 10% 증가"
+            "Convert 50% of damage to burn damage",
+            "Increases burn damage by 10%"
           ],
           "damage": 1212,
           "buff": 475
@@ -12438,8 +14294,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 피격 데미지의 50%를 화상 데미지로 받음",
-            "화상 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Receive 50% of all damage taken as burn damage",
+            "Increases Skill Attack Power By 2% When Attacking Burned Enemies"
           ],
           "damage": 1212,
           "buff": 475
@@ -12448,7 +14304,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking burned enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -12457,7 +14313,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 데미지 10% 증가"
+            "10% increased burn damage"
           ],
           "damage": 296,
           "buff": 499
@@ -12470,6 +14326,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "화상",
+      "화상 데미지"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12530,7 +14391,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3165,
+        "damage": 3705,
         "buff": 1953
       },
       "options": [
@@ -12538,27 +14399,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "데미지의 50%를 중독 데미지로 전환",
-            "중독 데미지 10% 증가"
+            "50% of damage converted to poison damage",
+            "Poison damage increased by 10%"
           ],
-          "damage": 1212,
+          "damage": 1482,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 피격 데미지의 50%를 중독 데미지로 받음",
-            "중독 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Receive 50% of all damage taken as Poison Damage",
+            "Increases Skill Atk By 2% When Attacking Poisoned Enemies"
           ],
-          "damage": 1212,
+          "damage": 1482,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "중독 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking poisoned enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -12567,7 +14428,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "중독 데미지 10% 증가"
+            "Increases poison damage by 10%"
           ],
           "damage": 296,
           "buff": 499
@@ -12580,6 +14441,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "중독",
+      "중독 데미지"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12642,7 +14508,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 5066,
         "buff": 1948
       },
       "options": [
@@ -12650,19 +14516,19 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 5% 확률로 적색 큐브 조각 3개를 소모하여 자신 및 300px 내 적을 화상 상태로 만듦 (쿨타임 10초)",
-            "화상 데미지 10% 증가"
+            "When attacking, has a 5% chance to consume 3 red cube pieces to burn yourself and enemies within 300px (Cooldown 10 seconds)",
+            "Increases burn damage by 10%"
           ],
-          "damage": 539,
+          "damage": 1347,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 화상 상태일 때 1초마다 15초 동안 모든 속성 강화 3 증가 (최대 10중첩)"
+            "Increases all attribute enhancements by 3 for 15 sec every 1 sec while in Burn state (stacks up to 10)"
           ],
-          "damage": 539,
+          "damage": 1347,
           "buff": 480
         },
         {
@@ -12678,8 +14544,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -12692,6 +14558,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "모든 속성 강화",
+      "큐브 조각",
+      "수속성 강화",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "화상",
+      "화상 데미지",
+      "화속성 강화"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12766,9 +14643,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 중 점프 키(C) 입력 시 현재 위치에서 일정거리만큼 떨어진 곳으로 순간이동 (쿨타임 10초)",
-            "- 순간이동 중 방향키 입력을 통해 방향 조절 가능",
-            "순간이동 후 HP 10% 회복"
+            "If you press the jump key (C) while being attacked, you will teleport to a location a certain distance away from your current location (Cooldown 10 seconds)",
+            "- Direction can be adjusted by pressing the direction key during instantaneous movement",
+            "Recover 10% HP after teleporting"
           ],
           "damage": 1078,
           "buff": 470
@@ -12777,8 +14654,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 10% 증가",
-            "피격 시 20초 동안 물리, 마법 크리티컬 +10% (최대 1중첩)"
+            "Evasion +10%",
+            "+10% physical and magic crit for 20 seconds when attacked (stacks up to 1)"
           ],
           "damage": 1078,
           "buff": 470
@@ -12787,8 +14664,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -12797,7 +14674,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -12810,6 +14687,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "순간이동",
+      "크리티컬 히트",
+      "피해 증가",
+      "회피율"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12873,7 +14757,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 3720,
         "buff": 1968
       },
       "options": [
@@ -12881,27 +14765,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무기의 내구도 감소율 100% 증가",
-            "스킬 공격력 6% 증가"
+            "Increases the durability reduction rate of weapons by 100%",
+            "Increases skill attack power by 6%"
           ],
-          "damage": 404,
+          "damage": 674,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "200콤보 마다 무기의 내구도 1 감소 (쿨타임 10초)",
-            "콤보효과로 인해 내구도가 감소될 때마다 모든 스킬 쿨타임 회복 속도 10% 증가 (최대 5중첩, 각성기 제외)"
+            "Decreases weapon durability by 1 for every 200 combos (10 seconds cooldown)",
+            "Every time durability is reduced due to combo effect, all skill cooldown recovery speed is increased by 10% (stacks up to 5, excluding awakening)"
           ],
-          "damage": 404,
+          "damage": 674,
           "buff": 490
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -12910,8 +14794,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -12924,6 +14808,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "콤보"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -12949,6 +14838,218 @@
       "헤블론의 예언소"
     ],
     "boss": "빛의 칼바리"
+  },
+  {
+    "itemId": "8d0bdc6feed6adc7e74c2201292dec93",
+    "itemName": "파워 네비게이트 팩",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "\"뭐, 내가 더 뛰어나다는 건 모두가 아는 사실 아닐까?\""
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 5066,
+        "buff": 1910
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "던전 입장 시 HP를 45% 소모하고 사용가능한 최대 HP의 45% 제한 (제한된 수치를 초과하여 HP 회복 불가)",
+            "최대 HP의 65% 수치의 자동 충전되는 보호막 효과 적용 (보호막은 5초 동안 자신 또는 보호막이 피격되지 않을 경우, 0에서 최대 수치까지 5초 동안 충전됩니다.)"
+          ],
+          "damage": 1347,
+          "buff": 461
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "HP 40% 이하일 때 아래의 효과 적용",
+            "- 물리, 마법 방어력 +14000",
+            "- 피해 증가 +2816",
+            "- 스킬 쿨타임 15% 감소 (최대 1중첩, 각성기 제외)"
+          ],
+          "damage": 1347,
+          "buff": 461
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 속도 +8%",
+            "캐스팅 속도 +12%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 저항 8 증가"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 조건",
+      "방어력",
+      "보호막",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
+    "slotName": "팔찌",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "보호막",
+      "HP 조건",
+      "방어력",
+      "피해 증가",
+      "공격 속도",
+      "캐스팅 속도",
+      "명속성 저항",
+      "모든 속성 저항",
+      "수속성 저항",
+      "암속성 저항",
+      "화속성 저항",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-4 디리겐트"
+  },
+  {
+    "itemId": "be02b6cec49bea23bff388bd9a62d2f2",
+    "itemName": "공명하는 에너지 팔찌",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "slotName": "팔찌",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "캐니언 힐"
+    ]
   },
   {
     "itemId": "689669772092589ba47a7d6adbb10023",
@@ -12987,7 +15088,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 6144,
         "buff": 1958
       },
       "options": [
@@ -12995,26 +15096,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 자신과 적에게 데미지를 주는 화속성 폭발 발생 (쿨타임 5초)"
+            "When attacking, a fire property explosion that deals damage to self and enemies occurs (cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 피격 시 10초 동안 화속성 강화 +30 (최대 1중첩)"
+            "Fire property enhancement +30 for 10 seconds when attacked by fire property (maximum 1 stack)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -13023,7 +15124,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 10 증가"
+            "Increases fire resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -13036,6 +15137,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "오브젝트",
+      "화속성 강화"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13104,7 +15209,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "20콤보 달성 시 30초 동안 적 방어력 8% 무시 (최대 1중첩)"
+            "Ignores 8% of enemy's DEF for 30 seconds when 20 combos are achieved (stacks up to 1)"
           ],
           "damage": 1212,
           "buff": 466
@@ -13113,7 +15218,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "200콤보 달성 시 500px 내 있는 네임드/보스 몬스터의 남은 HP 1% 감소 (쿨타임 30초, 버퍼 캐릭터는 적용되지 않습니다.)"
+            "When 200 combo is achieved, the remaining HP of the named/boss within 500px is reduced by 1% (30 seconds cooldown, buffer characters are not applied)"
           ],
           "damage": 1212,
           "buff": 466
@@ -13122,7 +15227,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -13131,8 +15236,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -13145,6 +15250,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "방어력 무시",
+      "적 HP 감소",
+      "콤보"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13158,7 +15268,8 @@
       "모든 속성 강화",
       "방어력 무시",
       "수속성 강화",
-      "암속성 강화 콤보",
+      "암속성 강화",
+      "콤보",
       "구매 가능",
       "네임드"
     ],
@@ -13204,7 +15315,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 6144,
         "buff": 1958
       },
       "options": [
@@ -13212,26 +15323,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 자신과 적에게 데미지를 주는 수속성 폭발 발생 (쿨타임 5초)"
+            "When attacking, a water-type explosion that deals damage to self and enemies occurs (cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 피격 시 10초 동안 수속성 강화 +30 (최대 1중첩)"
+            "Water property enhancement +30 for 10 seconds when attacked by water property (maximum 1 stack)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -13240,7 +15351,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 10 증가"
+            "Increases water resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -13253,6 +15364,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "수속성 강화",
+      "오브젝트"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13319,7 +15434,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적과의 거리 100px 이내일 때 피해 증가 +2964"
+            "Damage increase +2964 when within 100px distance from an enemy"
           ],
           "damage": 1212,
           "buff": 480
@@ -13328,7 +15443,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 5 히트마다 30초 동안 공격 속도 5% 증가 (최대 50% 증가)"
+            "Increases attack speed by 5% for 30 seconds for every 5 hits (up to 50% increase)"
           ],
           "damage": 1212,
           "buff": 480
@@ -13337,8 +15452,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -13347,7 +15462,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -13360,6 +15475,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "근접",
+      "피해 증가"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13418,7 +15538,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 5874,
         "buff": 1938
       },
       "options": [
@@ -13426,27 +15546,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "버프 스킬을 제외한 모든 직업 40레벨 액티브 스킬 Lv +10 (제외되는 버프 스킬 : 뇌명 : 사나운 빛의 넨수, 사랑의 응급조치, 생명의 원천, 부활, 인법 : 육도윤회)",
-            "40레벨 스킬 시전 시 해당 스킬 Lv -1 (최대 10Lv까지 감소, 해당 효과는 던전 클리어 시까지 적용)",
-            "남아있는 HP가 70% 이하인 상태로 120초 유지 시 감소된 스킬 레벨 복구 (쿨타임 120초)"
+            "All classes except for buff skills, level 40 active skill Lv +10",
+            "When casting a level 40 skill, the skill Lv -1 (reduced to a maximum of 10 Lv, the effect is applied until the dungeon is cleared)",
+            "Recovers reduced skill level when remaining HP is below 70% for 120 seconds (Cooldown 120 seconds)"
           ],
-          "damage": 1212,
+          "damage": 1751,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "40레벨 스킬 시전 시 30초 동안 모든 속성 강화 20 증가 (최대 1중첩)"
+            "When casting a level 40 skill, all attribute enhancements increase by 20 for 30 seconds (stacks up to 1)"
           ],
-          "damage": 1212,
+          "damage": 1751,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -13455,8 +15575,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -13469,6 +15589,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "스킬 레벨",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13533,7 +15662,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 4528,
         "buff": 1928
       },
       "options": [
@@ -13541,27 +15670,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "5초 동안 공격하지 않을 때 받는 데미지 50% 감소 (최대 1중첩, 공격 또는 스킬 시전 시 버프 해제)",
-            "카운터 피격 시 받는 데미지 30% 증가"
+            "Reduces damage taken by 50% when not attacking for 5 seconds (stacks up to 1, buff is removed when attacking or casting a skill)",
+            "Increases damage taken from counter hits by 30%"
           ],
-          "damage": 539,
+          "damage": 1078,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카운터 공격 시 5초 동안 스킬 공격력 10% 증가 (최대 1중첩)"
+            "Increases skill attack power by 10% for 5 seconds when counter attacking (stacks up to 1)"
           ],
-          "damage": 539,
+          "damage": 1078,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -13570,8 +15699,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -13584,6 +15713,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "스킬 공격력 증가",
+      "카운터"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13644,7 +15778,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 6952,
         "buff": 1938
       },
       "options": [
@@ -13652,28 +15786,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 공격 시 즉시 착지하며 충격파 생성 (쿨타임 5초)",
-            "캐릭터의 높이 100px마다 충격파 데미지 2배 증가 (최대 300px까지 적용)"
+            "Landing on a jumping attack creates a shock wave (cooldown 5 seconds)",
+            "Doubles shock wave damage for every 100px character's height (applies up to 300px)"
           ],
-          "damage": 1212,
+          "damage": 2290,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "도약 스킬Lv +5",
-            "도약 스킬 시전 시 30초 동안 슈퍼아머 적용"
+            "Leap Skill Lv +5",
+            "Super Armor is applied for 30 seconds when the leap skill is cast."
           ],
-          "damage": 1212,
+          "damage": 2290,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프력 20 증가",
-            "점프 시 이동 속도 30% 증가"
+            "Jump power increased by 20",
+            "30% increased Movement Speed ​​when Jumping"
           ],
           "damage": 1186,
           "buff": 494
@@ -13682,7 +15816,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -13695,6 +15829,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "도약",
+      "슈퍼 아머",
+      "점프 공격",
+      "충격파"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13764,7 +15904,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵슬롯에 등록된 스킬을 커맨드로 발동 시 해당 스킬 공격력 10% 증가"
+            "When a skill registered in the quick slot is activated as a command, the skill's attack power is increased by 10%"
           ],
           "damage": 808,
           "buff": 470
@@ -13773,7 +15913,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵슬롯에 등록되지 않은 스킬을 커맨드로 발동 시 쿨타임 15% 감소 (각성기 제외)"
+            "When a skill not registered in the quick slot is activated as a command, the cooldown is reduced by 15% (except for awakening)"
           ],
           "damage": 808,
           "buff": 470
@@ -13782,8 +15922,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -13792,9 +15932,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -13807,6 +15947,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "커맨드",
+      "퀵슬롯"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13871,7 +16017,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 5336,
         "buff": 1948
       },
       "options": [
@@ -13879,25 +16025,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 화속성의 폭발 발생 (쿨타임 1초)"
+            "Fire-type explosion occurs when attacking an enemy with a burn state (Cooldown 1 second)"
           ],
-          "damage": 539,
+          "damage": 1482,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 각성기를 제외한 모든 스킬의 남아있는 쿨타임 0.5% 감소 (쿨타임 0.5초)"
+            "When attacking an enemy with a burn state, the remaining cooldown of all skills except for awakening is reduced by 0.5% (Cooldown 0.5sec)"
           ],
-          "damage": 539,
+          "damage": 1482,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases fire property enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -13906,7 +16052,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 10 증가"
+            "Increases fire resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -13919,6 +16065,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 쿨타임",
+      "오브젝트",
+      "화상"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -13930,7 +16081,8 @@
       "스킬 쿨타임",
       "오브젝트",
       "화속성 강화",
-      "화속성 저항 화상",
+      "화속성 저항",
+      "화상",
       "구매 가능"
     ],
     "drops": [
@@ -13985,7 +16137,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소지 및 금고 내 골드 총합 1000만 골드당 피해 증가 +222 (최대 20중첩)"
+            "Damage increase per 10 million gold total in possession and safe +222 (stacks up to 20)"
           ],
           "damage": 1078,
           "buff": 480
@@ -13994,8 +16146,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소지 및 금고 내 골드 총합 1억 골드 이상일 때 물리 크리티컬 히트, 마법 크리티컬 히트 10% 증가",
-            "소지 및 금고 내 골드 총합 4억 골드 이상일 때 스킬 공격력 3% 증가"
+            "When the total amount of gold in possession and safe is 100 million gold or more, physical critical hit and magic critical hit increase by 10%",
+            "Increases Skill Attack Power By 3% When The Total Amount Of Gold In Possession And Safe Is 400 Million Gold Or More"
           ],
           "damage": 1078,
           "buff": 480
@@ -14004,8 +16156,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -14014,9 +16166,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -14029,6 +16181,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "골드",
+      "스킬 공격력 증가",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14093,7 +16251,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 6144,
         "buff": 1958
       },
       "options": [
@@ -14101,26 +16259,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 자신과 적에게 데미지를 주는 암속성 폭발 발생 (쿨타임 5초)"
+            "When attacking, a dark explosion that deals damage to self and enemies occurs (cooldown 5 seconds)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 피격 시 10초 동안 암속성 강화 +30 (최대 1중첩)"
+            "Dark attribute enhancement +30 for 10 seconds when attacked by dark attribute (maximum 1 stack)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -14129,7 +16287,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 저항 10 증가"
+            "Increases dark resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -14142,6 +16300,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "암속성 강화",
+      "오브젝트"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14208,9 +16370,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신의 HP가 80% 이상일 때 피해 증가 +445",
-            "자신의 HP가 50% 이상 80% 미만일 때 피해 증가 +2668",
-            "자신의 HP가 50% 미만일 때 피해 증가 +2668, 스킬 공격력 5% 증가"
+            "Increase damage +445 when own HP is above 80%",
+            "Increase damage +2668 when own HP is between 50% and 80%",
+            "Increase damage +2,668 when own HP is less than 50%. Skill Attack Power Increase By 5% "
           ],
           "damage": 943,
           "buff": 475
@@ -14219,7 +16381,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신의 HP가 50% 미만일 때 모든 속도 20% 증가"
+            "Increases all speed by 20% when own HP is below 50%"
           ],
           "damage": 943,
           "buff": 475
@@ -14228,7 +16390,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -14237,8 +16399,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -14251,6 +16413,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "공격 속도",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14318,7 +16488,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 6144,
         "buff": 1958
       },
       "options": [
@@ -14326,9 +16496,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 자신과 적에게 데미지를 주는 명속성 폭발 발생 (쿨타임 5초)"
+            "공격 시 자신과 적에게 피해를 주는 명속성 폭발 발생 (쿨타임 5초, 적의 방어력과 상관없이 총 피해 증가 수치의 120%만큼 피해를 줌)",
+            "- 자신에게 1의 고정 피해 적용"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
@@ -14337,15 +16508,15 @@
           "explain": [
             "명속성 피격 시 10초 동안 명속성 강화 +30 (최대 1중첩)"
           ],
-          "damage": 404,
+          "damage": 1886,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "물리 방어력 +7000",
+            "마법 방어력 +7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -14367,6 +16538,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "오브젝트"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14433,7 +16608,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -14442,7 +16618,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -14451,7 +16627,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -14460,7 +16636,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -14473,6 +16649,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14530,7 +16709,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 5604,
         "buff": 1948
       },
       "options": [
@@ -14538,25 +16717,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 적에게 건 빙결 상태가 화상 상태 이상으로 해제될 경우 일괄 적용되는 화상 데미지 30% 증가"
+            "Increases burn damage applied all at once by 30% when the freeze state on the enemy is removed by more than burn state."
           ],
-          "damage": 674,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 적을 빙결 상태로 만듦 (쿨타임 5초)"
+            "When attacking an enemy with burn status, freezes the enemy (Cooldown 5 seconds)"
           ],
-          "damage": 674,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 강화 15 증가"
+            "Increases Water Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -14565,7 +16744,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 10 증가"
+            "Increases water resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -14578,6 +16757,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "빙결",
+      "화상",
+      "화상 데미지"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14647,7 +16831,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 0.1% 회복 (쿨타임 0.1초)"
+            "Recover 0.1% MP when attacking (Cooldown 0.1sec)"
           ],
           "damage": 1347,
           "buff": 480
@@ -14656,8 +16840,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적 처치 시 MP 10% 회복",
-            "스킬 MP 소모량 50% 증가"
+            "Recover 10% MP when killing an enemy",
+            "Skill MP consumption increased by 50%"
           ],
           "damage": 1347,
           "buff": 480
@@ -14666,8 +16850,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -14676,8 +16860,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -14690,6 +16874,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 회복",
+      "스킬 MP 소모량 증가"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14755,7 +16943,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5604,
         "buff": 1928
       },
       "options": [
@@ -14763,29 +16951,29 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대쉬 유지시간에 따라 20초 동안 공격 속도, 이동 속도, 캐스팅 속도 증가 버프 적용 (옵션은 대쉬 종료 후 부터 적용)",
-            "- 대쉬 1초 이상 : 공격 속도, 이동 속도 5% 증가, 캐스팅 속도 7.5% 증가",
-            "- 대쉬 2초 이상 : 공격 속도, 이동 속도 10% 증가, 캐스팅 속도 15% 증가",
-            "- 대쉬 4초 이상 : 공격 속도, 이동 속도 20% 증가, 캐스팅 속도 30% 증가"
+            "Attack speed, movement speed, and casting speed increase buff applied for 20 seconds according to the dash duration (optional effect is applied after the dash ends)\n",
+            "- Dash for 1 second or longer: Attack speed, movement speed increased by 5%, casting speed increased by 7.5%\n",
+            "- Dash for 2 seconds or more: Attack speed, movement speed increase by 10%, casting speed increase by 15%\n",
+            "- Dash for 4 seconds or more: Attack speed, movement speed increased by 20%, casting speed increased by 30%"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대쉬 상태일 때 회피율 20% 증가"
+            "Increases dodge rate by 20% while in dash state"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -14794,8 +16982,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -14808,6 +16996,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "대쉬",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "캐스팅 속도",
+      "회피율"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14877,7 +17073,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 수면 상태일 때 소모품 사용 불가, 10초 동안 무적 버프 발생 (쿨타임 30초)"
+            "Consumables cannot be used while sleeping, invincible buff for 10 seconds (30 seconds cooldown)"
           ],
           "damage": 943,
           "buff": 466
@@ -14886,8 +17082,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수면 내성 -50%",
-            "모든 상태 이상 내성 +20%"
+            "Sleep tolerance -50%",
+            "+20% to all status ailment resistance"
           ],
           "damage": 943,
           "buff": 466
@@ -14896,8 +17092,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -14919,6 +17115,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "수면"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -14976,7 +17175,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 6682,
         "buff": 1920
       },
       "options": [
@@ -14984,27 +17183,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적에게 마지막으로 적용된 무력화형 상태 이상이 다음 무력화 게이지의 약점 속성으로 적용"
+            "The last incapacitating condition applied to the enemy is applied as the weakness attribute of the next neutralization gauge."
           ],
-          "damage": 674,
+          "damage": 2155,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "상태 이상에 걸린 적 공격 시 스킬 공격력 5% 증가",
-            "상태 이상에 걸리지 않은 적 공격 시 스킬 공격력 5% 감소"
+            "Increases skill attack power by 5% when attacking enemies with status ailments",
+            "Reduces skill attack power by 5% when attacking enemies not affected by status ailments"
           ],
-          "damage": 674,
+          "damage": 2155,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -15026,6 +17225,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "약점 속성"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15047,6 +17250,210 @@
       "헤블론의 예언소"
     ],
     "boss": "빛의 칼바리"
+  },
+  {
+    "itemId": "064715eb64c51a8cd840e001563219e3",
+    "itemName": "아토믹 코어 네클레스",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "\"모험가 녀석, 이런 건 상상도 못 하겠지? 켈켈!\""
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4702,
+        "buff": 1943
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "가장 높은 속성 강화 수치 50마다 스킬 쿨타임 회복 속도 4% 증가 (최대 6중첩, 각성기 제외)"
+          ],
+          "damage": 943,
+          "buff": 470
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "가장 높은 속성 강화 수치 50마다 모든 속도 +3% (최대 5중첩)"
+          ],
+          "damage": 943,
+          "buff": 470
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "HP 1분당 460.2 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 강화 15 증가",
+            "모든 속성 저항 10 감소"
+          ],
+          "damage": 1630,
+          "buff": 509
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "공격 속도",
+      "스킬 쿨타임",
+      "이동 속도",
+      "캐스팅 속도"
+    ],
+    "slotName": "목걸이",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "스킬 쿨타임",
+      "공격 속도",
+      "이동 속도",
+      "캐스팅 속도",
+      "HP 회복",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "화속성 강화",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-1 햅스"
+  },
+  {
+    "itemId": "76806e96a81a295a98a4edbb05b0e43d",
+    "itemName": "공명하는 에너지 목걸이",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "slotName": "목걸이",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "백색의 땅",
+      "왕의 요람"
+    ]
   },
   {
     "itemId": "4704c80a314a7ddf6942f961254bd51d",
@@ -15085,7 +17492,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4176,
+        "damage": 4984,
         "buff": 1958
       },
       "options": [
@@ -15093,27 +17500,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 300초 동안 무색 큐브 조각을 소모하는 스킬 시전 시 무색 큐브 조각 대신 흑색 큐브 조각 소모 (쿨타임 10초)",
-            "흑색 큐브 조각을 소모하여 공격 시 적을 암흑 상태로 만듦 (쿨타임 25초)",
-            "암흑 상태 적 공격 시 스킬 공격력 10% 증가"
+            "When [Equipment Option Control Key] is input, a skill that consumes colorless cube pieces for 300 seconds consumes black cube pieces instead of colorless cube pieces (10 seconds cooldown)",
+            "Consuming a piece of black cube to make an enemy dark when attacking (25 sec cooldown)",
+            "Increases Skill Attack Power By 10% When Attacking Dark Enemies"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 암속성 강화 10 증가 (최대 1중첩)"
+            "When casting a skill that consumes a colorless cube fragment, increases dark attribute strength by 10 for 20 seconds (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 암흑 지속 시간 2초 증가"
+            "Increases the duration of your darkness by 2 seconds"
           ],
           "damage": 1186,
           "buff": 494
@@ -15122,7 +17529,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암흑 상태 적 공격 시 스킬 공격력 10% 증가"
+            "Increases skill attack power by 10% when attacking dark enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -15135,6 +17542,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "지속 시간 증가",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암흑",
+      "장비 옵션 조작키"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15202,10 +17618,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비 옵션을 적용받는 파티원끼리 효과 적용",
-            "- 서로의 피격 데미지를 나누어 받음",
-            "- 다른 파티원이 피격된 데미지를 받을 때 5초 동안 자신의 공격 속도, 캐스팅 속도 2% 증가 (최대 5중첩)",
-            "피격 데미지 10% 증가"
+            "Effect is applied between party members to whom the corresponding equipment option is applied",
+            "- Received damage from each other",
+            "- Increases own attack speed and casting speed by 2% for 5 seconds when other party members receive damage (stacks up to 5)",
+            "Increases damage taken by 10%"
           ],
           "damage": 943,
           "buff": 466
@@ -15214,7 +17630,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비 옵션을 적용받는 자신을 포함한 파티원 1명당 피해 증가 +1112 (최대 4중첩)"
+            "Damage increase +1112 for each party member including yourself who receives this equipment option (stacks up to 4)"
           ],
           "damage": 943,
           "buff": 466
@@ -15223,8 +17639,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -15233,7 +17649,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -15246,6 +17662,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "받는 데미지",
+      "스킬 공격력 증가",
+      "캐스팅 속도",
+      "파티원",
+      "피해 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15305,7 +17729,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4176,
+        "damage": 4984,
         "buff": 1958
       },
       "options": [
@@ -15313,27 +17737,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 300초 동안 무색 큐브 조각을 소모하는 스킬 시전 시 무색 큐브 조각 대신 황금 큐브 조각 소모 (쿨타임 10초)",
-            "황금 큐브 조각을 소모하여 공격 시 적을 기절 상태로 만듦 (쿨타임 20초)",
-            "기절 상태 적 공격 시 스킬 공격력 5% 증가"
+            "When using [Equipment Option Control Key], a skill that consumes colorless cube pieces for 300 seconds consumes golden cube pieces instead of colorless cube pieces (10 seconds cooldown)",
+            "Consumes a piece of golden cube to stun the enemy when attacking (Cooldown 20 seconds)",
+            "Increases Skill Attack Power By 5% When Attacking Stunned Enemies"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 모든 속성 강화 8 증가 (최대 1중첩)"
+            "When casting a skill that consumes a colorless cube piece, all attribute enhancements increase by 8 for 20 seconds (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 기절 지속 시간 2초 증가"
+            "Increases the duration of your stun by 2 seconds"
           ],
           "damage": 1186,
           "buff": 494
@@ -15342,7 +17766,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "기절 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking stunned enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -15355,6 +17779,19 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "기절",
+      "명속성 강화",
+      "모든 속성 강화",
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "지속 시간 증가",
+      "수속성 강화",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "장비 옵션 조작키",
+      "화속성 강화"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15426,8 +17863,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "비 카운터 공격 시 스킬 공격력 35% 증가",
-            "카운터 공격 시 스킬 공격력 20% 감소"
+            "Increases skill attack power by 35% during non-counter attacks",
+            "20% decrease in skill attack power when counter attacking"
           ],
           "damage": 1347,
           "buff": 480
@@ -15436,8 +17873,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "비 카운터 피격 시 받는 데미지 20% 증가",
-            "카운터 피격 시 받는 데미지 15% 감소"
+            "Increases damage taken from non-counter attacks by 20%",
+            "Reduces damage received from counter hits by 15%"
           ],
           "damage": 1347,
           "buff": 480
@@ -15446,8 +17883,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -15456,8 +17893,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -15470,6 +17907,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "비 카운터",
+      "스킬 공격력 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15534,7 +17976,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4972,
+        "damage": 6048,
         "buff": 1943
       },
       "options": [
@@ -15542,27 +17984,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소모품으로 인한 MP 회복 시 30초 동안 피해 증가 +2519 (최대 1중첩)",
-            "소모품으로 인한 MP 회복 효과 80% 감소"
+            "When recovering MP from consumables, +2519 damage for 30 seconds (stacks up to 1)",
+            "80% reduction in MP recovery effect from consumables"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장비로 인한 MP 회복 효과 30% 증가"
+            "30% increase in MP recovery effect from equipment"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -15571,7 +18013,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -15584,6 +18026,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 회복",
+      "소모품",
+      "피해 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15655,7 +18102,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 HP MAX 10% 감소, 피해 증가 +889 (쿨타임 10초, 최대 5중첩)"
+            "When attacking, reduces HP MAX by 10%, increases damage +889 (Cooldown 10 seconds, stacks up to 5)"
           ],
           "damage": 943,
           "buff": 504
@@ -15664,8 +18111,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장비로 인한 HP 회복 효과 30% 증가",
-            "스킬, 소모품으로 인한 HP 회복 효과 10% 감소"
+            "Increases HP recovery effect from equipment by 30%",
+            "Reduces HP recovery effect from skills and consumables by 10%"
           ],
           "damage": 943,
           "buff": 504
@@ -15683,7 +18130,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -15696,6 +18143,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "HP 회복",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15763,9 +18216,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 출혈 상태일 때 피해 증가 +2223",
-            "자신이 출혈 상태일 때 1초마다 공격, 이동, 캐스팅 속도 3% 감소 (최대 5중첩, 출혈 해제 시 즉시 해제)",
-            "출혈 데미지 5% 증가"
+            "+2223 damage increase while you are bleeding",
+            "Attack, movement, and casting speed decrease by 3% every 1 sec while you are bleeding (stacks up to 5, immediately dispels when bleeding is removed)",
+            "Bleeding Damage 5% Increase"
           ],
           "damage": 943,
           "buff": 490
@@ -15774,7 +18227,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 출혈 상태일 때 출혈 데미지 10% 증가"
+            "Increases bleeding damage by 10% while you are bleeding"
           ],
           "damage": 943,
           "buff": 490
@@ -15783,7 +18236,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 출혈 지속 시간 10% 감소"
+            "Reduces your bleeding duration by 10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -15792,7 +18245,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 데미지 10% 증가"
+            "Increases bleeding damage by 10%"
           ],
           "damage": 296,
           "buff": 499
@@ -15805,6 +18258,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "피해 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15863,7 +18322,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4325,
+        "damage": 5133,
         "buff": 1958
       },
       "options": [
@@ -15871,27 +18330,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 300초 동안 무색 큐브 조각을 소모하는 스킬 시전 시 무색 큐브 조각 대신 흰색 큐브 조각 소모 (쿨타임 10초)",
-            "흰색 큐브 조각을 소모하여 공격 시 적을 감전 상태로 만듦 (쿨타임 15초)",
-            "감전 상태 적 공격 시 스킬 공격력 2% 증가"
+            "When using [Equipment Option Control Key], a skill that consumes colorless cube pieces for 300 seconds consumes white cube pieces instead of colorless cube pieces (10 seconds cooldown)",
+            "Consumes a piece of white cube to shock the enemy when attacking (15 sec cooldown)",
+            " Increases Skill Attack Power By 2% When Attacking Shock Enemies"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 명속성 강화 10 증가 (최대 1중첩)"
+            "When casting a skill that consumes a colorless cube piece, increases light attribute strength by 10 for 20 seconds (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 감전 지속 시간 10% 감소"
+            "Reduces the duration of your Shock by 10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -15900,7 +18359,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "감전 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking electric shock enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -15913,6 +18372,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "명속성 강화",
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "스킬 공격력 증가",
+      "장비 옵션 조작키",
+      "지속 시간 감소"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -15974,7 +18442,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4176,
+        "damage": 4984,
         "buff": 1958
       },
       "options": [
@@ -15982,27 +18450,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 300초 동안 무색 큐브 조각을 소모하는 스킬 시전 시 무색 큐브 조각 대신 청색 큐브 조각 소모 (쿨타임 10초)",
-            "청색 큐브 조각을 소모하여 공격 시 적을 빙결 상태로 만듦 (쿨타임 25초)",
-            "빙결 상태 적 공격 시 스킬 공격력 5% 증가"
+            "When using [Equipment Option Control Key], a skill that consumes colorless cube pieces for 300 seconds consumes blue cube pieces instead of colorless cube pieces (10 seconds cooldown)",
+            "Consumes blue cube fragments to freeze enemies when attacking (25 seconds cooldown)",
+            "Increases Skill Attack Power By 5% When Attacking Frozen Enemies"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 수속성 강화 10 증가 (최대 1중첩)"
+            "When casting a skill that consumes a colorless cube piece, increases water attribute strength by 10 for 20 seconds (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 빙결 지속 시간 2초 증가"
+            "Increases your freezing duration by 2 seconds"
           ],
           "damage": 1186,
           "buff": 494
@@ -16011,7 +18479,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "빙결 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking frozen enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -16024,6 +18492,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "빙결",
+      "지속 시간 증가",
+      "수속성 강화",
+      "스킬 공격력 증가",
+      "장비 옵션 조작키"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16093,9 +18570,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신의 MP가 90% 이상일 때 피해 증가 +445",
-            "자신의 MP가 60% 이상 90% 미만일 때 피해 증가 +2668",
-            "자신의 MP가 60% 미만일 때 피해 증가 +4298"
+            "Damage increase +445 when own MP is above 90%",
+            "Increase damage +2668 when own MP is between 60% and 90%",
+            "+4298 damage increase when own MP is less than 60%"
           ],
           "damage": 1078,
           "buff": 475
@@ -16105,7 +18582,7 @@
           "expRate": 0,
           "explain": [
             "MP MAX +2000",
-            "스킬 MP 소모량 100% 증가"
+            "100% increase in skill MP consumption"
           ],
           "damage": 1078,
           "buff": 475
@@ -16114,8 +18591,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16124,8 +18601,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16138,6 +18615,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP MAX",
+      "MP 조건",
+      "스킬 MP 소모량 증가",
+      "피해 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16197,7 +18680,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 6414,
         "buff": 1938
       },
       "options": [
@@ -16205,25 +18688,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적에게 3개의 상태 이상 적용 시 해당 적 주변 300px 이내에 다른 상태 이상이 없는 적에게 동일한 상태 이상 적용 (쿨타임 25초)"
+            "When applying 3 status ailments to an enemy, apply the same status ailment to an enemy with no other status ailments within 300px around the enemy (25 sec cooldown)"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "상태 이상에 걸린 적 1마리당 피해 증가 +326 (최대 10중첩)"
+            "+326 damage per enemy affected by status ailments (stacks up to 10)"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16232,7 +18715,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16245,6 +18728,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "피해 증가"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16303,7 +18789,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4325,
+        "damage": 5133,
         "buff": 1958
       },
       "options": [
@@ -16311,27 +18797,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "[장비 옵션 조작키] 입력 시 300초 동안 무색 큐브 조각을 소모하는 스킬 시전 시 무색 큐브 조각 대신 적색 큐브 조각 소모 (쿨타임 10초)",
-            "적색 큐브 조각을 소모하여 공격 시 적을 화상 상태로 만듦 (쿨타임 10초)",
-            "화상 상태 적 공격 시 스킬 공격력 2% 증가"
+            "When using [Equipment Option Control Key], a skill that consumes colorless cube pieces for 300 seconds consumes red cube pieces instead of colorless cube pieces (10 seconds cooldown)",
+            "Consumes red cube pieces to burn enemies when attacking (Cooldown 10 seconds)",
+            "Increases Skill Attack Power By 2% When Attacking Burned Enemies"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 화속성 강화 10 증가 (최대 1중첩)"
+            "When casting a skill that consumes a colorless cube piece, increases fire property enhancement by 10 for 20 seconds (stacks up to 1)"
           ],
-          "damage": 1347,
+          "damage": 1751,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 거는 화상 지속 시간 10% 감소"
+            "Reduces burn duration by 10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16340,7 +18826,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking burned enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -16353,6 +18839,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "스킬 공격력 증가",
+      "장비 옵션 조작키",
+      "지속 시간 감소",
+      "화상",
+      "화속성 강화"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16414,7 +18909,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 6414,
         "buff": 1910
       },
       "options": [
@@ -16422,26 +18917,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 20% 이하일 때 피격 시 모든 MP를 소모하여 소모한 MP만큼 HP 회복 (쿨타임 60초)"
+            "When HP is below 20%, consumes all MP to recover HP equal to the MP consumed (cooldown 60 seconds)"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP가 50% 이하일 때 분당 HP, MP 회복량 5000% 증가"
+            "Increases HP and MP recovery by 5000% per minute when MP is below 50%"
           ],
-          "damage": 808,
+          "damage": 2021,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -16463,6 +18958,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "HP 회복",
+      "MP 소모",
+      "MP 조건",
+      "MP 회복"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16531,7 +19033,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -16540,7 +19043,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -16549,7 +19052,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -16558,7 +19061,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -16571,6 +19074,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16628,7 +19134,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 5874,
         "buff": 1938
       },
       "options": [
@@ -16636,27 +19142,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "버프 스킬을 제외한 모든 직업 45레벨 액티브 스킬 Lv +10, 크리에이터 웜홀 스킬Lv +10 (제외되는 버프 스킬 : 힐 윈드, 재생의 아리아)",
-            "45레벨 스킬 시전 시 해당 스킬 Lv -1, 크리에이터 웜홀 스킬 시전 시 해당 스킬 Lv -1 (최대 10Lv까지 감소, 해당 효과는 던전 클리어 시까지 적용)",
-            "남아있는 HP가 70% 이하인 상태로 120초 유지 시 감소된 스킬 레벨 복구 (쿨타임 120초)"
+            "All classes except for buff skills, level 45 active skill Lv +10 (excluded buff skills: Heal Wind, Regeneration Aria)\n",
+            "When casting a level 45 skill, the skill Lv -1 (reduced to a maximum of 10 Lv, the effect is applied until the dungeon is cleared)\n",
+            "Recovers reduced skill level when remaining HP is below 70% for 120 seconds (Cooldown 120 seconds)"
           ],
-          "damage": 1212,
+          "damage": 1751,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "45레벨 스킬 시전 시 30초 동안 모든 속성 강화 20 증가 (최대 1중첩)"
+            "When casting a level 45 skill, all attribute enhancements increase by 20 for 30 seconds (stacks up to 1)"
           ],
-          "damage": 1212,
+          "damage": 1751,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16665,8 +19171,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -16679,6 +19185,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "스킬 레벨",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16745,7 +19260,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3098,
+        "damage": 4714,
         "buff": 1930
       },
       "options": [
@@ -16753,26 +19268,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 적에게 적용한 빙결이 화상 공격으로 해제되지 않음",
-            "빙결 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Freeze you have applied to enemies is not dispelled by burn attacks",
+            "Increases Skill Attack Power By 5% When Attacking Frozen Enemies"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "빙결 상태 이상이 적용된 적에게 공격 30 히트 시 빙결 상태 이상의 지속 시간 5초 증가 (쿨타임 15초)"
+            "Upon hitting an enemy with an ice condition for 30 hits, the duration of the freeze condition is increased by 5 seconds (15 seconds cooldown)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "빙결 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking frozen enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -16794,6 +19309,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "빙결",
+      "스킬 공격력 증가",
+      "화상"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16853,7 +19373,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5604,
         "buff": 1920
       },
       "options": [
@@ -16861,27 +19381,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소모품 효과 2개 이상 적용 시 10초 동안 자신을 출혈 상태로 만듦 (쿨타임 10초)",
-            "자신이 출혈 상태일 때 쿨타임 회복 속도 10% 증가 (각성기 제외)"
+            "Makes you bleed for 10 seconds when 2 or more consumable effects are applied (Cooldown 10 seconds)",
+            "Increases cooldown recovery speed by 10% while you are bleeding (excluding awakening)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소모품을 통한 HP 회복 시 30초 동안 피격 데미지 20% 감소 (최대 1중첩)"
+            "When recovering HP through consumables, damage taken is reduced by 20% for 30 seconds (stacks up to 1)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -16890,7 +19410,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -16903,6 +19423,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "소모품",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "출혈"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -16964,7 +19491,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 2642,
+        "damage": 3450,
         "buff": 1862
       },
       "options": [
@@ -16972,25 +19499,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "퀵슬롯에 등록한 스킬들 중 쿨타임 적용중인 스킬 1개마다 퀵슬롯에 등록된 스킬들의 쿨타임 회복 속도 3.5% 증가 (최대 42%까지 적용, 각성기 제외)"
+            "Among the skills registered in the quickslot, for each skill that has cooldown applied, the cooldown recovery speed of the skills registered in the quickslot increases by 3.5% (applies up to 42%, excluding awakening)"
           ],
-          "damage": 135,
+          "damage": 539,
           "buff": 437
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 시 10% 확률로 남은 쿨타임 20초 이내의 랜덤한 스킬 쿨타임 초기화 (쿨타임 20초, 각성기 제외)"
+            "When casting a skill, there is a 10% chance to reset a random skill cooldown within 20 seconds of the remaining cooldown (20 seconds cooldown, excluding awakening)"
           ],
-          "damage": 135,
+          "damage": 539,
           "buff": 437
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -17012,6 +19539,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 쿨타임",
+      "퀵슬롯"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17077,10 +19608,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 10초 동안 유지되는 흑백 구슬 생성 (쿨타임 1초)",
-            "-검은색 구슬 : 15초 동안 공격 속도 8%, 캐스팅 속도 12% 증가 (최대 3중첩)",
-            "- 흰색 구슬 : 15초 동안 최대 HP의 10% 수치의 보호막 효과 적용 (최대 1중첩)",
-            "구슬 획득 시 자신의 HP 및 MP 1% 감소, 15초 동안 이동 속도 20% 증가 (최대 1중첩)"
+            "50% chance to create a black and white marble that lasts for 10 seconds when attacking (1 second cooldown)\n",
+            "- Black Orb: Increases attack speed by 8% and casting speed by 12% for 15 seconds (stacks up to 3)\n",
+            "- White Orb: Apply a shield effect of 10% of max HP for 15 seconds (stacks up to 1)\n",
+            "Reduces own HP and MP by 1% and increases movement speed by 20% for 15 seconds (stacks up to 1) when acquiring a marble"
           ],
           "damage": 943,
           "buff": 466
@@ -17089,7 +19620,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동속도 30%당 스킬 쿨타임 회복 속도 10% 증가 (최대 30% 증가, 각성기 제외)"
+            "10% increase in skill cooldown recovery speed per 30% movement speed (up to 30% increase, excluding awakening)"
           ],
           "damage": 943,
           "buff": 466
@@ -17098,8 +19629,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17108,7 +19639,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17121,6 +19652,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "공격 속도",
+      "스킬 쿨타임",
+      "이동 속도",
+      "이동 속도 조건",
+      "캐스팅 속도"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17144,6 +19683,208 @@
       "헤블론의 예언소"
     ],
     "boss": "어둠의 골고타"
+  },
+  {
+    "itemId": "d4a33a5e046bc02ba6bcf30d5acc4ae9",
+    "itemName": "에너지 서치 링",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "\"7인의 마이스터? 역사에 영원히 이름이 남을 자는... 바로 이 몸이야!\""
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3988,
+        "buff": 1948
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "가장 높은 속성 강화 수치에 따라 아래의 효과 적용",
+            "- 200이상 250미만 : 피해 증가 +1037",
+            "- 250이상 300미만 : 피해 증가 +1927",
+            "- 300이상 : 피해 증가 +2816, 스킬 공격력 7% 증가"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "가장 높은 속성저항 수치가 75이상일 때 피해 증가 +700"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 크리티컬 히트 +5%",
+            "마법 크리티컬 히트 +5%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 저항 8 증가"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
+    "slotName": "반지",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "스킬 공격력 증가",
+      "피해 증가",
+      "크리티컬 히트",
+      "명속성 저항",
+      "모든 속성 저항",
+      "수속성 저항",
+      "암속성 저항",
+      "화속성 저항",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-1 햅스"
+  },
+  {
+    "itemId": "8ad24a6b1376cb8b6782f60992690bd6",
+    "itemName": "공명하는 에너지 반지",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "slotName": "반지",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "백색의 땅"
+    ]
   },
   {
     "itemId": "c8aedd82444ed4c34ed038df8a2673c7",
@@ -17186,8 +19927,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 저항 +50",
-            "화, 수, 암속성 저항 -20"
+            "Light resistance +50",
+            "Fire, Water, and Dark resistance -20"
           ],
           "damage": 1347,
           "buff": 480
@@ -17196,10 +19937,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "1초마다 명속성 강화 +2 (최대 10중첩)",
-            "총 HP 1% 이상 데미지를 받을 시 명속성 강화 중첩수 5 감소",
-            "피격 시 화, 수, 암속성 저항 -1 (최대 10중첩)",
-            "물리 크리티컬 히트, 마법 크리티컬 히트 +5%"
+            "Light attribute enhancement +2 every 1 sec (stacks up to 10)\n",
+            "When taking damage over 1% of total HP, reduce the number of stacks of light attribute enhancement by 5\n",
+            "Water, fire, and darkness resistance -1 when attacked (stacks up to 10)\n",
+            "Physical Critical Hit, Magic Critical Hit +5%"
           ],
           "damage": 1347,
           "buff": 480
@@ -17208,9 +19949,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -17232,6 +19973,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "크리티컬 히트"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17288,7 +20034,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5066,
+        "damage": 5336,
         "buff": 1948
       },
       "options": [
@@ -17296,27 +20042,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 90% 이상일 때 2초마다 20초 동안 피해 증가 +711 (최대 5중첩)",
-            "MP 90% 미만일 때 3초마다 피해 증가 1중첩 해제"
+            "When MP is above 90%, every 2 sec, increases damage +711 for 20 sec (stacks up to 5)",
+            "When MP is less than 90%, damage increases every 3 seconds, 1 stack is removed"
           ],
-          "damage": 1347,
+          "damage": 1482,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 90% 이상일 때 2초마다 20초 동안 물리 크리티컬 히트, 마법 크리티컬 히트 +2% (최대 5중첩)",
-            "HP 90% 미만일 때 3초마다 물리 크리티컬 히트, 마법 크리티컬 히트 증가 1중첩 해제"
+            "When HP is 90% or higher, every 2 seconds, physical critical hit and magic critical hit +2% for 20 seconds (stacks up to 5)",
+            "When HP is below 90%, increases physical critical hit and magic critical hit every 3 seconds, 1 stack is removed"
           ],
-          "damage": 1347,
+          "damage": 1482,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -17325,7 +20071,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -17338,6 +20084,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "MP 조건",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17403,8 +20155,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 저항 +50",
-            "화, 수, 명속성 저항 -20"
+            "Dark resistance +50",
+            "Fire, Water, and Dark resistance -20"
           ],
           "damage": 1347,
           "buff": 480
@@ -17413,10 +20165,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "1초마다 암속성 강화 +2 (최대 10중첩)",
-            "총 HP 1% 이상 데미지를 받을 시 암속성 강화 중첩수 5 감소",
-            "피격 시 화, 수, 명속성 저항 -1 (최대 10중첩)",
-            "물리 크리티컬 히트, 마법 크리티컬 히트 +5%"
+            "Dark attribute enhancement +2 every 1 sec (stacks up to 10)\n",
+            "When taking damage equal to or more than 1% of total HP, the number of stacks of dark attribute enhancement is reduced by 5\n",
+            "-1 resistance to water, fire, and fire properties when attacked (stacks up to 10)\n",
+            "Physical Critical Hit, Magic Critical Hit +5%"
           ],
           "damage": 1347,
           "buff": 480
@@ -17425,9 +20177,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -17449,6 +20201,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "암속성 강화",
+      "암속성 저항",
+      "크리티컬 히트"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17505,7 +20262,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 2910,
+        "damage": 5066,
         "buff": 1928
       },
       "options": [
@@ -17513,29 +20270,29 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "커맨드로 스킬 시전시 입력한 방향키의 개수마다 스킬 공격력 증가 (각성기 제외)",
-            "- 방향키 1개 입력 시 스킬 공격력 7% 증가",
-            "- 방향키 2개 입력 시 스킬 공격력 9% 증가",
-            "- 방향키 3개 입력 시 스킬 공격력 11% 증가",
-            "- 방향키 4개 입력 시 스킬 공격력 15% 증가"
+            "When casting a skill with a command, skill attack power increases for each number of arrow keys entered (except for awakening)",
+            "- Increases skill attack power by 7% when pressing 1 arrow key",
+            "- Increases skill attack power by 9% when 2 arrow keys are input",
+            "- Increases skill attack power by 11% when 3 arrow keys are input",
+            "- Increases skill attack power by 15% when 4 arrow keys are input"
           ],
-          "damage": 269,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "커맨드로 스킬 시전 시 3초 동안 모든 속도 5% 증가 (최대 3중첩)"
+            "Increases all speed by 5% for 3 seconds when casting a skill with a command (stacks up to 3)"
           ],
-          "damage": 269,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17544,7 +20301,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17557,6 +20314,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "캐스팅 속도",
+      "커맨드"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17613,7 +20377,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 5214,
+        "damage": 7100,
         "buff": 1953
       },
       "options": [
@@ -17621,30 +20385,30 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장착 시 영혼검 생성",
-            "스킬 시전 시 영혼검의 영혼 스택 5 충전 (최대 50)",
-            "평타, 점프, 대시 공격 시 영혼 스택 1을 소모하여 영혼검이 적에게 추가 피해를 줌 (쿨타임 0.1초)",
-            "영혼 스택이 최대일 때 평타, 점프, 대시 공격 시 영혼 스택을 모두 소모하여 영혼검이 적에게 추가 피해를 줌"
+            "Creates a soul sword when equipped",
+            "5 Charges Soul Sword's Soul Stack on Casting (Max 50)",
+            "Consumes 1 soul stack to deal additional damage to enemies with Soul Sword (Cooldown 0.1 sec)",
+            "When the soul stack is at its maximum, a normal attack consumes all the soul stack, causing the soul sword to deal additional damage to enemies."
           ],
-          "damage": 1347,
+          "damage": 2290,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 시 10초 동안 공격 속도 5%, 캐스팅 속도 8% 증가 (최대 5중첩)",
-            "던전 입장 시 스킬 쿨타임 5% 감소 (각성기 제외), 스킬 공격력 2% 감소"
+            "Increases attack speed by 5% and casting speed by 8% for 10 seconds when casting a skill (stacks up to 5)",
+            "When entering the dungeon, skill cooldown is reduced by 5% (excluding awakening), skill attack power is reduced by 2%"
           ],
-          "damage": 1347,
+          "damage": 2290,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17653,7 +20417,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 적을 감전 상태로 만듦 (쿨타임 15초)"
+            "50% chance to inflict an electric shock on the enemy when attacking (15 sec cooldown)"
           ],
           "damage": 1334,
           "buff": 499
@@ -17666,6 +20430,16 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "공격 속도",
+      "대시 공격",
+      "스킬 쿨타임",
+      "오브젝트",
+      "점프 공격",
+      "캐스팅 속도",
+      "평타"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17725,7 +20499,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 6414,
         "buff": 1948
       },
       "options": [
@@ -17733,26 +20507,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "던전 입장 시 피해 증가 +3260",
-            "피격 시 받는 데미지 10% 증가"
+            "Damage increase +3260 when entering a dungeon",
+            "Increases damage received by 10%"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 모든 속성 강화 1 감소, 피격 시 받는 데미지 1% 감소 (최대 20중첩, 피격 쿨타임 2초, 해당 옵션의 피격 판정은 총 HP 1% 이상 데미지를 받을 시에만 적용됩니다.)"
+            "When attacked, all attribute enhancements are reduced by 1, damage taken is reduced by 1% (stacks up to 20, cooldown time of 2 seconds, this option's hit determination only applies when taking damage over 1% of total HP)"
           ],
-          "damage": 943,
+          "damage": 2021,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17761,7 +20535,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17774,6 +20548,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "받는 데미지",
+      "피해 증가"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17835,7 +20613,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 도중 점프를 한 번 더 할 수 있음"
+            "Allows one more jump while jumping"
           ],
           "damage": 1078,
           "buff": 470
@@ -17844,7 +20622,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 중 슈퍼아머 적용 (착지 시 슈퍼아머 해제)"
+            "Apply super armor while jumping (remove super armor when landing)"
           ],
           "damage": 1078,
           "buff": 470
@@ -17853,8 +20631,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프력 20 증가",
-            "점프 시 이동 속도 30% 증가"
+            "Jump power increased by 20",
+            "30% increased Movement Speed ​​when Jumping"
           ],
           "damage": 1186,
           "buff": 494
@@ -17863,7 +20641,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -17876,6 +20654,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "점프"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -17938,8 +20721,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 +50",
-            "화, 명, 암속성 저항 -20"
+            "Water resistance +50",
+            "Fire, Light, and Dark property resistance -20"
           ],
           "damage": 1347,
           "buff": 480
@@ -17948,10 +20731,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "1초마다 수속성 강화 +2 (최대 10중첩)",
-            "총 HP 1% 이상 데미지를 받을 시 수속성 강화 중첩수 5 감소",
-            "피격 시 화, 명, 암속성 저항 -1 (최대 10중첩)",
-            "물리 크리티컬 히트, 마법 크리티컬 히트 +5%"
+            "Water attribute enhancement +2 every 1 sec (stacks up to 10)\n",
+            "When taking damage equal to or more than 1% of total HP, the number of stacks of water attribute enhancement is reduced by 5\n",
+            "Fire, Light, and Dark property resistance -1 when hit (up to 10 stacks)\n",
+            "Physical Critical Hit, Magic Critical Hit +5%"
           ],
           "damage": 1347,
           "buff": 480
@@ -17960,9 +20743,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -17984,6 +20767,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "수속성 강화",
+      "수속성 저항",
+      "크리티컬 히트"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18046,8 +20834,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 +50",
-            "수, 명, 암속성 저항 -20"
+            "Fire resistance +50",
+            "Water, Light, and Dark attribute resistance -20"
           ],
           "damage": 1347,
           "buff": 480
@@ -18056,10 +20844,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "1초마다 화속성 강화 +2 (최대 10중첩)",
-            "총 HP 1% 이상 데미지를 받을 시 화속성 강화 중첩수 5 감소",
-            "피격 시 수, 명, 암속성 저항 -1 (최대 10중첩)",
-            "물리 크리티컬 히트, 마법 크리티컬 히트 +5%"
+            "Fire property enhancement +2 every 1 second (stacks up to 10)\n",
+            "When taking damage by 1% or more of total HP, the number of stacks of fire attribute enhancement is reduced by 5\n",
+            "Water, Light, and Dark property resistance -1 when attacked (stacks up to 10)\n",
+            "Physical Critical Hit, Magic Critical Hit +5%"
           ],
           "damage": 1347,
           "buff": 480
@@ -18068,9 +20856,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -18092,6 +20880,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "크리티컬 히트",
+      "화속성 강화",
+      "화속성 저항"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18154,9 +20947,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 상태에서 점프 키(C) 추가 조작으로 0.5초 동안 입력 유지 시 5초 동안 비행 상태를 적용하며 아래의 효과 적용 (쿨타임 30초)",
-            "- 비행 중 방향키 두번 입력으로 공중 대쉬 가능 (최대 2회)",
-            "- 비행 중 슈퍼 아머 적용"
+            "In jumping state, if you press the jump key (C) additionally and hold the input for 0.5 seconds, the flight status is applied for 5 seconds and the following effects are applied (cooldown 30 seconds)",
+            "- You can dash in the air by pressing the arrow keys twice while flying (up to 2 times)",
+            "- Apply super armor while flying"
           ],
           "damage": 1078,
           "buff": 470
@@ -18165,7 +20958,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프 상태일 때 피격 데미지 15% 감소"
+            "Reduces damage taken by 15% while jumping"
           ],
           "damage": 1078,
           "buff": 470
@@ -18174,8 +20967,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "점프력 20 증가",
-            "점프 시 이동 속도 30% 증가"
+            "Jump power increased by 20",
+            "30% increased Movement Speed ​​when Jumping"
           ],
           "damage": 1186,
           "buff": 494
@@ -18184,7 +20977,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18197,6 +20990,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "대쉬",
+      "받는 데미지",
+      "비행",
+      "슈퍼 아머",
+      "스킬 쿨타임",
+      "점프"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18251,7 +21052,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4325,
+        "damage": 4595,
         "buff": 1958
       },
       "options": [
@@ -18259,27 +21060,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "캐릭터가 지나간 자리에 3초 동안 유지되는 화염 지대 생성 (쿨타임 0.5초, 점프 상태, 스킬 사용으로 인한 이동에는 생성되지 않음)",
-            "화염 지대에 닿은 적을 화상 상태로 만듦 (쿨타임 10초)"
+            "Creates a fire zone that lasts for 3 seconds in the place where the character has passed (0.5 seconds cooldown, not created when jumping or moving due to skill use)",
+            "Burns enemies that touch the fire zone (10 sec cooldown)"
           ],
-          "damage": 1347,
+          "damage": 1482,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 화염 폭발 발생 (쿨타임 0.5초)",
-            "화상 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Fire explosion when attacking an enemy with burn status (Cooldown 0.5 sec)",
+            "Increases Skill Attack Power By 2% When Attacking An Enemy With Burn Status"
           ],
-          "damage": 1347,
+          "damage": 1482,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화상 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking burned enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -18301,6 +21102,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "오브젝트",
+      "화상"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18363,8 +21169,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 50% 미만일 때 물리 방어력, 마법 방어력 7000 증가, 피해 증가 +2223, 스킬 공격력 5% 증가",
-            "피격 데미지 10% 증가"
+            "When HP is below 50%, physical defense and magic defense increase by 7000, damage increase +2,223. Increases skill attack power by 5%",
+            "Increases damage taken by 10%"
           ],
           "damage": 1078,
           "buff": 485
@@ -18373,8 +21179,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 50% 미만일 때 물리 크리티컬 히트, 마법 크리티컬 히트 20% 증가",
-            "HP 10% 이상일 때 공격 시 HP 5% 감소 (해당 옵션으로 HP가 5% 미만으로 감소하지 않음, 쿨타임 10초)"
+            "When HP is below 50%, physical critical hit and magic critical hit increase by 20%",
+            "Reduces HP by 5% when attacking when HP is above 10% (HP does not decrease below 5% with this option, cooldown 10 seconds)"
           ],
           "damage": 1078,
           "buff": 485
@@ -18383,8 +21189,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18393,7 +21199,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Accuracy +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18406,6 +21212,14 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "HP 조건",
+      "방어력",
+      "스킬 공격력 증가",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18472,7 +21286,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "캐릭터가 수면 상태일 때 10초 동안 HP 60% 회복"
+            "Recovers 60% HP for 10 seconds while the character is sleeping"
           ],
           "damage": 1078,
           "buff": 470
@@ -18481,7 +21295,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수면 상태일 때 스킬 쿨타임 회복 속도 50% 증가 (각성기 제외)"
+            "Increases skill cooldown recovery speed by 50% while sleeping (excluding awakening)"
           ],
           "damage": 1078,
           "buff": 470
@@ -18490,7 +21304,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18512,6 +21326,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "수면",
+      "스킬 쿨타임"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18576,7 +21395,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -18585,7 +21405,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -18594,7 +21414,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -18603,7 +21423,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -18616,6 +21436,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18677,9 +21500,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "버프 스킬을 제외한 모든 직업 60레벨 액티브 스킬 Lv +10",
-            "60레벨 스킬 시전 시 해당 스킬 Lv -1 (최대 10Lv까지 감소, 해당 효과는 던전 클리어 시까지 적용)",
-            "남아있는 HP가 70% 이하인 상태로 120초 유지 시 감소된 스킬 레벨 복구 (쿨타임 120초)"
+            "Level 60 active skill Lv +10 for all classes except buff skills\n",
+            "When casting a level 60 skill, the skill Lv -1 (reduced to a maximum of 10 Lv, the effect is applied until the dungeon is cleared)\n",
+            "Recovers reduced skill level when remaining HP is below 70% for 120 seconds (Cooldown 120 seconds)"
           ],
           "damage": 1212,
           "buff": 475
@@ -18688,7 +21511,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "60레벨 스킬 시전 시 30초 동안 모든 속성 강화 20 증가 (최대 1중첩)"
+            "When casting a level 60 skill, all attribute enhancements increase by 20 for 30 seconds (stacks up to 1)"
           ],
           "damage": 1212,
           "buff": 475
@@ -18697,7 +21520,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18706,8 +21529,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18720,6 +21543,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "스킬 레벨",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18780,7 +21612,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3368,
+        "damage": 4714,
         "buff": 1930
       },
       "options": [
@@ -18788,27 +21620,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "캐릭터가 지나간 자리에 3초 동안 유지되는 냉기 안개 생성 (쿨타임 0.5초, 점프 상태, 스킬 사용으로 인한 이동에는 생성되지 않음)",
-            "냉기 안개에 2초 동안 머무른 적을 빙결 상태로 만듦 (쿨타임 25초)"
+            "Creates a cold zone that lasts for 3 seconds in the place where the character has passed (0.5 seconds cooldown, not created when jumping or moving due to skill use)",
+            "Freezes enemies in contact with the Frost Zone (Cooldown 10 seconds)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "빙결 상태 적 공격 시 냉기 폭발 발생 (쿨타임 0.5초)",
-            "빙결 상태 적 공격 시 스킬 공격력 5% 증가"
+            "A cold explosion occurs when attacking a frozen enemy (Cooldown 0.5 sec)",
+            "Increases Skill Attack Power By 5% When Attacking Frozen Enemies"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "빙결 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking frozen enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -18830,6 +21662,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "빙결",
+      "스킬 공격력 증가",
+      "오브젝트"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18892,7 +21729,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "맵에 무력화형 상태 이상이 적용중인 적이 있을 때 스킬 쿨타임 회복 속도 50% 증가 (각성기 제외)"
+            "Increases skill cooldown recovery speed by 50% when there is an enemy with an incapacitating condition on the map (excluding awakening)"
           ],
           "damage": 269,
           "buff": 442
@@ -18901,7 +21738,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무력화형 상태 이상이 적용중인 적 공격 시 스킬 공격력 10% 증가"
+            "Increases skill attack power by 10% when attacking an enemy with an incapacitating status ailment"
           ],
           "damage": 269,
           "buff": 442
@@ -18910,7 +21747,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18919,8 +21756,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -18933,6 +21770,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "무력화",
+      "스킬 공격력 증가",
+      "스킬 쿨타임"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -18990,7 +21832,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5604,
         "buff": 1928
       },
       "options": [
@@ -18998,21 +21840,21 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 및 캐스팅 시 자신의 주변 300px 랜덤한 위치에 보급상자를 투하하는 드론을 호출 (보급상자는 옵션 발동자만 획득 가능, 쿨타임 20초)",
-            "보급상자 습득 시 20초 동안 피해 증가 +3409"
+            "When attacking or casting, calls a drone that drops a supply box at a random 300px location near you",
+            "+3409 damage increase for 20 seconds when acquiring a supply crate"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 자신의 주변 300px 랜덤한 위치에 구급상자를 투하하는 드론을 호출",
-            "(구급상자는 옵션 발동자만 획득 가능, 쿨타임 30초)",
-            "구급상자 습득 시 HP 30%, MP 30% 회복"
+            "Calls a drone that drops a first aid kit at a random 300px location around you when you get hit",
+            "(First-aid kit can only be acquired by option triggers, cooldown 30 seconds)",
+            "Recover 30% HP and 30% MP when acquiring a first aid kit"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 470
         },
         {
@@ -19041,6 +21883,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "오브젝트",
+      "피해 증가"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19095,7 +21943,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 6144,
         "buff": 1910
       },
       "options": [
@@ -19103,27 +21951,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 무색 큐브 조각을 소모하지 않는 스킬의 남아있는 쿨타임 1% 감소 (쿨타임 0.1초)",
-            "무색 큐브 조각을 소모하는 스킬 시전 시 30초 동안 무색 큐브 조각을 소모하지 않는 스킬 쿨타임 2% 증가 (최대 10중첩)"
+            "Reduces the remaining cooldown of skills that do not consume colorless cube fragments by 1% during normal attacks (Cooldown by 0.1 seconds)\n",
+            "When casting a skill that consumes colorless cube fragments, increases cooldown of skills that do not consume colorless cube fragments by 2% for 30 seconds (stacks up to 10)"
           ],
-          "damage": 1212,
+          "damage": 1886,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 15% 확률로 적에게 화상, 감전, 출혈, 중독 상태 이상 중 1개의 상태 이상 적용 (쿨타임 10초)"
+            "15% chance to apply one of Burn, Electric Shock, Bleeding, and Poison status to the enemy during normal attack (Cooldown 10 seconds)"
           ],
-          "damage": 1212,
+          "damage": 1886,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19132,7 +21980,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19145,6 +21993,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "대시 공격",
+      "무색 큐브 조각 미소모 스킬",
+      "스킬 쿨타임",
+      "점프 공격",
+      "중독",
+      "출혈",
+      "평타",
+      "화상"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19172,6 +22031,208 @@
       "헤블론의 예언소"
     ],
     "boss": "심연을 걷는 자"
+  },
+  {
+    "itemId": "bc4199484eedfd4282a2e31733fd8aef",
+    "itemName": "옵티컬 컴뱃 글래스",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "\"누가 내 멋쟁이 안경을 훔쳐간 거지?\""
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 149
+      },
+      {
+        "name": "체력",
+        "value": 149
+      },
+      {
+        "name": "지능",
+        "value": 149
+      },
+      {
+        "name": "정신력",
+        "value": 149
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1875
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4528,
+        "buff": 1938
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착한 무기, 방어구, 악세서리, 특수장비의 등급 수치 총 합에 따라 아래의 효과 적용 (칭호, 보조무기 제외)",
+            "- 800% 이상일 때 : 이동 속도 +5%",
+            "- 900% 이상일 때 : 공격 속도 +5%, 캐스팅 속도 +7.5%",
+            "- 1000% 이상일 때 : 물리, 마법 크리티컬 +5%",
+            "- 1080% 이상일 때 : 스킬 공격력 5% 증가"
+          ],
+          "damage": 1078,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착한 이 장비의 등급 수치에 따라 아래의 효과 적용",
+            "- 85% 미만 : 피해 증가 +445",
+            "- 85% 이상 90% 미만 : 피해 증가 +1186",
+            "- 90% 이상 : 피해 증가 +3557"
+          ],
+          "damage": 1078,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "HP MAX +600"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "적중률 +10%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "공격 속도",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
+    "slotName": "보조장비",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "공격 속도",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가",
+      "HP MAX",
+      "적중률",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-2 이덴디테이트"
+  },
+  {
+    "itemId": "1f27743ddfa45afb77d82806cb5bf4ab",
+    "itemName": "공명하는 에너지 보조장비",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 149
+      },
+      {
+        "name": "체력",
+        "value": 149
+      },
+      {
+        "name": "지능",
+        "value": 149
+      },
+      {
+        "name": "정신력",
+        "value": 149
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "slotName": "보조장비",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "나사우 삼림",
+      "캐니언 힐"
+    ]
   },
   {
     "itemId": "37522f61ef37c5b5251900c3345af96a",
@@ -19206,7 +22267,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5604,
         "buff": 1910
       },
       "options": [
@@ -19214,26 +22275,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 받는 공격을 암속성으로 적용",
-            "피격 시 10초 동안 암속성 저항 5 증가 (최대 5중첩)"
+            "When attacked, the attack received is applied as a dark attribute",
+            "Increases dark resistance by 5 for 10 seconds when attacked (stacks up to 5)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 피격 시 5초 동안 HP 5% 회복 (쿨타임 3초)"
+            "Recovers 5% HP for 5 seconds when attacked with dark properties (3 seconds cooldown)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 저항 10 증가"
+            "Increases dark resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -19255,6 +22316,11 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 피해 속성 전환",
+      "암속성 저항"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19311,7 +22377,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 5604,
         "buff": 1948
       },
       "options": [
@@ -19319,23 +22385,23 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 배터리 1스택 증가 (쿨타임 10초)",
-            "배터리 1스택 당 피해 증가 +667 (최대 4중첩)",
-            "배터리가 5스택이 되고 3초 후 강력한 폭발이 발생하여 HP가 30% 감소하며 스택이 초기화됨",
-            "배터리 폭발 시 30초 동안 물리 방어력, 마법 방어력 20000 감소, 공격 속도, 캐스팅 속도, 이동 속도 40% 증가",
-            "백스텝 시전 시 배터리 1스택 감소"
+            "던전 입장 시 배터리 버프가 발동하여 아래의 효과 적용",
+            "- 공격 시 배터리 1스택 증가 (쿨타임 10초)",
+            "- 배터리 1스택 당 피해 증가 +963 (최대 4중첩)",
+            "- 백스텝 시전 시 배터리 1스택 감소",
+            "- 배터리 스택이 5일 때 3초 후 배터리 폭발이 발생하여 적에게 피해를 주고, 자신의 HP가 30% 감소하며 배터리 스택 초기화 (적의 방어력과 상관없이 총 피해 증가 수치의 500%만큼 피해를 줌)",
+            "배터리 폭발 발생 시 30초 동안 물리, 마법 방어력 -20000, 모든 속도 +40%"
           ],
-          "damage": 1212,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 10%당 물리 크리티컬 히트, 마법 크리티컬 히트 1% 증가 (최대 10% 증가)",
-            "이동 속도 -30%"
+            "이동 속도 10%당 물리, 마법 크리티컬 히트 +1% (최대 10% 증가)"
           ],
-          "damage": 1212,
+          "damage": 1616,
           "buff": 480
         },
         {
@@ -19364,6 +22430,16 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 소모",
+      "공격 속도",
+      "백스텝",
+      "이동 속도",
+      "이동 속도 조건",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19429,8 +22505,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 10초 동안 15~35레벨 액티브 스킬 공격력 3% 증가 (최대 10중첩)",
-            "45레벨 이상 스킬 시전 시 스킬 공격력 증가 중첩수 1 감소"
+            "Increases attack power of skills level 15~35 by 3% for 10 seconds with normal attack, jump, or dash (stacks up to 10)",
+            "When casting a level 45 or higher skill, increase skill attack power and decrease the number of stacks by 1"
           ],
           "damage": 1078,
           "buff": 470
@@ -19439,8 +22515,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "평타, 점프, 대시 공격 시 10초 동안 15~35레벨 액티브 스킬 쿨타임 회복 속도 1% 증가 (최대 10중첩)",
-            "45레벨 이상 스킬 시전 시 스킬 쿨타임 회복 속도 증가 중첩수 1 감소"
+            "Increases cooldown recovery speed of skills level 15~35 by 1% for 10 seconds with normal attacks, jump, or dash  (stacks up to 10)",
+            "When casting a skill level 45 or higher, increases the skill cooldown recovery speed and reduces the number of stacks by 1"
           ],
           "damage": 1078,
           "buff": 470
@@ -19449,7 +22525,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 20% 확률로 5초 동안 슈퍼아머 적용 (쿨타임 8초)"
+            "20% chance to apply Super Armor for 5 seconds when attacking (8 seconds cooldown)"
           ],
           "damage": 1334,
           "buff": 499
@@ -19458,8 +22534,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19472,6 +22548,14 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "대시 공격",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "점프 공격",
+      "평타"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19539,7 +22623,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "150px 내 적이 있을 때 10초 동안 모든 속도 10% 증가 (최대 1중첩)"
+            "Increases all speed by 10% for 10 seconds when there are enemies within 150px (stacks up to 1)"
           ],
           "damage": 1347,
           "buff": 480
@@ -19548,7 +22632,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "150px 내 적이 있을 때 1초마다 스킬 공격력 2% 증가 (최대 5중첩, 150px 내 적이 없을 경우 1초마다 중첩수 1 감소)"
+            "When there is an enemy within 150px, skill attack power increases by 2% every second (stacks up to 5, when there is no enemy within 150px, the number of stacks decreases by 1 every second)"
           ],
           "damage": 1347,
           "buff": 480
@@ -19557,7 +22641,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19566,8 +22650,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19580,6 +22664,13 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "근접",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "캐스팅 속도"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19643,9 +22734,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "버프 스킬을 제외한 모든 직업 70레벨 액티브 스킬 Lv +10 (제외되는 버프 스킬 : 영원한 소유, 대천사의 축복)",
-            "70레벨 스킬 시전 시 해당 스킬 Lv -1 (최대 10Lv까지 감소, 해당 효과는 던전 클리어 시까지 적용)",
-            "남아있는 HP가 70% 이하인 상태로 120초 유지 시 감소된 스킬 레벨 복구 (쿨타임 120초)"
+            "All classes except for buff skills, level 70 active skill Lv +10 (excluded buff skills: Eternal possession, Archangel's Blessing)\n",
+            "When casting a level 70 skill, the skill Lv -1 (reduced to a maximum of 10 Lv, the effect is applied until the dungeon is cleared)\n",
+            "Recovers reduced skill level when remaining HP is below 70% for 120 seconds (Cooldown 120 seconds)"
           ],
           "damage": 1212,
           "buff": 475
@@ -19654,7 +22745,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "70레벨 스킬 시전 시 30초 동안 모든 속성 강화 20 증가 (최대 1중첩)"
+            "When casting a level 70 skill, all attribute enhancements increase by 20 for 30 seconds (stacks up to 1)"
           ],
           "damage": 1212,
           "buff": 475
@@ -19663,7 +22754,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19672,8 +22763,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19686,6 +22777,15 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "스킬 레벨",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19746,7 +22846,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3180,
+        "damage": 5066,
         "buff": 1948
       },
       "options": [
@@ -19754,20 +22854,20 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 도중 피격 시 스킬이 캔슬되지 않고 계속 진행 (쿨타임 10초)",
-            "스킬 시전 도중 피격 시 받는 데미지 15% 증가"
+            "If you get hit while casting a skill, the skill will continue without canceling (Cooldown 10 seconds)",
+            "Increases damage received by 15% when taking a hit while casting a skill"
           ],
-          "damage": 404,
+          "damage": 1347,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "카운터 공격력 15% 증가",
-            "3초마다 MP 1% 감소"
+            "Increases counter attack power by 15%",
+            "MP decreases by 1% every 3 seconds"
           ],
-          "damage": 404,
+          "damage": 1347,
           "buff": 480
         },
         {
@@ -19783,8 +22883,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -19797,6 +22897,10 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "MP 소모",
+      "카운터"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19860,8 +22964,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 20% 이상 데미지를 받을 시 자신을 기절 상태로 만듦 (쿨타임 30초)",
-            "자신이 기절 상태일 때 쿨타임 회복 속도 20% 증가 (각성기 제외)"
+            "Stun yourself when receiving damage over 20% of your total HP (30 seconds cooldown)",
+            "When you are stunned, and cooldown recovery speed is increased by 20% (excluding awakening)"
           ],
           "damage": 1212,
           "buff": 475
@@ -19870,7 +22974,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "기절 상태 해제 시 30초 동안 피해 증가 +3853 (최대 1중첩)"
+            "+3853 damage for 30 sec when the stun is removed (stacks up to 1)"
           ],
           "damage": 1212,
           "buff": 475
@@ -19879,9 +22983,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -19890,7 +22994,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -19903,6 +23007,12 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "기절",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -19959,7 +23069,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5604,
         "buff": 1910
       },
       "options": [
@@ -19967,26 +23077,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 받는 공격을 명속성으로 적용",
-            "피격 시 10초 동안 명속성 저항 5 증가 (최대 5중첩)"
+            "When attacked, the received attack is applied as light attribute",
+            "Increases light resistance by 5 for 10 seconds when attacked (stacks up to 5)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 피격 시 5초 동안 HP 5% 회복 (쿨타임 3초)"
+            "Recovers 5% HP for 5 seconds when attacked with light properties (3 seconds cooldown)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 저항 10 증가"
+            "Increases light resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -20008,6 +23118,11 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "명속성 저항",
+      "받는 피해 속성 전환"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20019,7 +23134,8 @@
       "HP MAX",
       "HP 회복",
       "명속성 저항",
-      "받는 피해 속성 전환",
+      "받는 피해",
+      "속성 전환",
       "구매 가능"
     ],
     "drops": [
@@ -20062,7 +23178,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5604,
         "buff": 1910
       },
       "options": [
@@ -20070,26 +23186,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 받는 공격을 수속성으로 적용",
-            "피격 시 10초 동안 수속성 저항 5 증가 (최대 5중첩)"
+            "When attacked, the received attack is applied as water attribute.",
+            "Increases water resistance by 5 for 10 seconds when attacked (stacks up to 5)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 피격 시 5초 동안 HP 5% 회복 (쿨타임 3초)"
+            "Recovers 5% HP for 5 seconds when attacked with water property (3 seconds cooldown)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 10 증가"
+            "Increases water resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -20111,6 +23227,11 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 피해 속성 전환",
+      "수속성 저항"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20165,7 +23286,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3354,
+        "damage": 3894,
         "buff": 1887
       },
       "options": [
@@ -20173,27 +23294,27 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신에게 적용된 상태 이상 개수가 1개 이상일 때 45레벨 이하 스킬 쿨타임 회복 속도 50% 증가"
+            "Increases cooldown recovery speed of skills below level 45 by 50% when the number of status ailments applied to you is 1 or more"
           ],
-          "damage": 269,
+          "damage": 539,
           "buff": 442
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신에게 적용된 상태 이상 개수가 3개 이상일 때 60레벨 이상 스킬 쿨타임 회복 속도 50% 증가 (각성기 제외)"
+            "When the number of status ailments applied to you is 3 or more, skill cooldown recovery speed of level 60 or higher is increased by 50% (excluding awakening period)"
           ],
-          "damage": 269,
+          "damage": 539,
           "buff": 442
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +7%",
-            "마법 크리티컬 히트 +7%",
-            "모든 상태 이상 내성 10% 감소"
+            "Physical Critical Hit +7%",
+            "Magic Critical Hit +7%",
+            "10% reduction in resistance to all status ailments"
           ],
           "damage": 1630,
           "buff": 509
@@ -20202,8 +23323,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -20216,6 +23337,9 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "스킬 쿨타임"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20280,7 +23404,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 시 20초 동안 피해 증가 +504, 스킬 MP 소모량 20% 증가 (최대 5중첩)"
+            "Increases damage +504 for 20 seconds when casting a skill, increases skill MP consumption by 20% (stacks up to 5)"
           ],
           "damage": 1347,
           "buff": 480
@@ -20289,7 +23413,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "남아있는 MP가 20% 이하일 때 피해 증가 +2223"
+            "+2333 damage increase when remaining MP is less than 20%"
           ],
           "damage": 1347,
           "buff": 480
@@ -20298,7 +23422,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -20307,7 +23431,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -20320,6 +23444,11 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "MP 조건",
+      "스킬 MP 소모량 증가",
+      "피해 증가"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20375,7 +23504,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 5604,
         "buff": 1910
       },
       "options": [
@@ -20383,26 +23512,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 받는 공격을 화속성으로 적용",
-            "피격 시 10초 동안 화속성 저항 5 증가 (최대 5중첩)"
+            "When attacked, the received attack is applied as fire attribute.",
+            "Increases fire resistance by 5 for 10 seconds when attacked (stacks up to 5)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 피격 시 5초 동안 HP 5% 회복 (쿨타임 3초)"
+            "Recovers 5% HP for 5 seconds when receiving fire property damage (3 seconds cooldown)"
           ],
-          "damage": 808,
+          "damage": 1616,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 10 증가"
+            "Increases fire resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -20424,6 +23553,11 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 피해 속성 전환",
+      "화속성 저항"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20480,7 +23614,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4796,
+        "damage": 6144,
         "buff": 1938
       },
       "options": [
@@ -20488,18 +23622,18 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 MP 10%를 소모하여 30초 동안 공격, 이동 속도 15%, 캐스팅 속도 20% 증가 (쿨타임 30초)"
+            "Consumes 10% MP when attacking to increase attack, movement speed by 15%, and casting speed by 20% for 30 seconds (30 seconds cooldown)"
           ],
-          "damage": 1212,
+          "damage": 1886,
           "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "피격 시 MP 10%를 소모하여 30초 동안 공격, 이동 속도 15%, 캐스팅 속도 20% 증가 (쿨타임 30초)"
+            "Consumes 10% MP when attacked to increase attack, movement speed by 15%, and casting speed by 20% for 30 seconds (30 seconds cooldown)"
           ],
-          "damage": 1212,
+          "damage": 1886,
           "buff": 475
         },
         {
@@ -20515,7 +23649,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -20528,6 +23662,12 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "MP 소모",
+      "공격 속도",
+      "이동 속도",
+      "캐스팅 속도"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20591,7 +23731,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -20600,7 +23741,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 404,
           "buff": 312
@@ -20609,7 +23750,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -20618,7 +23759,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -20631,6 +23772,9 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20692,8 +23836,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 받는 수면 지속시간 50% 감소",
-            "수면 내성 -20%"
+            "Reduce sleep duration you receive by 50%",
+            "Sleep tolerance -20%"
           ],
           "damage": 1212,
           "buff": 475
@@ -20702,8 +23846,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 25% 이상 데미지를 받을 시 자신을 수면 상태로 만듦 (쿨타임 30초)",
-            "자신이 수면 상태일 때 스킬, 소모품으로 인한 HP 회복 효과 50% 증가"
+            "Puts you to sleep when receiving damage over 25% of your total HP (30 seconds cooldown)",
+            "Increases HP recovery effect from skills and consumables by 50% while sleeping"
           ],
           "damage": 1212,
           "buff": 475
@@ -20712,7 +23856,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -20721,8 +23865,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -20735,6 +23879,12 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 데미지",
+      "수면",
+      "피해 증가"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20798,9 +23948,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "부화한 크리쳐 보유 수만큼 옵션 발동",
-            "- 3~9개 : 피해 증가 +1482",
-            "- 10개 이상 : 피해 증가 +2075"
+            "Option activated as many as the number of hatched creatures possessed",
+            "- 3~9 pieces: Damage increase +1482",
+            "- 10 or more: Damage increase +2705"
           ],
           "damage": 1078,
           "buff": 475
@@ -20809,7 +23959,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "부화한 크리쳐 보유 수가 20개 이상일 때 스펙트럼 적용, 모든 속도 15% 증가, 스킬 쿨타임 8% 감소 (각성기 제외, 스펙트럼 이펙트는 1개만 적용)"
+            "When the number of hatched creatures is 20 or more, spectrum is applied, all speeds are increased by 15%, skill cooldown is reduced by 8% (except for awakening, only one spectrum effect is applied)"
           ],
           "damage": 1078,
           "buff": 475
@@ -20827,7 +23977,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -20840,6 +23990,14 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "스킬 쿨타임",
+      "이동 속도",
+      "캐스팅 속도",
+      "크리쳐",
+      "피해 증가"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -20899,7 +24057,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5604,
         "buff": 1920
       },
       "options": [
@@ -20907,19 +24065,19 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 출혈 상태일 때 10회 공격 시 10초 동안 HP 15% 회복 (쿨타임 10초)"
+            "Recover 15% HP for 10 seconds after attacking 10 times while bleeding (Cooldown 10 seconds)"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 출혈 상태일 때 공격 속도, 이동 속도 20% 증가, 캐스팅 속도 30% 증가",
-            "출혈 내성 -20%"
+            "Increases attack speed, movement speed by 20%, and casting speed by 30% while you are bleeding",
+            "Bleeding Resistance -20%"
           ],
-          "damage": 943,
+          "damage": 1616,
           "buff": 466
         },
         {
@@ -20935,8 +24093,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -20949,6 +24107,14 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "공격 속도",
+      "이동 속도",
+      "출혈",
+      "캐스팅 속도",
+      "피해 증가"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21006,7 +24172,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 4528,
         "buff": 1900
       },
       "options": [
@@ -21014,29 +24180,29 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 유령 생성 (쿨타임 0.5초)",
-            "- 유령은 주변 200px 내 가장 가까운 적을 추적하여 폭발",
-            "- 추적할 적이 없을 때 제자리에서 3초 후 폭발",
-            "유령 생성 시 30% 확률로 유령 2개 생성"
+            "Creates a ghost when attacking (Cooldown 0.5 sec)",
+            "- The ghost chases the nearest enemy within 200px and explodes",
+            "- Explodes after 3 seconds in place when no one is tracking",
+            "30% chance to create 2 ghosts when spawning a ghost"
           ],
-          "damage": 674,
+          "damage": 1078,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 20초 동안 모든 상태 이상 내성 3% 증가 (최대 5중첩, 피격 시 중첩수 2 감소)"
+            "Increases resistance to all status ailments by 3% for 20 seconds when attacking (stacks up to 5, reduces the number of stacks by 2 when attacked)"
           ],
-          "damage": 674,
+          "damage": 1078,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21045,8 +24211,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21059,6 +24225,11 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "상태 이상 내성",
+      "스킬 공격력 증가",
+      "오브젝트"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21115,7 +24286,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
+        "damage": 5066,
         "buff": 1928
       },
       "options": [
@@ -21123,29 +24294,29 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 무색 큐브 조각 소모량만큼 에너지 획득 (최대 100)",
-            "획득한 에너지가 100이 될 때 모든 에너지를 소모하여 사용한 스킬의 남은 쿨타임 5% 감소 (각성기 제외)",
-            "평타, 점프, 대시 공격 및 무색 큐브 조각을 소모하지 않는 스킬 시전 시 에너지 1 소모"
+            "When casting a skill that consumes colorless cube pieces, energy is obtained equal to the amount of colorless cube pieces consumed (up to 100)",
+            "When the acquired energy reaches 100, all energy is consumed to reduce the remaining cooldown of the used skill by 5% (excluding awakening)",
+            "Consumes 1 energy when casting a skill that does not consume a normal hit or a colorless cube fragment."
           ],
-          "damage": 1078,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하지 않는 스킬 시전 시 10초 동안 공격 속도 10%, 캐스팅 속도 15% 증가 (쿨타임 5초, 최대 1중첩)",
-            "무색 큐브 조각을 소모하지 않는 스킬 쿨타임 20% 증가"
+            "When casting a skill that does not consume colorless cube fragments, increases attack speed by 10% and casting speed by 15% for 10 seconds (cooldown 5 seconds, stacks up to 1)",
+            "Increases the cooldown of skills that do not consume colorless cube fragments by 20%"
           ],
-          "damage": 1078,
+          "damage": 1347,
           "buff": 470
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -21154,7 +24325,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21167,6 +24338,12 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "무색 큐브 조각 소모 스킬",
+      "스킬 쿨타임",
+      "캐스팅 속도"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21190,6 +24367,204 @@
       "헤블론의 예언소"
     ],
     "boss": "어둠의 골고타"
+  },
+  {
+    "itemId": "2849ef416e30404723f0f5689b9aaa2b",
+    "itemName": "완성형 동력 제어장치",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "\"전력 문제는 이걸로 끝이군! 역시 이 몸이야!\""
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1875
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3988,
+        "buff": 1938
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 시 30초 동안 공격한 속성의 속성 저항 10마다 공격한 속성의 속성 강화 +10 (쿨타임 1초, 속성 별 최대 4중첩)"
+          ],
+          "damage": 808,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 시 30초 동안 공격한 속성의 속성 저항 +10 (속성 별 최대 1중첩)"
+          ],
+          "damage": 808,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "이동 속도 +8%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "적중률 +10%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +2"
+      ]
+    },
+    "hashtag": [
+      "명속성 강화",
+      "명속성 저항",
+      "수속성 강화",
+      "수속성 저항",
+      "암속성 강화",
+      "암속성 저항",
+      "화속성 강화",
+      "화속성 저항"
+    ],
+    "slotName": "마법석",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "명속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "화속성 강화",
+      "명속성 저항",
+      "수속성 저항",
+      "암속성 저항",
+      "화속성 저항",
+      "이동 속도",
+      "적중률",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-1 햅스"
+  },
+  {
+    "itemId": "950cbb104a2b9ba74143e787d92731cd",
+    "itemName": "공명하는 에너지 마법석",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "slotName": "마법석",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "왕의 요람"
+    ]
   },
   {
     "itemId": "dd57a830c1b71e58aa9a33feae415f8f",
@@ -21224,7 +24599,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 3988,
         "buff": 1958
       },
       "options": [
@@ -21232,26 +24607,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 강화 8당 화속성 강화, 명속성 강화, 암속성 강화 1 증가 (최대 50 증가)",
-            "수속성 강화 10당 화속성 저항, 명속성 저항, 암속성 저항 1 감소 (최대 30 감소)"
+            "Increases fire, light, and dark attributes by 1 for every 8 water attribute enhancements (up to 50 increases)",
+            "Reduces fire resistance, light resistance, and dark resistance by 1 per 10 water attribute enhancement (up to 30 reduction)"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 강화가 150 이상일 때 물리 크리티컬 히트, 마법 크리티컬 히트 15% 증가"
+            "Increases physical critical hit and magic critical hit by 15% when Water attribute enhancement is 150 or higher"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 강화 15 증가"
+            "Increases Water Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -21260,7 +24635,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "수속성 저항 10 증가"
+            "Increases water resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -21273,6 +24648,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "크리티컬 히트",
+      "화속성 강화"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21334,7 +24716,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4258,
+        "damage": 5066,
         "buff": 1920
       },
       "options": [
@@ -21342,26 +24724,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "소모품으로 인한 MP 회복 효과 50% 증가"
+            "50% increase in MP recovery effect from consumables"
           ],
-          "damage": 943,
+          "damage": 1347,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 20% 감소",
+            "Skill MP consumption reduced by 20%",
             "MP MAX +4196"
           ],
-          "damage": 943,
+          "damage": 1347,
           "buff": 466
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21370,7 +24752,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21383,6 +24765,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP MAX",
+      "MP 회복",
+      "소모품",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21441,7 +24830,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 3988,
         "buff": 1958
       },
       "options": [
@@ -21449,26 +24838,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 강화 8당 화속성 강화, 수속성 강화, 암속성 강화 1 증가 (최대 50 증가)",
-            "명속성 강화 10당 화속성 저항, 수속성 저항, 암속성 저항 1 감소 (최대 30 감소)"
+            "Increases fire, water, and dark properties by 1 for every 8 enhancements in light properties (up to 50 increases)",
+            "Reduces fire property enhancement, water property resistance, and dark property resistance by 1 per 10 light property enhancement (up to 30 reduction)"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 강화가 150 이상일 때 물리 크리티컬 히트, 마법 크리티컬 히트 15% 증가"
+            "Increases physical critical hit and magic critical hit by 15% when Light attribute enhancement is 150 or more"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 강화 15 증가"
+            "Increases Light Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -21477,7 +24866,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 저항 10 증가"
+            "Increases light resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -21490,6 +24879,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "크리티컬 히트",
+      "화속성 강화"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21559,7 +24955,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬의 MP 소모량이 4000 이상인 스킬의 공격력 15% 증가 (각성기 제외)"
+            "Increases attack power of skills that consume 4000 or more MP by 15% (excluding awakening)"
           ],
           "damage": 674,
           "buff": 456
@@ -21568,7 +24964,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "남아있는 MP가 10% 이하인 상태로 10초 이상 유지 시 10초 동안 피해 증가 +3557"
+            "+3557 damage for 10 seconds when remaining MP is 10% or less and held for more than 10 seconds"
           ],
           "damage": 674,
           "buff": 456
@@ -21577,7 +24973,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21586,8 +24982,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21600,6 +24996,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 조건",
+      "스킬 공격력 증가",
+      "피해 증가"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21665,7 +25066,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대쉬 공격 시 전방 400px 거리로 빠르게 질주 (쿨타임 30초)"
+            "When attacking with a dash, quickly sprint forward 400px distance (30 seconds cooldown)"
           ],
           "damage": 943,
           "buff": 466
@@ -21674,7 +25075,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대쉬 시 0.5초 동안 이동 속도 100% 증가"
+            "100% increased Movement Speed ​​for 0.5 seconds when dashing"
           ],
           "damage": 943,
           "buff": 466
@@ -21683,7 +25084,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21692,7 +25093,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -21705,6 +25106,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "대쉬",
+      "대시 공격",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "질주"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21762,15 +25170,15 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4528,
-        "buff": 1928
+        "damage": 4662,
+        "buff": 1933
       },
       "options": [
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 25% 이상 데미지를 받을 시 주변 300px 범위 내 적을 기절상태로 만듦 (쿨타임 20초)"
+            "Stun enemies within a 300px radius when receiving damage equal to or more than 25% of total HP (Cooldown: 20 seconds)"
           ],
           "damage": 1078,
           "buff": 470
@@ -21779,16 +25187,16 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "총 HP 25% 이상 데미지를 받을 시 20초 동안 최대 HP의 25% 수치의 보호막 효과 적용 (최대 1중첩)"
+            "When taking damage over 25% of total HP, a shield effect of 25% of maximum HP is applied for 20 seconds (stacks up to 1)"
           ],
-          "damage": 1078,
-          "buff": 470
+          "damage": 1212,
+          "buff": 475
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -21797,7 +25205,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -21810,6 +25218,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "스킬 레벨",
+      "암속성 강화",
+      "화속성 강화"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21867,7 +25284,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 2979,
+        "damage": 3787,
         "buff": 1910
       },
       "options": [
@@ -21875,26 +25292,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "450px 주변에 출혈 상태 적 1마리당 스킬, 소모품, 장비로 인한 HP 회복 효과 5% 증가 (최대 50% 증가)"
+            "Increases HP recovery effect from skills, consumables, and equipment by 5% for each bleed enemy around 450px (up to 50% increase)"
           ],
-          "damage": 674,
+          "damage": 1078,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "450px 주변에 출혈 상태 적 1마리당 쿨타임 회복 속도 10% 증가 (최대 30% 증가, 각성기 제외)",
-            "출혈 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Increases cooldown recovery speed by 10% for each bleed enemy in an area around 450px (maximum 30% increase, excluding awakening)",
+            "Increases Skill Attack Power By 2% When Attacking Bleeding Enemies"
           ],
-          "damage": 674,
+          "damage": 1078,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking bleeding enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -21903,8 +25320,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -21917,6 +25334,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "출혈"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -21976,7 +25399,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 3988,
         "buff": 1958
       },
       "options": [
@@ -21984,26 +25407,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 8당 수속성 강화, 명속성 강화, 암속성 강화 1 증가 (최대 50 증가)",
-            "화속성 강화 10당 수속성 저항, 명속성 저항, 암속성 저항 1 감소 (최대 30 감소)"
+            "Increases water attribute strength, light attribute reinforcement, and dark attribute reinforcement by 1 per 8 fire attribute reinforcement (up to 50 increase)",
+            "Water property resistance, light property resistance, and dark property resistance decrease by 1 per 10 fire property enhancement (up to 30 reduction)"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화가 150 이상일 때 물리 크리티컬 히트, 마법 크리티컬 히트 15% 증가"
+            "Increases physical critical hit and magic critical hit by 15% when Fire attribute enhancement is 150 or higher"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases Fire Attribute Strength by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -22012,7 +25435,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 저항 10 증가"
+            "Increases fire resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -22025,6 +25448,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "크리티컬 히트",
+      "화속성 강화"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22092,8 +25522,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 공격력 8% 증가",
-            "무색 큐브 조각을 소모하는 스킬 무색 큐브 조각 소모량 2개 증가"
+            "Skill damage that consumes colorless cube pieces increases by 8%",
+            "Skills that consume colorless cube pieces Increase the consumption of colorless cube pieces by 2"
           ],
           "damage": 808,
           "buff": 490
@@ -22102,7 +25532,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하는 스킬 시전 시 20초 동안 스킬 MP 소모량 10% 감소 (최대 1중첩)"
+            "When casting a skill that consumes a colorless cube piece, reduces skill MP consumption by 10% for 20 seconds (stacks up to 1)"
           ],
           "damage": 808,
           "buff": 490
@@ -22111,7 +25541,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적중률 +10%"
+            "Hit Rate +10%"
           ],
           "damage": 1186,
           "buff": 494
@@ -22133,6 +25563,12 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "스킬 MP 소모량 감소",
+      "스킬 쿨타임"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22201,8 +25637,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "각성기 스킬 공격력 25% 감소",
-            "각성기를 제외한 전직 계열 스킬의 공격력 20% 증가"
+            "Awakening skill attack power reduced by 25%",
+            "Increases the attack power of all previous-class skills by 20% except for awakening."
           ],
           "damage": 1078,
           "buff": 466
@@ -22211,8 +25647,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "무색 큐브 조각을 소모하지 않는 스킬 쿨타임 30% 감소",
-            "무색 큐브 조각을 소모하는 스킬 쿨타임 15% 증가"
+            "Reduces cooldown of skills that do not consume colorless cube fragments by 30%",
+            "Increases the cooldown of skills that consume colorless cube pieces by 15%"
           ],
           "damage": 1078,
           "buff": 466
@@ -22221,8 +25657,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -22231,8 +25667,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -22245,6 +25681,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "무색 큐브 조각 미소모 스킬",
+      "스킬 공격력 증가",
+      "스킬 쿨타임"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22306,7 +25747,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3720,
+        "damage": 5874,
         "buff": 1900
       },
       "options": [
@@ -22314,28 +25755,28 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "쿨타임이 15초 이상인 스킬 공격력 10% 증가",
-            "쿨타임이 15초 미만인 스킬 공격력 15% 감소"
+            "Increases attack power of skills with a cooldown of 15 seconds or longer by 10%\n",
+            "Reduces attack power of skills with a cooldown of less than 15 seconds by 15%"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도, 캐스팅 속도의 합이 100% 미만일 때 스킬 쿨타임 10% 감소 (각성기 제외)",
-            "공격 속도, 캐스팅 속도의 합이 100% 이상일 때 스킬 쿨타임 10% 증가 (각성기 제외)"
+            "When the sum of attack speed and casting speed is less than 100%, skill cooldown decreases by 10% (excluding awakening)",
+            "When the sum of attack speed and casting speed is 100% or more, skill cooldown increases by 10% (excluding awakening)"
           ],
-          "damage": 674,
+          "damage": 1751,
           "buff": 456
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -22344,7 +25785,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -22357,6 +25798,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "스킬 쿨타임"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22416,7 +25861,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 6144,
         "buff": 1910
       },
       "options": [
@@ -22424,25 +25869,25 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 공격 속도, 캐스팅 속도 2% 증가 (최대 15중첩, 공격 상태가 아닐 때 0.5초마다 중첩수 1 감소)"
+            "Increases attack speed and casting speed by 2% when attacking (stacks up to 15, the number of stacks decreases by 1 every 0.5 seconds when not under attack)"
           ],
-          "damage": 808,
+          "damage": 1886,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대쉬 상태일 때 0.2초마다 이동 속도 3% 증가 (최대 15중첩, 대쉬 상태가 아닐 때 0.5초마다 중첩수 1 감소)"
+            "Increases movement speed by 3% every 0.2 seconds while in dash state (stacks up to 15, stacks decrease by 1 every 0.5 seconds when not in dash state)"
           ],
-          "damage": 808,
+          "damage": 1886,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 +8%"
+            "Movement Speed ​​+8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -22451,7 +25896,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -22464,6 +25909,17 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "대쉬",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "이동 속도",
+      "캐스팅 속도",
+      "화속성 강화"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22521,7 +25977,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3450,
+        "damage": 3988,
         "buff": 1958
       },
       "options": [
@@ -22529,26 +25985,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 강화 8당 화속성 강화, 수속성 강화, 명속성 강화 1 증가 (최대 50 증가)",
-            "암속성 강화 10당 화속성 저항, 수속성 저항, 명속성 저항 1 감소 (최대 30 감소)"
+            "Increases fire, water, and light attributes by 1 for every 8 dark attribute enhancements (up to 50 increases)",
+            "Reduces fire resistance, water resistance, and light resistance by 1 per 10 dark attribute enhancement (up to 30 reduction)"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 강화가 150 이상일 때 물리 크리티컬 히트, 마법 크리티컬 히트 15% 증가"
+            "Increases physical critical hit and magic critical hit by 15% when Dark attribute enhancement is 150 or higher"
           ],
-          "damage": 539,
+          "damage": 808,
           "buff": 485
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 강화 15 증가"
+            "Increases dark attribute enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -22557,7 +26013,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "암속성 저항 10 증가"
+            "Increases dark resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -22570,6 +26026,13 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "명속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "크리티컬 히트",
+      "화속성 강화"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22637,7 +26100,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "해당 장비의 마법 부여 효과 70% 증가 (스킬 레벨 효과 및 모험가 명성 제외)"
+            "70% increased enchantment effect for this equipment",
+            "(Excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -22646,7 +26110,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 10초 동안 해당 장비의 마법 부여 효과 30% 증가 (최대 1중첩, 스킬 레벨 효과 및 모험가 명성 제외)"
+            "Increases the enchantment effect of the equipment by 30% for 10 seconds when attacking (stacks up to 1, excluding skill level effects and adventurer reputation)"
           ],
           "damage": 1078,
           "buff": 312
@@ -22655,7 +26119,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -22664,7 +26128,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "MP 1분당 348 회복"
+            "348 MP recovery per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -22677,6 +26141,9 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "마법 부여 효과"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22733,7 +26200,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 3988,
+        "damage": 7760,
         "buff": 1910
       },
       "options": [
@@ -22741,20 +26208,20 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "빙결 내성 -3%",
-            "채팅으로 '얼음'을 포함한 문구 입력 시 자신을 10초 동안 빙결 상태로 만듦 (쿨타임 30초)",
-            "해당 장비 옵션으로 캐릭터가 빙결 상태에 걸렸을 때 채팅으로 '땡'을 포함한 문구 입력 시 빙결 상태 해제"
+            "Freeze Resistance -3%",
+            "When you enter a phrase including 'ice' in chat, you freeze yourself for 10 seconds (30 seconds cooldown)",
+            "When a character is frozen with this equipment option, if you enter a phrase including 'Ding' in chat, the freezing state is canceled"
           ],
-          "damage": 808,
+          "damage": 2694,
           "buff": 461
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신이 빙결 상태일 때 피격 데미지 30% 감소, 5초 동안 HP 20% 회복 (쿨타임 5초)"
+            "Reduces damage taken by 30% and recovers 20% HP for 5 seconds (Cooldown 5 seconds)"
           ],
-          "damage": 808,
+          "damage": 2694,
           "buff": 461
         },
         {
@@ -22770,8 +26237,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -22784,6 +26251,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "받는 데미지",
+      "빙결"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22851,8 +26323,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "석화 상태의 적 공격 시 데미지가 축적되며 석화 종료 시 축적된 데미지가 한번에 적용",
-            "- 적중된 스킬 1개당 축적 데미지 2% 증폭 (최대 20%)"
+            "Damage is accumulated when attacking enemies in a petrified state, and the accumulated damage is applied at once when petrification ends.",
+            "- Amplifies accumulated damage by 2% per skill hit (up to 20%)"
           ],
           "damage": 539,
           "buff": 451
@@ -22861,8 +26333,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "적 처치 시 HP 5% 회복",
-            "석화 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Recover 5% HP when killing an enemy",
+            "Increases Skill Attack Power By 5% When Attacking Petrified Enemies"
           ],
           "damage": 539,
           "buff": 451
@@ -22871,7 +26343,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "석화 상태 적 공격 시 스킬 공격력 15% 증가"
+            "Increases skill attack power by 15% when attacking petrified enemies"
           ],
           "damage": 296,
           "buff": 504
@@ -22880,8 +26352,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -22894,6 +26366,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "석화",
+      "스킬 공격력 증가"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -22960,8 +26437,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대기, 걷기 시 이동 속도 200% 증가",
-            "대쉬 시 이동 속도 100% 감소"
+            "200% increased Movement Speed ​​while Standing and Walking",
+            "Movement speed reduced by 100% when dashing"
           ],
           "damage": 1078,
           "buff": 470
@@ -22970,8 +26447,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "대기, 걷기 시 Y축 이동 속도 50% 증가",
-            "대쉬 시 Y축 이동 속도 50% 감소"
+            "Increases Y-axis movement speed by 50% while standing and walking",
+            "Reduces Y-axis movement speed by 50% when dashing"
           ],
           "damage": 1078,
           "buff": 470
@@ -22980,7 +26457,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
@@ -22989,8 +26466,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 7000 증가",
-            "마법 방어력 7000 증가"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -23003,6 +26480,10 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "스킬 쿨타임",
+      "이동 속도"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23062,7 +26543,7 @@
     ],
     "growInfo": {
       "total": {
-        "damage": 4972,
+        "damage": 6048,
         "buff": 1963
       },
       "options": [
@@ -23070,26 +26551,26 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "자신의 공격으로 보스 몬스터의 최대 HP 10% 해당하는 데미지를 줄 때마다 피해 증가 +593, 물리 방어력, 마법 방어력 10% 감소 (최대 5중첩)"
+            "Each time your attack deals damage equal to 10% of the boss monster's max HP, damage increase +593, physical defense and magic defense decrease by 10% (stacks up to 5)"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP가 30% 이하일 때 보스 몬스터 공격 시 HP 1% 회복 (쿨타임 1초)"
+            "Recover 1% HP when attacking boss monsters when HP is below 30% (Cooldown 1 second)"
           ],
-          "damage": 1078,
+          "damage": 1616,
           "buff": 480
         },
         {
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 속성 강화 15 증가",
-            "모든 속성 저항 10 감소"
+            "Increases all attribute enhancements by 15",
+            "Reduces all attribute resistances by 10"
           ],
           "damage": 1630,
           "buff": 509
@@ -23098,8 +26579,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 속도 +8%",
-            "캐스팅 속도 +12%"
+            "Attack Speed ​​+8%",
+            "Casting Speed ​​+12%"
           ],
           "damage": 1186,
           "buff": 494
@@ -23112,6 +26593,11 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "HP 회복",
+      "피해 증가"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23180,9 +26666,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "보스, 네임드, 챔피언 몬스터 50회 공격 시 적에게 혈관 파열을 일으켜 남은 HP 2% 감소 (최대 5회, 버퍼 캐릭터는 발동되지 않음)",
-            "- 혈관 파열 발동 시마다 조건 횟수 5배 증가",
-            "- 보스 몬스터에게 혈관 파열 발동 시 30초 동안 공격 속도, 이동 속도 15%, 캐스팅 속도 22.5% 증가 (최대 1중첩)"
+            "When attacking boss, named, or champion monsters 50 times, causes blood vessels to rupture on the enemy and reduces remaining HP by 2% (up to 5 times, buffer characters are not activated)",
+            "- Each time blood vessel rupture is activated, the number of conditions increases by 5 times",
+            "- Increases attack speed, movement speed by 15%, and casting speed by 22.5% for 30 seconds when a blood vessel rupture is activated on a boss monster (stacks up to 1)"
           ],
           "damage": 539,
           "buff": 480
@@ -23191,8 +26677,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 이내 출혈 상태의 적이 있을 때 출혈 내성 20% 증가",
-            "출혈 상태 적 공격 시 스킬 공격력 2% 증가"
+            "Increases bleeding resistance by 20% when there are bleeding enemies within 500px",
+            "Increases Skill Attack Power By 2% When Attacking Bleeding Enemies"
           ],
           "damage": 539,
           "buff": 480
@@ -23201,7 +26687,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 50% 확률로 적을 출혈 상태로 만듦 (쿨타임 8초)"
+            "50% chance to make the enemy bleed when attacking (8 seconds cooldown)"
           ],
           "damage": 1334,
           "buff": 499
@@ -23210,7 +26696,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "출혈 상태 적 공격 시 스킬 공격력 5% 증가"
+            "Increases skill attack power by 5% when attacking bleeding enemies"
           ],
           "damage": 445,
           "buff": 504
@@ -23223,6 +26709,15 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "공격 속도",
+      "상태 이상 내성",
+      "스킬 공격력 증가",
+      "이동 속도",
+      "적 HP 감소",
+      "출혈",
+      "캐스팅 속도"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23247,6 +26742,2380 @@
       "헤블론의 예언소"
     ],
     "boss": "심연을 걷는 자"
+  },
+  {
+    "itemId": "4fce013abf06e5834a391e150732f410",
+    "itemName": "초소형 GPS",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "\"이건 가지고 놀다 버려야겠어.\""
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4258,
+        "buff": 1920
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "무력화 게이지 감소량 25% 증가"
+          ],
+          "damage": 943,
+          "buff": 466
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "적의 무력화 게이지가 10% 감소될 때마다 스킬 공격력 2% 증가 (최대 10중첩)",
+            "- 적의 무력화 게이지 재활성화 시 스킬 공격력 증가 효과 초기화"
+          ],
+          "damage": 943,
+          "buff": 466
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 방어력 +7000",
+            "마법 방어력 +7000"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 속도 +8%",
+            "캐스팅 속도 +12%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "무력화",
+      "스킬 공격력 증가"
+    ],
+    "slotName": "귀걸이",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "무력화",
+      "스킬 공격력 증가",
+      "방어력",
+      "공격 속도",
+      "캐스팅 속도",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ],
+    "boss": "GB-4 디리겐트"
+  },
+  {
+    "itemId": "6f410f07c93b733ef932d84133d02810",
+    "itemName": "공명하는 에너지 귀걸이",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "실체가 없는 에너지 덩어리로 이뤄진 장비, 에너지 덩어리로 이루어져 옵션 성장의 재료로 사용이 용이하다.",
+      "옵션 성장 재료로 사용 시 성장하는 옵션의 종류가 달라도 레벨과 경험치를 그대로 합산시켜 성장됩니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 714
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 540,
+        "buff": 1748
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "damage": 135,
+          "buff": 437,
+          "explain": []
+        }
+      ]
+    },
+    "hashtag": [
+      "옵션 성장 재료"
+    ],
+    "slotName": "귀걸이",
+    "explain": [],
+    "tags": [
+      "옵션 성장 재료",
+      "구매 가능"
+    ],
+    "drops": [
+      "나사우 삼림"
+    ]
+  },
+  {
+    "itemId": "f300bdbe5937d470cffe9ca651ca5bea",
+    "itemName": "냉정한 지략가의 상의",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "불의 숨이 멎을 때는 올 수 밖에 없습니다. 서릿발같이 차가운 합리와 이치를 통해."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 4792
+      },
+      {
+        "name": "힘",
+        "value": 161
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 141
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3988,
+        "buff": 1890
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "스킬 시전 시 소모한 무색 큐브 조각 개수 누적 50개마다 피해 증가 +296 (최대 5중첩)"
+          ],
+          "damage": 808,
+          "buff": 451
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "스킬 시전 시 소모한 무색 큐브 조각 개수 1개마다 해당 스킬의 쿨타임 회복 속도 0.5% 증가 (각성기 제외, 최대 30% 증가)"
+          ],
+          "damage": 808,
+          "buff": 451
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 속도 +8%",
+            "캐스팅 속도 +12%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "적중률 +10%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "무색 큐브 조각 소모 스킬",
+      "스킬 쿨타임",
+      "피해 증가"
+    ],
+    "material": "경갑",
+    "slotName": "상의",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "공격 속도",
+      "무적",
+      "이동 속도",
+      "장비 옵션 조작키",
+      "캐스팅 속도",
+      "HP MAX",
+      "상태 이상 내성",
+      "방어력",
+      "받는 데미지",
+      "비 카운터",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "흑룡 네이저"
+  },
+  {
+    "itemId": "b28104f44859fdc3f9bc6f02ae34e025",
+    "itemName": "승리로 이끄는 정의",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "지킬 것이 있다면 도망쳐 살아남아라. 너를 믿는 이들의 목숨을 헌신짝처럼 져버려라."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 3993
+      },
+      {
+        "name": "힘",
+        "value": 161
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 141
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 5604,
+        "buff": 1910
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착 시 1초마다 1스택 충전 (최대 10스택)",
+            "- 약점이 아닌 무력화형 상태 이상 발동 시 스택이 초기화되며, 스택 충전 수치에 따라 무력화 게이지 감소량 증가 (약점 상태 이상 무력화 게이지 감소량의 최소 50%, 최대 100%까지 적용)"
+          ],
+          "damage": 1616,
+          "buff": 461
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신의 공격으로 무력화 게이지 감소 시 피해 증가 +296 (최대 10중첩)"
+          ],
+          "damage": 1616,
+          "buff": 461
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 방어력 +7000",
+            "마법 방어력 +7000"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "이동 속도 +8%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "무력화",
+      "피해 증가"
+    ],
+    "material": "경갑",
+    "slotName": "하의",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "무력화",
+      "피해 증가",
+      "방어력",
+      "이동 속도",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "진룡 이트레녹"
+  },
+  {
+    "itemId": "f9f190a0aa2d31a042345478bbb16372",
+    "itemName": "유쾌함 속의 열망",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "불의 숨이 멎을 때는 올 거다. 어떻게든 웃으며 버티고 기다리면 말이야."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 3194
+      },
+      {
+        "name": "힘",
+        "value": 149
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 132
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 5066,
+        "buff": 1938
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장착 시 30초마다 주사위를 굴려 아래의 효과 제공",
+            "- 주사위 효과를 받고 있을 때 피해 증가 +1778",
+            "- 주사위눈 1마다 피해 증가 +741 (최대 6중첩)",
+            "- 현재 주사위눈이 6미만일 때 공격 시 주사위눈 1 증가 (쿨타임 3초)"
+          ],
+          "damage": 1347,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 시 20초 동안 물리, 마법 방어력 10000 증가 (쿨타임 5초, 최대 1중첩)"
+          ],
+          "damage": 1347,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "적중률 +10%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "HP 1분당 460.2 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "방어력",
+      "피해 증가"
+    ],
+    "material": "경갑",
+    "slotName": "머리어깨",
+    "explain": [
+      "스킬 공격력 34% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "피해 증가",
+      "방어력",
+      "적중률",
+      "HP 회복",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "진룡 이트레녹"
+  },
+  {
+    "itemId": "94bcf186a0662e82867e478f75e239dc",
+    "itemName": "영면을 위한 준비",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "탄이란 적에게 건네는 선물과도 같은 것. 아주 세심하게 골라서... 빵! 깜짝선물이지."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 1597
+      },
+      {
+        "name": "힘",
+        "value": 136
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 124
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "인벤토리 무게 한도",
+        "value": "3kg"
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4528,
+        "buff": 1958
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "빙결 면역 상태인 화상 상태의 적에게 빙결 상태 부여 시도 시 화상 데미지가 일괄 적용 (쿨타임 4초)"
+          ],
+          "damage": 1078,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "화상 데미지 15% 증가",
+            "자신이 거는 화상 지속 시간 2초 증가"
+          ],
+          "damage": 1078,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+          ],
+          "damage": 1186,
+          "buff": 504
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP MAX +945"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "빙결",
+      "지속 시간 증가",
+      "피해 증가",
+      "화상",
+      "화상 데미지"
+    ],
+    "material": "경갑",
+    "slotName": "허리",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "빙결",
+      "화상",
+      "지속 시간 증가",
+      "화상 데미지",
+      "피해 증가",
+      "MP MAX",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "화룡 애쉬코어"
+  },
+  {
+    "itemId": "c9b6eb3897af766116c4404fc606d814",
+    "itemName": "소망을 향한 움직임",
+    "itemType": "방어구",
+    "itemFlavorText": [
+      "불의 숨이 멎을 때는 꼭 올 거에요. 제가 가진 숨결까지 내놓는 한이 있더라도."
+    ],
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 2396
+      },
+      {
+        "name": "힘",
+        "value": 136
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 124
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "이동속도",
+        "value": "4%"
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4432,
+        "buff": 1963
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "가장 높은 데미지형 상태 이상 데미지 증가 수치가 55% 이상일 때 스킬 공격력 13% 증가"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신이 거는 모든 데미지형 상태 이상 지속 시간 20% 감소"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 강화 15 증가",
+            "모든 속성 저항 10 감소"
+          ],
+          "damage": 1630,
+          "buff": 509
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "스킬 MP 소모량 7% 감소"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "중독",
+      "지속 시간 감소",
+      "출혈",
+      "화상",
+      "상태 이상 데미지 조건"
+    ],
+    "material": "경갑",
+    "slotName": "신발",
+    "explain": [
+      "스킬 공격력 29% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "상태 이상 데미지 조건",
+      "스킬 공격력 증가",
+      "감전",
+      "중독",
+      "지속 시간 감소",
+      "출혈",
+      "화상",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "화속성 강화",
+      "스킬 MP 소모량 감소",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "금룡 느마우그"
+  },
+  {
+    "itemId": "84627aee4e995e9117796f1a9f28a0ed",
+    "itemName": "오랜 시간 품어온 소원",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "영원한 사랑이라... 좋아요. 색깔은 블랙으로 하죠. 이 땅은 영원한 천계인들의 땅이니까."
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4972,
+        "buff": 1963
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신에게 수면 상태 이상 적용 시 60초 동안 수면 상태가 아닌 불면증 버프 적용 (최대 5중첩)",
+            "불면증 버프 상태일 때 아래의 효과 적용",
+            "- 수면 내성 수치가 0%에서 10% 감소할 때마다 스킬 공격력 4% 증가 (최대 28% 증가)",
+            "- 자신이 수면 상태일 때 적용 받는 장비 효과가 불면증 버프 유지 시간동안 적용되며, 수치는 50%로 적용 (HP 회복 효과 제외)",
+            "- 피격 시 잠기운에서 깨어나 불면증 중첩 수 1 감소 (해당 옵션의 피격 판정은 총 HP 1% 이상 데미지를 받을 시 적용됩니다. 어릴적 꿈꿔온 무대 장비 장착 시 1중첩 이하로 감소하지 않습니다.)",
+            "- 불면증 버프 중첩수 1당 모든 속도 5% 감소",
+            "불면증 버프 5중첩 시 불면증 버프 삭제 및 자신을 강제로 수면 상태로 만듦"
+          ],
+          "damage": 1078,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "던전 입장 후 소모한 MP 10000마다 자신을 수면 상태로 만듦",
+            "수면 내성 -10%"
+          ],
+          "damage": 1078,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 크리티컬 히트 +7%",
+            "마법 크리티컬 히트 +7%",
+            "모든 상태 이상 내성 10% 감소"
+          ],
+          "damage": 1630,
+          "buff": 509
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "회피율 +8%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "MP 소모",
+      "MP 조건",
+      "받는 데미지",
+      "상태 이상 내성",
+      "수면",
+      "스킬 공격력 증가",
+      "상태 이상 내성 조건"
+    ],
+    "slotName": "팔찌",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "MP 소모",
+      "받는 데미지",
+      "상태 이상 내성 조건",
+      "수면",
+      "스킬 공격력 증가",
+      "MP 조건",
+      "상태 이상 내성",
+      "크리티컬 히트",
+      "회피율",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "화룡 애쉬코어"
+  },
+  {
+    "itemId": "52b530f45e9c9696573feb607ffefe4f",
+    "itemName": "올곧은 자의 이념",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "그러나 우리를 고귀하게 만드는 것은 혈통이나 재산이 아닌, 고결한 마음가짐이라는 걸요."
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4258,
+        "buff": 1948
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "장비로 발동하는 오브젝트 데미지 30% 증가",
+            "장비 오브젝트 공격 시 피해 증가 +356 (쿨타임 1초, 최대 10중첩)"
+          ],
+          "damage": 943,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 시 자신의 주변 300px 내의 모든 적을 불태움 (쿨타임 5초, 적의 방어력과 상관없이 총 피해 증가 수치의 35%만큼 피해를 줌)"
+          ],
+          "damage": 943,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 강화 10 증가"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "모든 속성 저항 8 증가"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "오브젝트",
+      "피해 증가",
+      "오브젝트 데미지"
+    ],
+    "slotName": "목걸이",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "오브젝트 데미지",
+      "피해 증가",
+      "오브젝트",
+      "명속성 강화",
+      "모든 속성 강화",
+      "수속성 강화",
+      "암속성 강화",
+      "화속성 강화",
+      "명속성 저항",
+      "모든 속성 저항",
+      "수속성 저항",
+      "암속성 저항",
+      "화속성 저항",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "금룡 느마우그"
+  },
+  {
+    "itemId": "363127da64902fd62e8c5fb9595a196e",
+    "itemName": "뜨거운 열망의 증표",
+    "itemType": "액세서리",
+    "itemFlavorText": [
+      "불의 숨이 멎을 때는 온다. 우리의 숨이 붙어 있는 한."
+    ],
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 3988,
+        "buff": 1948
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신에게 적용된 상태 이상 개수 1개당 모든 속성 강화 8 증가 (최대 24 증가)"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "상태 이상에 걸린 대상 하나 당 피해 증가 +445 (최대 10중첩)"
+          ],
+          "damage": 808,
+          "buff": 480
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 속도 +8%",
+            "캐스팅 속도 +12%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "회피율 +8%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "모든 속성 강화",
+      "피해 증가"
+    ],
+    "slotName": "반지",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "모든 속성 강화",
+      "피해 증가",
+      "공격 속도",
+      "캐스팅 속도",
+      "회피율",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "진룡 이트레녹"
+  },
+  {
+    "itemId": "df5b0caa0c120fe898d58d70e2d07ef9",
+    "itemName": "무모하지만 합리적인 작전",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "손 안에서 일으킨 미풍이 때와 사람을 만나, 폭풍이 되어 거목을 쓰러트리는 것. 전장에서 전략이란 그러한 것입니다."
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 149
+      },
+      {
+        "name": "체력",
+        "value": 149
+      },
+      {
+        "name": "지능",
+        "value": 149
+      },
+      {
+        "name": "정신력",
+        "value": 149
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1875
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4258,
+        "buff": 1938
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP 70% 이상일 때 피해 증가 +4446"
+          ],
+          "damage": 943,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP 70% 이상일 때 피격 시 받는 데미지 10% 감소"
+          ],
+          "damage": 943,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "물리 방어력 +7000",
+            "마법 방어력 +7000"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP 1분당 348 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "MP 조건",
+      "받는 데미지",
+      "피해 증가"
+    ],
+    "slotName": "보조장비",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "MP 조건",
+      "피해 증가",
+      "받는 데미지",
+      "방어력",
+      "MP 회복",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "흑룡 네이저"
+  },
+  {
+    "itemId": "5e597f850be761e18324dd8627f31855",
+    "itemName": "승리가 약속된 시간",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "하하! 불의 숨이 멎을 때는 온다네! 내 숨을 팔아서라도!"
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1875
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 4796,
+        "buff": 1920
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신의 HP가 50% 미만일 때 물리방어율과 마법방어율의 합 7% 마다 피해 증가 +445 (최대 10중첩)"
+          ],
+          "damage": 1212,
+          "buff": 466
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신의 HP가 50% 미만이면서 물리방어율과 마법방어율의 합이 70% 이상일 때 20초마다 5회 피격 시 파괴되는 슈퍼아머 부여"
+          ],
+          "damage": 1212,
+          "buff": 466
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP MAX +945"
+          ],
+          "damage": 1186,
+          "buff": 494
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "이동 속도 +8%"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +2"
+      ]
+    },
+    "hashtag": [
+      "HP 조건",
+      "슈퍼 아머",
+      "피해 증가"
+    ],
+    "slotName": "마법석",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "HP 조건",
+      "피해 증가",
+      "슈퍼 아머",
+      "MP MAX",
+      "이동 속도",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "흑룡 네이저"
+  },
+  {
+    "itemId": "1854a7d3b785db5363030143746a4a29",
+    "itemName": "영원을 끝낼 오랜 염원",
+    "itemType": "추가장비",
+    "itemFlavorText": [
+      "불의 숨이 멎을 때는 오게 할 겁니다. 제 숨이 멎게 되더라도."
+    ],
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "total": {
+        "damage": 5484,
+        "buff": 1943
+      },
+      "options": [
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신이 건 중독 상태의 적을 화상 상태로 만들 시 독이 불타며 즉시 중독 피해를 입힘 (쿨타임 4초)"
+          ],
+          "damage": 1482,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "자신이 중독 상태일 때 1초마다 중독 데미지 3% 증가 (최대 5중첩)",
+            "- 자신이 중독 상태가 아닐 때 5초마다 중첩 수 1 감소"
+          ],
+          "damage": 1482,
+          "buff": 475
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "공격 시 50% 확률로 적을 10초 동안 화상 상태로 만듦 (쿨타임 5초)"
+          ],
+          "damage": 1334,
+          "buff": 499
+        },
+        {
+          "level": 1,
+          "expRate": 0,
+          "explain": [
+            "MP 1분당 348 회복"
+          ],
+          "damage": 1186,
+          "buff": 494
+        }
+      ]
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "중독",
+      "중독 데미지",
+      "화상"
+    ],
+    "slotName": "귀걸이",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "중독",
+      "화상",
+      "중독 데미지",
+      "MP 회복",
+      "구매 가능",
+      "네임드"
+    ],
+    "drops": [
+      "이스핀즈"
+    ],
+    "boss": "화룡 애쉬코어"
+  },
+  {
+    "itemId": "0e79738a52d19e87cf910fc16537887b",
+    "itemName": "화룡 : 폭발하는 힘의 근원",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 835,
+          "explain": "공격 시 화룡의 기운 2 획득\n\n화룡의 기운이 44일 때 모든 기운을 소모하여 7초동안 스킬 쿨타임 12% 감소",
+          "explainDetail": "공격 시 화룡의 기운 2 획득 (쿨타임 1초, 화룡의 기운 최대 44)\n\n화룡의 기운이 44일 때 모든 기운을 소모하여 7초동안 스킬 쿨타임 12% 감소 (최대 1중첩, 각성기 제외, 화룡의 분노 버프 발동 시 해제)"
+        }
+      ]
+    },
+    "hashtag": [
+      "스킬 쿨타임",
+      "융합 장비"
+    ],
+    "slotName": "팔찌",
+    "explain": [],
+    "tags": [
+      "스킬 쿨타임",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "73f46c965770a5680576ad52219da4a5",
+    "itemName": "화룡 : 끓어오르는 용의 숨결",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "공격 시 화룡의 기운 5 획득\n\n화룡의 기운 획득 시 10초동안 피해 증가 +6252",
+          "explainDetail": "공격 시 화룡의 기운 5 획득 (쿨타임 1초, 화룡의 기운 최대 44)\n\n화룡의 기운 획득 시 10초동안 피해 증가 +6252 (최대 1중첩)"
+        }
+      ]
+    },
+    "hashtag": [
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "목걸이",
+    "explain": [],
+    "tags": [
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "6f388dd09d7149044abfd92fed63b4a6",
+    "itemName": "화룡 : 타오르는 불의 분노",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "공격 시 화룡의 기운 4 획득\n\n커맨드 입력(←→+[장비 옵션 조작키]) 시 화룡의 분노 버프가 발동",
+          "explainDetail": "공격 시 화룡의 기운 4 획득 (쿨타임 1초, 화룡의 기운 최대 44)\n\n커맨드 입력(←→+[장비 옵션 조작키]) 시 화룡의 분노 버프가 발동하여 아래의 효과 적용 (쿨타임 10초)\n- 화룡의 기운 획득 시 분노한 화룡의 기운으로 획득\n- 분노한 화룡의 기운이 44일 때 무색 큐브 조각을 소모하는 스킬 시전 시 폭주 버프가 발동하여 7초동안 스킬 공격력 10% 증가\n- 스킬 쿨타임 25% 증가\n- 커맨드 재입력 시 화룡의 분노 버프 해제\n\n(일반 [장비 옵션 조작키] 옵션 장비와 동시 착용 후 커맨드 입력 시, 융합된 장비의 [장비 옵션 조작키] 우선 사용)"
+        }
+      ]
+    },
+    "hashtag": [
+      "스킬 공격력 증가",
+      "융합 장비"
+    ],
+    "slotName": "반지",
+    "explain": [],
+    "tags": [
+      "스킬 공격력 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "cc64795c07f57cb9e52967063276f795",
+    "itemName": "진룡 : 압도하는 힘의 원천",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "공격 시 충격파 발생\n\n적의 무력화 게이지가 10% 감소될 때마다 피해 증가 +469",
+          "explainDetail": "공격 시 충격파 발생 (쿨타임 0.5초, 적의 방어력과 상관없이 총 피해 증가 수치의 40%만큼 피해를 줌)\n- 충격파 발생 시 20초 동안 피해 증가 +4690 (최대 1중첩)\n\n적의 무력화 게이지가 10% 감소될 때마다 피해 증가 +469 (최대 10중첩)\n- 적의 무력화 게이지가 재활성화 시 30초 동안 효과 유지"
+        }
+      ]
+    },
+    "hashtag": [
+      "무력화",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "팔찌",
+    "explain": [],
+    "tags": [
+      "무력화",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "568018f4d9ed013f352d412331ab67ba",
+    "itemName": "진룡 : 잔혹한 용의 발톱",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1063,
+          "explain": "공격 시 충격파가 발생하며 적 무력화 게이지 감소\n\n충격파 발생 시 30초 동안 피해 증가 +208",
+          "explainDetail": "공격 시 충격파가 발생하며 적 무력화 게이지 감소 (쿨타임 0.1초, 적의 방어력과 상관없이 총 피해 증가 수치의 6%만큼 피해를 줌)\n- 충격파 쿨타임이 회복된 후 0.1초마다 기운이 충전됨 (최대 9회 충전)\n- 충전 후 공격 시 더 큰 충격파가 발생하며 1충전마다 무력화 게이지 감소량 및 충격파 피해량 100% 증가\n\n충격파 발생 시 30초 동안 피해 증가 +208 (최대 30중첩)\n- 충격파 1충전마다 피해 증가 버프 중첩 수 1 추가 증가"
+        }
+      ]
+    },
+    "hashtag": [
+      "무력화",
+      "오브젝트",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "목걸이",
+    "explain": [],
+    "tags": [
+      "무력화",
+      "오브젝트",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "6255f92b7b56a7ddd76f566a47ada800",
+    "itemName": "진룡 : 무거운 철의 투지",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1063,
+          "explain": "공격 시 충격파 발생\n충격파에 5회 피격된 적 공격 시 적을 기절 상태로 만들며 무력화 게이지 감소\n\n기절 상태의 적 3회 공격 시 기절 지속 시간 3초 증가\n\n적의 무력화 게이지 상태에 따라 아래의 효과 적용\n- 무력화 게이지가 활성화된 적이 존재할 때 피해 증가 +1563\n- 무력화 게이지가 파괴된 적이 존재할 때 피해 증가 +4694",
+          "explainDetail": "공격 시 충격파 발생 (쿨타임 0.5초, 적의 방어력과 상관없이 총 피해 증가 수치의 30%만큼 피해를 줌)\n- 충격파 발생 시 20초 동안 피해 증가 +3126 (최대 1중첩)\n충격파에 5회 피격된 적 공격 시 적을 기절 상태로 만들며 무력화 게이지 감소 (쿨타임 8초)\n\n기절 상태의 적 3회 공격 시 기절 지속 시간 3초 증가 (쿨타임 5초)\n\n적의 무력화 게이지 상태에 따라 아래의 효과 적용 (가장 높은 수치만 적용)\n- 무력화 게이지가 활성화된 적이 존재할 때 피해 증가 +1563\n- 무력화 게이지가 파괴된 적이 존재할 때 피해 증가 +4694"
+        }
+      ]
+    },
+    "hashtag": [
+      "기절",
+      "무력화",
+      "오브젝트",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "반지",
+    "explain": [],
+    "tags": [
+      "기절",
+      "무력화",
+      "오브젝트",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "db3a4579b25e7dbdca33f56195ce259f",
+    "itemName": "흑룡 : 어두운 힘의 근본",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1518,
+          "explain": "스킬 시전 시 마나번 디버프가 발동하여 1초마다 MP 1% 감소\n\nMP가 50% 미만일 때 1초마다 MP 2% 회복",
+          "explainDetail": "스킬 시전 시 마나번 디버프가 발동하여 1초마다 MP 1% 감소 (최대 5중첩)\n- 마나번 디버프 중첩 수 1당 피해 증가 +1876\n\nMP가 50% 미만일 때 1초마다 MP 2% 회복\n- MP가 10% 감소할 때마다 1초마다 MP 1% 추가 회복"
+        }
+      ]
+    },
+    "hashtag": [
+      "MP 소모",
+      "MP 조건",
+      "MP 회복",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "팔찌",
+    "explain": [],
+    "tags": [
+      "MP 소모",
+      "MP 조건",
+      "MP 회복",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "27843216918f310d010f1014661c81bd",
+    "itemName": "흑룡 : 주시하는 용의 눈동자",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1518,
+          "explain": "공격 시 MP 2000 감소\n\n현재 MP 4% 마다 피해 증가 +1876",
+          "explainDetail": "공격 시 MP 2000 감소 (쿨타임 1초)\n\n현재 MP 4% 마다 피해 증가 +1876 (최대 5중첩)"
+        }
+      ]
+    },
+    "hashtag": [
+      "MP 소모",
+      "MP 조건",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "목걸이",
+    "explain": [],
+    "tags": [
+      "MP 소모",
+      "MP 조건",
+      "MP 회복",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "1fd082cd996a9eb02645be09c5e89d41",
+    "itemName": "흑룡 : 끝없는 암흑의 굴레",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1518,
+          "explain": "피격 시 MP 5000 감소\n\n현재 MP 4% 마다 피해 증가 +1876\n\n스킬로 인해 소모한 MP 5000 마다 10초동안 장비로 인한 MP 회복 효과 10% 증가",
+          "explainDetail": "피격 시 MP 5000 감소 (쿨타임 0.5초, 해당 옵션의 피격 판정은 총 HP의 1% 이상 데미지를 받을 시에만 적용됩니다.)\n\n현재 MP 4% 마다 피해 증가 +1876 (최대 5중첩)\n\n스킬로 인해 소모한 MP 5000 마다 10초동안 장비로 인한 MP 회복 효과 10% 증가 (최대 1중첩)"
+        }
+      ]
+    },
+    "hashtag": [
+      "MP 소모",
+      "MP 조건",
+      "MP 회복",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "반지",
+    "explain": [],
+    "tags": [
+      "MP 소모",
+      "MP 조건",
+      "MP 회복",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "5285d14664a9aa41559ca68f440c3909",
+    "itemName": "금룡 : 화려한 힘의 기원",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "공격 시 30% 확률로 랜덤한 효과 적용",
+          "explainDetail": "공격 시 30% 확률로 아래의 효과 3개 중 1개 효과 적용 (쿨타임 3초, 최대 1중첩, 적의 방어력과 상관없이 총 피해 증가 수치의 100%만큼 피해를 줌)\n- 200px 범위 내에 있는 랜덤한 적에게 버티컬 필러를 1회 시전하며, 피해 증가 +5471\n- 300px 범위 내에 있는 랜덤한 적에게 버티컬 필러를 최대 3회 시전하며, 피해 증가 +7034\n- 500px 범위 내에 있는 랜덤한 적에게 버티컬 필러를 최대 5회 시전하며, 피해 증가 +8597"
+        }
+      ]
+    },
+    "hashtag": [
+      "오브젝트",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "팔찌",
+    "explain": [],
+    "tags": [
+      "오브젝트",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "eeb469cdd183e41318837d2dbd98dd42",
+    "itemName": "금룡 : 찬란한 용의 비늘",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "공격 시 30% 확률로 랜덤한 효과 적용",
+          "explainDetail": "공격 시 30% 확률로 아래의 효과 3개 중 1개 효과 적용 (쿨타임 3초, 최대 1중첩, 적의 방어력과 상관없이 총 피해 증가 수치의 100%만큼 피해를 줌)\n- 200px 범위 내에 있는 랜덤한 적에게 호리젠탈 큐브를 1회 시전하며, 피해 증가 +5471\n- 300px 범위 내에 있는 랜덤한 적에게 호리젠탈 큐브를 최대 3회 시전하며, 피해 증가 +7034\n- 500px 범위 내에 있는 랜덤한 적에게 호리젠탈 큐브를 최대 5회 시전하며, 피해 증가 +8597"
+        }
+      ]
+    },
+    "hashtag": [
+      "오브젝트",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "목걸이",
+    "explain": [],
+    "tags": [
+      "오브젝트",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "52688ab6a97da9368e86343d0a3ac4a5",
+    "itemName": "금룡 : 무한한 빛의 결계",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "공격 시 30% 확률로 랜덤한 효과 적용",
+          "explainDetail": "공격 시 30% 확률로 아래의 효과 3개 중 1개 효과 적용 (쿨타임 3초, 최대 1중첩, 적의 방어력과 상관없이 총 피해 증가 수치의 100%만큼 피해를 줌)\n- 200px 범위 내에 있는 랜덤한 적에게 테서랙트 붐을 1회 시전하며, 피해 증가 +5471\n- 300px 범위 내에 있는 랜덤한 적에게 테서랙트 붐을 최대 3회 시전하며, 피해 증가 +7034\n- 500px 범위 내에 있는 랜덤한 적에게 테서랙트 붐을 최대 5회 시전하며, 피해 증가 +8597"
+        }
+      ]
+    },
+    "hashtag": [
+      "오브젝트",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "반지",
+    "explain": [],
+    "tags": [
+      "오브젝트",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "cb41d2e497f1a7ac1ae2711670da9861",
+    "itemName": "천계 연합군 : 꺾이지 않는 의지",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "HP, MP 총 합이 220000 이상일 때 피해 증가 +7815\n\nHP MAX +1200, MP MAX +1890\n\n피격 시 HP MAX -240, MP MAX -378",
+          "explainDetail": "HP, MP 총 합이 220000 이상일 때 피해 증가 +7815\n\nHP MAX +1200, MP MAX +1890\n\n피격 시 HP MAX -240, MP MAX -378 (최대 5중첩, 해당 옵션의 피격 판정은 총 HP 1% 이상 데미지를 받을 시에만 적용됩니다.)\n- 2초 동안 피격되지 않을 시 HP MAX, MP MAX 감소 중첩수 1 감소"
+        }
+      ]
+    },
+    "hashtag": [
+      "HP MAX",
+      "MP MAX",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "팔찌",
+    "explain": [],
+    "tags": [
+      "HP MAX",
+      "MP MAX",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "3b62a91abc21df1a2609af53cb15d432",
+    "itemName": "천계 연합군 : 모든 이를 위한 기도",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "물리, 마법 방어력 총 합이 120000 이상일 때 피해 증가 +7815\n\n물리, 마법 방어력 +14000\n\n피격 시 물리, 마법 방어력 -2800",
+          "explainDetail": "물리, 마법 방어력 총 합이 120000 이상일 때 피해 증가 +7815\n\n물리, 마법 방어력 +14000\n\n피격 시 물리, 마법 방어력 -2800 (최대 5중첩, 해당 옵션의 피격 판정은 총 HP 1% 이상 데미지를 받을 시에만 적용됩니다.)\n- 2초 동안 피격되지 않을 시 물리, 마법 방어력 감소 중첩수 1 감소"
+        }
+      ]
+    },
+    "hashtag": [
+      "방어력",
+      "피해 증가",
+      "융합 장비"
+    ],
+    "slotName": "목걸이",
+    "explain": [],
+    "tags": [
+      "방어력",
+      "피해 증가",
+      "융합 장비",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
+  },
+  {
+    "itemId": "f0683ab71a21f9166ccb3423fa0a928c",
+    "itemName": "천계 연합군 : 밝게 빛나는 희망",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      }
+    ],
+    "ispinsInfo": {
+      "options": [
+        {
+          "buff": 1291,
+          "explain": "모든 속성 저항 총 합이 100 이상일 때 피해 증가 +7815\n\n모든 속성 저항 +20\n\n피격 시 모든 속성 저항 -4",
+          "explainDetail": "모든 속성 저항 총 합이 100 이상일 때 피해 증가 +7815\n\n모든 속성 저항 +20\n\n피격 시 모든 속성 저항 -4 (최대 5중첩, 해당 옵션의 피격 판정은 총 HP 1% 이상 데미지를 받을 시에만 적용됩니다.)\n- 2초 동안 피격되지 않을 시 모든 속성 저항 감소 중첩수 1 감소"
+        }
+      ]
+    },
+    "hashtag": [
+      "명속성 저항",
+      "모든 속성 저항",
+      "수속성 저항",
+      "암속성 저항",
+      "피해 증가",
+      "화속성 저항",
+      "융합 장비"
+    ],
+    "slotName": "반지",
+    "explain": [],
+    "tags": [
+      "명속성 저항",
+      "모든 속성 저항",
+      "수속성 저항",
+      "암속성 저항",
+      "융합 장비",
+      "피해 증가",
+      "화속성 저항",
+      "구매 가능"
+    ],
+    "drops": [
+      "이스핀즈"
+    ]
   },
   {
     "itemId": "362af4087d37fa14c438ecc930372100",
@@ -23292,6 +29161,42 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 강화",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 범위",
+      "암속성 강화",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 강화",
+      "화속성 저항",
+      "넉백",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -23309,7 +29214,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23356,6 +29261,39 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 레벨",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "천",
     "slotName": "하의",
     "explain": [
@@ -23370,7 +29308,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23417,6 +29355,40 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "무력화",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 레벨",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "천",
     "slotName": "머리어깨",
     "explain": [
@@ -23431,7 +29403,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23482,6 +29454,40 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "공격 속도",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "캐스팅 속도",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "천",
     "slotName": "허리",
     "explain": [
@@ -23496,7 +29502,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23547,6 +29553,41 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "공격 속도",
+      "기절",
+      "명속성 저항",
+      "모든 속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 범위",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "캐스팅 속도",
+      "크리티컬 히트",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "천",
     "slotName": "신발",
     "explain": [
@@ -23561,7 +29602,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23608,6 +29649,37 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "명속성 강화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23624,7 +29696,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23671,6 +29743,41 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "명속성 강화",
+      "모든 속성 강화",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암속성 강화",
+      "암흑",
+      "이동 속도",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23684,7 +29791,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23731,6 +29838,43 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기절",
+      "대쉬",
+      "명속성 강화",
+      "모든 속성 강화",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23744,7 +29888,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23787,6 +29931,31 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23800,7 +29969,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23843,6 +30012,32 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무력화",
+      "보호막",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23856,7 +30051,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23899,6 +30094,31 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -23915,7 +30135,7 @@
       "커스텀"
     ],
     "drops": [
-      "노블레스 코드*익스퍼트"
+      "노블레스 코드"
     ]
   },
   {
@@ -23962,6 +30182,41 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "공격 속도",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "이동 속도",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "캐스팅 속도",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -23979,10 +30234,10 @@
       "커스텀"
     ],
     "drops": [
-      "왕의 요람*히어로즈",
-      "헤블론의 예언소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "왕의 요람",
+      "헤블론의 예언소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24029,6 +30284,40 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "감전 데미지",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "출혈 데미지",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "하의",
     "explain": [
@@ -24043,11 +30332,11 @@
       "커스텀"
     ],
     "drops": [
-      "백색의 땅*히어로즈",
-      "퀸 팔트*히어로즈",
-      "헤블론의 예언소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "백색의 땅",
+      "퀸 팔트",
+      "헤블론의 예언소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24094,6 +30383,42 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 조건",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "무색 큐브 조각 미소모 스킬",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "커맨드",
+      "크리티컬 히트",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "머리어깨",
     "explain": [
@@ -24108,11 +30433,11 @@
       "커스텀"
     ],
     "drops": [
-      "베리콜리스*히어로즈",
-      "캐니언 힐*히어로즈",
-      "헤블론의 예언소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "베리콜리스",
+      "캐니언 힐",
+      "헤블론의 예언소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24163,6 +30488,41 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "근접",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "허리",
     "explain": [
@@ -24177,11 +30537,11 @@
       "커스텀"
     ],
     "drops": [
-      "백색의 땅*히어로즈",
-      "베리콜리스*히어로즈",
-      "이터널 플레임 연구소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "백색의 땅",
+      "베리콜리스",
+      "이터널 플레임 연구소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24232,6 +30592,40 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "이동 속도",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "퀵슬롯",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "신발",
     "explain": [
@@ -24246,11 +30640,11 @@
       "커스텀"
     ],
     "drops": [
-      "퀸 팔트*히어로즈",
-      "나사우 삼림*히어로즈",
-      "이터널 플레임 연구소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "퀸 팔트",
+      "나사우 삼림",
+      "이터널 플레임 연구소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24297,6 +30691,38 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기절",
+      "대쉬",
+      "받는 데미지",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "파티원",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -24313,11 +30739,11 @@
       "커스텀"
     ],
     "drops": [
-      "왕의 요람*히어로즈",
-      "헤블론의 예언소*히어로즈",
-      "나사우 삼림*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "왕의 요람",
+      "헤블론의 예언소",
+      "나사우 삼림",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24364,6 +30790,39 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "MP MAX",
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "명속성 강화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -24377,11 +30836,11 @@
       "커스텀"
     ],
     "drops": [
-      "백색의 땅*히어로즈",
-      "왕의 요람*히어로즈",
-      "이터널 플레임 연구소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "백색의 땅",
+      "왕의 요람",
+      "이터널 플레임 연구소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24428,6 +30887,40 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 조건",
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "명속성 저항",
+      "모든 속성 저항",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 저항",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -24441,11 +30934,11 @@
       "커스텀"
     ],
     "drops": [
-      "캐니언 힐*히어로즈",
-      "퀸 팔트*히어로즈",
-      "나사우 삼림*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "캐니언 힐",
+      "퀸 팔트",
+      "나사우 삼림",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24488,6 +30981,41 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP MAX",
+      "MP MAX",
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기절",
+      "명속성 저항",
+      "모든 속성 저항",
+      "무력화",
+      "방어력",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 저항",
+      "암흑",
+      "이동 속도 조건",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 저항",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -24501,11 +31029,11 @@
       "커스텀"
     ],
     "drops": [
-      "베리콜리스*히어로즈",
-      "캐니언 힐*히어로즈",
-      "퀸 팔트*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "베리콜리스",
+      "캐니언 힐",
+      "퀸 팔트",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24548,6 +31076,39 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "명속성 강화",
+      "명속성 저항",
+      "모든 속성 저항",
+      "무력화",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "적중률",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "화속성 저항",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -24561,11 +31122,11 @@
       "커스텀"
     ],
     "drops": [
-      "왕의 요람*히어로즈",
-      "나사우 삼림*히어로즈",
-      "이터널 플레임 연구소*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "왕의 요람",
+      "나사우 삼림",
+      "이터널 플레임 연구소",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24608,6 +31169,35 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "명속성 저항",
+      "모든 속성 저항",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 저항",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -24624,11 +31214,11 @@
       "커스텀"
     ],
     "drops": [
-      "백색의 땅*히어로즈",
-      "베리콜리스*히어로즈",
-      "캐니언 힐*히어로즈",
-      "노블레스 코드*익스퍼트",
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "백색의 땅",
+      "베리콜리스",
+      "캐니언 힐",
+      "노블레스 코드",
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24675,6 +31265,41 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "감전 데미지",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 레벨",
+      "스킬 범위",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -24692,7 +31317,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24739,6 +31364,42 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 강화",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 레벨",
+      "스킬 범위",
+      "암속성 강화",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 강화",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "하의",
     "explain": [
@@ -24753,7 +31414,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24800,6 +31461,42 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "감전 데미지",
+      "기절",
+      "명속성 저항",
+      "무력화",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "소모품",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 레벨",
+      "스킬 범위",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "머리어깨",
     "explain": [
@@ -24814,7 +31511,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24865,6 +31562,39 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 레벨",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "허리",
     "explain": [
@@ -24879,7 +31609,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24930,6 +31660,40 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "상태 이상 내성",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 레벨",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "material": "중갑",
     "slotName": "신발",
     "explain": [
@@ -24944,7 +31708,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -24991,6 +31755,35 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -25007,7 +31800,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -25054,6 +31847,34 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "목걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -25067,7 +31888,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -25114,6 +31935,36 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "반지",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -25127,7 +31978,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -25170,6 +32021,37 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "MP 조건",
+      "MP 회복",
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기절",
+      "무력화",
+      "큐브 조각",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "평타",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "보조장비",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -25183,7 +32065,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -25226,6 +32108,31 @@
         "50레벨 액티브 스킬 Lv +2"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무력화",
+      "받는 데미지",
+      "빙결",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "마법석",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -25239,7 +32146,7 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
     ]
   },
   {
@@ -25282,6 +32189,39 @@
         "50레벨 액티브 스킬 Lv +1"
       ]
     },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기본기 숙련",
+      "기절",
+      "명속성 강화",
+      "모든 속성 강화",
+      "무력화",
+      "백어택",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "평타",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 12% 증가",
@@ -25298,7 +32238,1040 @@
       "커스텀"
     ],
     "drops": [
-      "파괴된 죽은 자의 성(상급)*익스퍼트"
+      "파괴된 죽은 자의 성(상급)"
+    ]
+  },
+  {
+    "itemId": "918428f7d8708735caa0e85a83a7e46c",
+    "itemName": "딥 다이버 슈트",
+    "itemType": "방어구",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 3194
+      },
+      {
+        "name": "힘",
+        "value": 151
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 151
+      },
+      {
+        "name": "정신력",
+        "value": 156
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "보호막",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 레벨",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "material": "가죽",
+    "slotName": "상의",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "df8f8a5155992477604353fbd7f8db89",
+    "itemName": "딥 다이버 팬츠",
+    "itemType": "방어구",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 2662
+      },
+      {
+        "name": "힘",
+        "value": 151
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 151
+      },
+      {
+        "name": "정신력",
+        "value": 156
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 공격력 증가",
+      "스킬 레벨",
+      "스킬 범위",
+      "스킬 쿨타임",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "피해 증가",
+      "화상",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "material": "가죽",
+    "slotName": "하의",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "15d61884914660b8d42575144cfe1355",
+    "itemName": "딥 다이버 에어팩",
+    "itemType": "방어구",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 2130
+      },
+      {
+        "name": "힘",
+        "value": 141
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 141
+      },
+      {
+        "name": "정신력",
+        "value": 145
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 조건",
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "공격 속도",
+      "기절",
+      "명속성 강화",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "보호막",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 범위",
+      "암속성 강화",
+      "암속성 저항",
+      "암흑",
+      "이동 속도",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "캐스팅 속도",
+      "퀵 스탠딩",
+      "피해 증가",
+      "화상",
+      "화속성 강화",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "material": "가죽",
+    "slotName": "머리어깨",
+    "explain": [
+      "스킬 공격력 34% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "894a396a5fd25b43790be007a737debc",
+    "itemName": "딥 다이버 벨트",
+    "itemType": "방어구",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 1065
+      },
+      {
+        "name": "힘",
+        "value": 131
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 131
+      },
+      {
+        "name": "정신력",
+        "value": 133
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "인벤토리 무게 한도",
+        "value": "3kg"
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기절",
+      "명속성 저항",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "수면",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 범위",
+      "암속성 저항",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "카운터",
+      "캐스팅 속도",
+      "콤보",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "material": "가죽",
+    "slotName": "허리",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "56707ed3b983ca8678139002578194db",
+    "itemName": "딥 다이버 슈즈",
+    "itemType": "방어구",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "물리 방어력",
+        "value": 1597
+      },
+      {
+        "name": "힘",
+        "value": 131
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 131
+      },
+      {
+        "name": "정신력",
+        "value": 133
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "이동속도",
+        "value": "4%"
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 회복",
+      "MP 회복",
+      "감전",
+      "공격 속도",
+      "기절",
+      "명속성 강화",
+      "명속성 저항",
+      "큐브 조각",
+      "받는 데미지",
+      "방어력",
+      "백어택",
+      "비 카운터",
+      "빙결",
+      "석화",
+      "소모품",
+      "수면",
+      "수속성 강화",
+      "수속성 저항",
+      "슈퍼 아머",
+      "스킬 MP 소모량 감소",
+      "스킬 범위",
+      "암속성 강화",
+      "암속성 저항",
+      "암흑",
+      "이동 속도",
+      "저주",
+      "중독",
+      "출혈",
+      "카운터",
+      "캐스팅 속도",
+      "콤보",
+      "피해 증가",
+      "화상",
+      "화속성 강화",
+      "화속성 저항",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "material": "가죽",
+    "slotName": "신발",
+    "explain": [
+      "스킬 공격력 29% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "c7629a5b062cf8131e4c3bfe6ca8d5ef",
+    "itemName": "딥 다이버 워치",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 6442
+      },
+      {
+        "name": "힘",
+        "value": 150
+      },
+      {
+        "name": "체력",
+        "value": 222
+      },
+      {
+        "name": "지능",
+        "value": 100
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "공격 속도",
+      "기절",
+      "대쉬",
+      "큐브 조각",
+      "무색 큐브 조각 소모 스킬",
+      "받는 데미지",
+      "방어력",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암흑",
+      "이동 속도",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "캐스팅 속도",
+      "콤보",
+      "크리티컬 히트",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "회피율",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "slotName": "팔찌",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "7d0175039686c0a3e06665f95cdb3184",
+    "itemName": "딥 다이버 네클레스",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 10736
+      },
+      {
+        "name": "힘",
+        "value": 100
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 150
+      },
+      {
+        "name": "정신력",
+        "value": 222
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "HP 조건",
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "명속성 강화",
+      "모든 속성 강화",
+      "무색 큐브 조각 소모 스킬",
+      "받는 데미지",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "피해 증가",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "slotName": "목걸이",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "d48cae439d3d23c1d60885b45c7ff15b",
+    "itemName": "딥 다이버 네비게이션 링",
+    "itemType": "액세서리",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "마법 방어력",
+        "value": 4294
+      },
+      {
+        "name": "힘",
+        "value": 173
+      },
+      {
+        "name": "체력",
+        "value": 100
+      },
+      {
+        "name": "지능",
+        "value": 173
+      },
+      {
+        "name": "정신력",
+        "value": 100
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 295
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "대쉬",
+      "명속성 강화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "점프",
+      "중독",
+      "중독 데미지",
+      "지속 시간 감소",
+      "출혈",
+      "출혈 데미지",
+      "크리티컬 히트",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "slotName": "반지",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "289a755f5262c80cc04b20d58756ee45",
+    "itemName": "딥 다이버 오리발",
+    "itemType": "추가장비",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 149
+      },
+      {
+        "name": "체력",
+        "value": 149
+      },
+      {
+        "name": "지능",
+        "value": 149
+      },
+      {
+        "name": "정신력",
+        "value": 149
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1875
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무력화",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "스킬 쿨타임",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "카운터",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "slotName": "보조장비",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "05c7d8fece7ee8469c76fa0e0cbf935e",
+    "itemName": "딥 다이버 마스크",
+    "itemType": "추가장비",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1875
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +2"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "무력화",
+      "비 카운터",
+      "빙결",
+      "상태 이상 내성",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "카운터",
+      "화상",
+      "화상 데미지",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "slotName": "마법석",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
+    ]
+  },
+  {
+    "itemId": "93aacfaa1296200fc022bababcb68d5d",
+    "itemName": "딥 다이버 이어링",
+    "itemType": "추가장비",
+    "itemFlavorText": "",
+    "itemStatus": [
+      {
+        "name": "힘",
+        "value": 172
+      },
+      {
+        "name": "체력",
+        "value": 172
+      },
+      {
+        "name": "지능",
+        "value": 172
+      },
+      {
+        "name": "정신력",
+        "value": 172
+      },
+      {
+        "name": "모험가 명성",
+        "value": 748
+      },
+      {
+        "name": "버프력",
+        "value": 1010
+      }
+    ],
+    "growInfo": {
+      "transfer": true
+    },
+    "itemBuff": {
+      "explain": [
+        "30레벨 버프 스킬 Lv +1",
+        "50레벨 액티브 스킬 Lv +1"
+      ]
+    },
+    "hashtag": [
+      "감전",
+      "감전 데미지",
+      "기절",
+      "명속성 강화",
+      "모든 속성 강화",
+      "무력화",
+      "빙결",
+      "지속 시간 증가",
+      "석화",
+      "수면",
+      "수속성 강화",
+      "슈퍼 아머",
+      "스킬 공격력 증가",
+      "암속성 강화",
+      "암흑",
+      "저주",
+      "중독",
+      "중독 데미지",
+      "출혈",
+      "출혈 데미지",
+      "화상",
+      "화상 데미지",
+      "화속성 강화",
+      "종족 타입",
+      "둔화",
+      "혼란",
+      "구속"
+    ],
+    "slotName": "귀걸이",
+    "explain": [
+      "스킬 공격력 12% 증가",
+      "해당 장비의 옵션 레벨 합이 40레벨이 될 때마다 스킬 공격력 3% 증가",
+      "- 신화 장비 장착 시 옵션 미적용",
+      "- 상의, 팔찌, 귀걸이 중 가장 높은 수치 1개만 적용",
+      "옵션 레벨 합이 240레벨 이상일 때 스킬 공격력 1% 증가",
+      "- 옵션 레벨 합이 40레벨 증가할 때마다 스킬 공격력 1% 추가 증가",
+      "- 100레벨 이하 장비 장착 시 미적용"
+    ],
+    "tags": [
+      "전송",
+      "구매 가능"
+    ],
+    "drops": [
+      "마이스터의 실험실"
     ]
   },
   {
@@ -25344,22 +33317,19 @@
           "explain": "공격 시 10% 추가 데미지",
           "explainDetail": "공격 시 10% 추가 데미지 (2%~10%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (2%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (2%~10%)"
         },
         {
           "explain": "힘, 지능 10% 증가",
           "explainDetail": "힘, 지능 10% 증가 (1%~10%)",
           "buffExplain": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +12",
-          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +12 (3~12)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +12 (3~12)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 11% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 11% 증가 (1%~11%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 150 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 150 증가 (50~150, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 150 증가 (50~150, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -25420,6 +33390,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -25472,22 +33443,19 @@
           "explain": "공격 시 데미지 증가량 11% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 11% 추가 증가 (1%~11%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (1%~11%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (1%~11%)"
         },
         {
           "explain": "모든 직업 1~45레벨 모든 스킬Lv +1",
           "explainDetail": "모든 직업 1~45레벨 모든 스킬Lv +1 (5~45)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "힘, 지능 12% 증가",
           "explainDetail": "힘, 지능 12% 증가 (3%~12%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (20~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (20~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (20~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (20~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -25544,6 +33512,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -25598,29 +33567,25 @@
           "explain": "물리, 마법, 독립 공격력 3% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 3% 증가 (1%~3%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (100~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (100~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 공격력 10% 증가",
           "explainDetail": "모든 공격력 10% 증가 (1%~10%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 100 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 100 증가 (10~100, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 100 증가 (10~100, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 데미지 증가량 8% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 8% 추가 증가 (1%~8%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~8%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~8%)"
         },
         {
           "explain": "모든 속성 강화 +24",
           "explainDetail": "모든 속성 강화 +24 (12~24, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 140 증가\n계시 : 아리아, 퍼페티어 지능 140 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -25692,6 +33657,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -25751,22 +33717,19 @@
           "explain": "모든 직업 5~100레벨 모든 스킬Lv +1",
           "explainDetail": "모든 직업 5~100레벨 모든 스킬Lv +1 (10~100)",
           "buffExplain": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +17",
-          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +17 (1~17)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +17 (1~17)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 7% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 7% 증가 (1%~7%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (20~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (20~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 80 증가",
           "explainDetail": "물리, 마법, 독립 공격력 80 증가 (10~80, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -25808,6 +33771,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "천",
     "slotName": "상의",
     "explain": [
@@ -25861,22 +33825,19 @@
           "explain": "힘, 지능 10% 증가",
           "explainDetail": "힘, 지능 10% 증가 (1%~10%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 100 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 100 증가 (10~100, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 100 증가 (10~100, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 10% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 10% 추가 증가 (1%~10%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 170 증가",
           "explainDetail": "물리, 마법, 독립 공격력 170 증가 (80~170, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 300 증가\n신실한 열정, 소악마 힘, 지능 증가량 280 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 300 증가 (120~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 280 증가 (100~280, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 300 증가 (120~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 280 증가 (100~280, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -25951,6 +33912,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -26011,29 +33973,25 @@
           "explain": "크리티컬 공격 시 데미지 증가량 7% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 7% 추가 증가 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 8% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 8% 증가 (2%~8%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 8% 증가 (2%~8%)"
         },
         {
           "explain": "공격 시 데미지 증가량 5% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 5% 추가 증가 (1%~5%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가 (1%~5%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가 (1%~5%)"
         },
         {
           "explain": "공격 시 6% 추가 데미지",
           "explainDetail": "공격 시 6% 추가 데미지 (1%~6%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 60 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 60 증가 (10~60, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 60 증가 (10~60, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 공격력 5% 증가",
           "explainDetail": "모든 공격력 5% 증가 (1%~5%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 300 증가\n신실한 열정, 소악마 힘, 지능 증가량 280 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 300 증가 (220~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 280 증가 (200~280, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 300 증가 (220~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 280 증가 (200~280, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -26105,6 +34063,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -26158,29 +34117,25 @@
           "explain": "공격 시 데미지 증가량 4% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 4% 추가 증가 (1%~4%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 3% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 3% 증가 (1%~3%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (100~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (100~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 10% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 10% 추가 증가 (1%~10%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "힘, 지능 8% 증가",
           "explainDetail": "힘, 지능 8% 증가 (1%~8%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (60~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -26252,6 +34207,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -26301,22 +34257,19 @@
           "explain": "모든 속성 강화 +40",
           "explainDetail": "모든 속성 강화 +40 (4~40, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 220 증가\n신실한 열정, 소악마 힘, 지능 증가량 200 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (40~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (20~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (40~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (20~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 데미지 증가량 10% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 10% 추가 증가 (1%~10%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "공격 시 10% 추가 데미지",
           "explainDetail": "공격 시 10% 추가 데미지 (1%~10%)",
           "buffExplain": "수호의 은총 체력, 정신력 240 증가\n계시 : 아리아, 퍼페티어 지능 240 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (60~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 240 증가 (60~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (60~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 240 증가 (60~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -26388,6 +34341,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "가죽",
     "slotName": "상의",
     "explain": [
@@ -26444,22 +34398,19 @@
           "explain": "물리, 마법, 독립 공격력 8% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 8% 증가 (1%~8%)",
           "buffExplain": "수호의 은총 체력, 정신력 240 증가\n계시 : 아리아, 퍼페티어 지능 240 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (100~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 240 증가 (100~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (100~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 240 증가 (100~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "힘, 지능 8% 증가",
           "explainDetail": "힘, 지능 8% 증가 (1%~8%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~8%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~8%)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 15% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 15% 추가 증가 (1%~15%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 150 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 150 증가 (10~150, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 150 증가 (10~150, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -26531,6 +34482,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -26586,29 +34538,25 @@
           "explain": "모든 공격력 10% 증가",
           "explainDetail": "모든 공격력 10% 증가 (1%~10%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 8% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 8% 추가 증가 (1%~8%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 80 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 80 증가 (10~80, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 80 증가 (10~80, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 데미지 증가량 4% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 4% 추가 증가 (1%~4%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 4% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "힘, 지능 3% 증가",
           "explainDetail": "힘, 지능 3% 증가 (1%~3%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 220 증가\n신실한 열정, 소악마 힘, 지능 증가량 200 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (180~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (160~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (180~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (160~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -26684,6 +34632,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -26764,29 +34713,25 @@
           "explain": "스킬 공격력 4% 증가",
           "explainDetail": "스킬 공격력 4% 증가 (1%~4%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "모든 공격력 4% 증가",
           "explainDetail": "모든 공격력 4% 증가 (1%~4%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 4% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "공격 시 데미지 증가량 9% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 9% 추가 증가 (1%~9%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 260 증가\n신실한 열정, 소악마 힘, 지능 증가량 240 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 260 증가 (100~260, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 240 증가 (80~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 260 증가 (100~260, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 240 증가 (80~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 7% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 7% 추가 증가 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 7% 증가 (1%~7%)"
         }
       ]
     },
@@ -26858,6 +34803,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -26921,29 +34867,25 @@
           "explain": "모든 직업 1~48레벨 모든 스킬Lv +1",
           "explainDetail": "모든 직업 1~48레벨 모든 스킬Lv +1 (35~48)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 70 증가",
           "explainDetail": "물리, 마법, 독립 공격력 70 증가 (10~70, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +7",
-          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +7 (1~7)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +7 (1~7)"
         },
         {
           "explain": "모든 공격력 5% 증가",
           "explainDetail": "모든 공격력 5% 증가 (1%~5%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가 (1%~5%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가 (1%~5%)"
         },
         {
           "explain": "힘, 지능 160 증가",
           "explainDetail": "힘, 지능 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 160 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -27021,6 +34963,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "경갑",
     "slotName": "상의",
     "explain": [
@@ -27080,29 +35023,25 @@
           "explain": "공격 시 적에게 입힌 피해의 5% 만큼 3초동안 지속피해 발생",
           "explainDetail": "공격 시 적에게 입힌 피해의 5% 만큼 3초동안 지속피해 발생 (2%~5%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 220 증가\n신실한 열정, 소악마 힘, 지능 증가량 200 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (160~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (160~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 7% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 7% 추가 증가 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)"
         },
         {
           "explain": "공격 시 4% 추가 데미지",
           "explainDetail": "공격 시 4% 추가 데미지 (1%~4%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가 (20~50, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가 (20~50, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 데미지 증가량 9% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 9% 추가 증가 (1%~9%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 9% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 9% 증가 (1%~9%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 9% 증가 (1%~9%)"
         }
       ]
     },
@@ -27174,6 +35113,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -27230,29 +35170,25 @@
           "explain": "공격 시 9% 추가 데미지",
           "explainDetail": "공격 시 9% 추가 데미지 (1%~9%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "힘, 지능 4% 증가",
           "explainDetail": "힘, 지능 4% 증가 (1%~4%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 공격력 4% 증가",
           "explainDetail": "모든 공격력 4% 증가 (1%~4%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 200 증가\n신실한 열정, 소악마 힘, 지능 증가량 180 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 180 증가 (120~180, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 180 증가 (120~180, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 7% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 7% 증가 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 7% 증가 (1%~7%)"
         }
       ]
     },
@@ -27324,6 +35260,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -27380,22 +35317,19 @@
           "explain": "크리티컬 공격 시 데미지 증가량 10% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 10% 추가 증가 (1%~10%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (2%~11%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (2%~11%)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 10% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 10% 증가 (1%~10%)",
           "buffExplain": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +10",
-          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +10 (1~10)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +10 (1~10)"
         },
         {
           "explain": "공격 시 10% 추가 데미지",
           "explainDetail": "공격 시 10% 추가 데미지 (1%~10%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 12% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 12% 증가 (3%~12%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 12% 증가 (3%~12%)"
         }
       ]
     },
@@ -27467,6 +35401,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -27524,29 +35459,25 @@
           "explain": "모든 공격력 4% 증가",
           "explainDetail": "모든 공격력 4% 증가 (1%~4%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 13% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 13% 증가 (1%~13%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 13% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 13% 증가 (1%~13%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 13% 증가 (1%~13%)"
         },
         {
           "explain": "힘, 지능 4% 증가",
           "explainDetail": "힘, 지능 4% 증가 (1%~4%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "스킬 공격력 5% 증가",
           "explainDetail": "스킬 공격력 5% 증가 (1%~5%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가 (10~50, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가 (10~50, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -27618,6 +35549,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "중갑",
     "slotName": "상의",
     "explain": [
@@ -27674,29 +35606,25 @@
           "explain": "공격 시 데미지 증가량 5% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 5% 추가 증가 (1%~5%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 5% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 5% 증가 (1%~5%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 5% 증가 (1%~5%)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 7% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 7% 추가 증가 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)"
         },
         {
           "explain": "모든 공격력 6% 증가",
           "explainDetail": "모든 공격력 6% 증가 (1%~6%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 5% 추가 데미지",
           "explainDetail": "공격 시 5% 추가 데미지 (1%~5%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 220 증가\n신실한 열정, 소악마 힘, 지능 증가량 200 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (140~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (120~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (140~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (120~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -27774,6 +35702,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "판금",
     "slotName": "상의",
     "explain": [
@@ -27832,22 +35761,19 @@
           "explain": "힘, 지능 12% 증가",
           "explainDetail": "힘, 지능 12% 증가 (1%~12%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 13% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 13% 증가 (2%~13%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 13% 증가 (2%~13%)"
         },
         {
           "explain": "공격 시 데미지 증가량 9% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 9% 추가 증가 (1%~9%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (2%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (2%~10%)"
         },
         {
           "explain": "모든 공격력 9% 증가",
           "explainDetail": "모든 공격력 9% 증가 (1%~9%)",
           "buffExplain": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +10",
-          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +10 (2~10)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +10 (2~10)"
         }
       ]
     },
@@ -27919,6 +35845,7 @@
         }
       ]
     },
+    "hashtag": [],
     "material": "판금",
     "slotName": "상의",
     "explain": [
@@ -27974,29 +35901,25 @@
           "explain": "물리, 마법, 독립 공격력 3% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 3% 증가 (1%~3%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 60 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 60 증가 (40~60, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 60 증가 (40~60, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "스킬 공격력 6% 증가",
           "explainDetail": "스킬 공격력 6% 증가 (1%~6%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (100~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 9% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 9% 추가 증가 (1%~9%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 9% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 9% 증가 (1%~9%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 9% 증가 (1%~9%)"
         },
         {
           "explain": "힘, 지능 6% 증가",
           "explainDetail": "힘, 지능 6% 증가 (1%~6%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (2%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (2%~7%)"
         }
       ]
     },
@@ -28071,6 +35994,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 25% 증가",
@@ -28128,22 +36052,19 @@
           "explain": "물리, 마법, 독립 공격력 110 증가",
           "explainDetail": "물리, 마법, 독립 공격력 110 증가 (30~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 9% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 9% 증가 (1%~9%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 9% 증가 (1%~9%)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 10% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 10% 추가 증가 (1%~10%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 10% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "공격 시 데미지 증가량 11% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 11% 추가 증가 (1%~11%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (1%~11%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (1%~11%)"
         }
       ]
     },
@@ -28205,6 +36126,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 16% 증가",
@@ -28266,29 +36188,25 @@
           "explain": "크리티컬 공격 시 데미지 증가량 4% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 4% 추가 증가 (1%~4%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가 (20~50, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 50 증가 (20~50, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "힘, 지능 10% 증가",
           "explainDetail": "힘, 지능 10% 증가 (1%~10%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 10% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "공격 시 데미지 증가량 3% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 3% 추가 증가 (1%~3%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (100~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (100~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 8% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 8% 증가 (1%~8%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 9% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 9% 증가 (2%~9%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 9% 증가 (2%~9%)"
         }
       ]
     },
@@ -28360,6 +36278,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "공격 시 7% 추가 데미지",
@@ -28413,22 +36332,19 @@
           "explain": "힘, 지능 160 증가",
           "explainDetail": "힘, 지능 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 160 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (40~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 공격력 12% 증가",
           "explainDetail": "모든 공격력 12% 증가 (1%~12%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 12% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 12% 증가 (1%~12%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 12% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 12% 증가 (1%~12%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 12% 증가 (1%~12%)"
         }
       ]
     },
@@ -28500,6 +36416,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "공격 시 8% 추가 데미지",
@@ -28559,22 +36476,19 @@
           "explain": "힘, 지능 240 증가",
           "explainDetail": "힘, 지능 240 증가 (20~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 240 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (20~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (20~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 7% 추가 데미지",
           "explainDetail": "공격 시 7% 추가 데미지 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (4%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (4%~10%)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 12% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 12% 증가 (1%~12%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -28646,6 +36560,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "스킬 공격력 30% 증가",
@@ -28698,29 +36613,25 @@
           "explain": "힘, 지능 4% 증가",
           "explainDetail": "힘, 지능 4% 증가 (1%~4%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "모든 속성 강화 +20",
           "explainDetail": "모든 속성 강화 +20 (12~20, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +5",
-          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +5 (3~5)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총, 계시 : 아리아, 퍼페티어 스킬Lv +5 (3~5)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 100 증가",
           "explainDetail": "물리, 마법, 독립 공격력 100 증가 (10~100, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가 (20~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가 (20~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 공격력 8% 증가",
           "explainDetail": "모든 공격력 8% 증가 (1%~8%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (3%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 10% 증가 (3%~10%)"
         }
       ]
     },
@@ -28792,6 +36703,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "힘, 지능 8% 증가",
@@ -28848,29 +36760,25 @@
           "explain": "스킬 공격력 3% 증가",
           "explainDetail": "스킬 공격력 3% 증가 (1%~3%)",
           "buffExplain": "수호의 은총 체력, 정신력 160 증가\n계시 : 아리아, 퍼페티어 지능 160 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 160 증가 (120~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 4% 추가 데미지",
           "explainDetail": "공격 시 4% 추가 데미지 (1%~4%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "힘, 지능 7% 증가",
           "explainDetail": "힘, 지능 7% 증가 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 12% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 12% 증가 (1%~12%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가 (1%~12%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가 (1%~12%)"
         }
       ]
     },
@@ -28947,6 +36855,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "20초마다 포효하여 30초동안 버프 발생 (최대 1중첩, 본인만 적용)",
@@ -29007,22 +36916,19 @@
           "explain": "공격 시 데미지 증가량 10% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 10% 추가 증가 (1%~10%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가 (20~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가 (20~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 속성 강화 +32",
           "explainDetail": "모든 속성 강화 +32 (4~32, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~8%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~8%)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 12% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 12% 추가 증가 (1%~12%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가 (1%~12%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가 (1%~12%)"
         }
       ]
     },
@@ -29096,6 +37002,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "팔찌",
     "explain": [
       "힘, 지능 11% 증가",
@@ -29153,29 +37060,25 @@
           "explain": "공격 시 4% 추가 데미지",
           "explainDetail": "공격 시 4% 추가 데미지 (1%~4%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 220 증가\n신실한 열정, 소악마 힘, 지능 증가량 200 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (160~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 220 증가 (160~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "물리, 마법, 독립 공격력 9% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 9% 증가 (1%~9%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "스킬 공격력 4% 증가",
           "explainDetail": "스킬 공격력 4% 증가 (1%~4%)",
           "buffExplain": "수호의 은총 체력, 정신력 160 증가\n계시 : 아리아, 퍼페티어 지능 160 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 공격력 7% 증가",
           "explainDetail": "모든 공격력 7% 증가 (1%~7%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 7% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 7% 증가 (1%~7%)"
         }
       ]
     },
@@ -29249,6 +37152,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "모든 공격력 5% 증가",
@@ -29293,29 +37197,25 @@
           "explain": "모든 속성 강화 +40",
           "explainDetail": "모든 속성 강화 +40 (20~40, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 6% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 6% 증가 (1%~6%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 6% 증가 (1%~6%)"
         },
         {
           "explain": "모든 공격력 8% 증가",
           "explainDetail": "모든 공격력 8% 증가 (1%~8%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 80 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 80 증가 (10~80, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 80 증가 (10~80, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "힘, 지능 5% 증가",
           "explainDetail": "힘, 지능 5% 증가 (1%~5%)",
           "buffExplain": "수호의 은총 체력, 정신력 300 증가\n계시 : 아리아, 퍼페티어 지능 300 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 300 증가 (220~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 300 증가 (220~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 300 증가 (220~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 300 증가 (220~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 데미지 증가량 4% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 4% 추가 증가 (1%~4%)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (100~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -29387,6 +37287,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 27% 증가",
@@ -29444,29 +37345,25 @@
           "explain": "물리, 마법, 독립 공격력 6% 증가",
           "explainDetail": "물리, 마법, 독립 공격력 6% 증가 (1%~6%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 70 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 70 증가 (20~70, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 70 증가 (20~70, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "스킬 공격력 4% 증가",
           "explainDetail": "스킬 공격력 4% 증가 (1%~4%)",
           "buffExplain": "수호의 은총 체력, 정신력 200 증가\n계시 : 아리아, 퍼페티어 지능 200 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 200 증가 (140~200, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 8% 추가 데미지",
           "explainDetail": "공격 시 8% 추가 데미지 (1%~8%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (4%~11%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 11% 증가 (4%~11%)"
         },
         {
           "explain": "힘, 지능 5% 증가",
           "explainDetail": "힘, 지능 5% 증가 (1%~5%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 6% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 6% 증가 (2%~6%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 6% 증가 (2%~6%)"
         }
       ]
     },
@@ -29538,6 +37435,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "공격 시 데미지 증가량 5% 추가 증가",
@@ -29586,22 +37484,19 @@
           "explain": "공격 시 데미지 증가량 12% 추가 증가",
           "explainDetail": "공격 시 데미지 증가량 12% 추가 증가 (1%~12%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 12% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 12% 증가 (1%~12%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 12% 증가 (1%~12%)"
         },
         {
           "explain": "힘, 지능 220 증가",
           "explainDetail": "힘, 지능 220 증가 (100~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 220 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 220 증가 (100~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 220 증가 (100~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 12% 추가 데미지",
           "explainDetail": "공격 시 12% 추가 데미지 (1%~12%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 120 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -29673,6 +37568,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "공격 시 5% 추가 데미지",
@@ -29725,22 +37621,19 @@
           "explain": "모든 공격력 12% 증가",
           "explainDetail": "모든 공격력 12% 증가 (1%~12%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가 (1%~12%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 12% 증가 (1%~12%)"
         },
         {
           "explain": "모든 속성 강화 +40",
           "explainDetail": "모든 속성 강화 +40 (8~40, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 240 증가\n계시 : 아리아, 퍼페티어 지능 240 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (80~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 240 증가 (80~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 240 증가 (80~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n계시 : 아리아, 퍼페티어 지능 240 증가 (80~240, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "공격 시 9% 추가 데미지",
           "explainDetail": "공격 시 9% 추가 데미지 (1%~9%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -29812,6 +37705,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 30% 증가",
@@ -29856,22 +37750,19 @@
           "explain": "힘, 지능 300 증가",
           "explainDetail": "힘, 지능 300 증가 (20~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 300 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 300 증가 (20~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 300 증가 (20~300, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 11% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 11% 추가 증가 (1%~11%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가 (10~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 110 증가 (10~110, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 직업 60~100레벨 모든 스킬Lv +1",
           "explainDetail": "모든 직업 60~100레벨 모든 스킬Lv +1 (70~100)",
           "buffExplain": "신념의 오라 체력, 정신력 증가량 160 증가\n신실한 열정, 소악마 힘, 지능 증가량 140 증가",
-          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (60~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (40~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "신념의 오라 체력, 정신력 증가량 160 증가 (60~160, 해당 옵션 수치는 20의 배수로만 나옵니다.)\n신실한 열정, 소악마 힘, 지능 증가량 140 증가 (40~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -29913,6 +37804,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 19% 증가",
@@ -29967,29 +37859,25 @@
           "explain": "물리, 마법, 독립 공격력 120 증가",
           "explainDetail": "물리, 마법, 독립 공격력 120 증가 (40~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 90 증가 (10~90, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
         },
         {
           "explain": "모든 직업 1~45레벨 모든 스킬Lv +1",
           "explainDetail": "모든 직업 1~45레벨 모든 스킬Lv +1 (30~45)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "힘, 지능 4% 증가",
           "explainDetail": "힘, 지능 4% 증가 (1%~4%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 4% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 4% 증가 (1%~4%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 4% 증가 (1%~4%)"
         },
         {
           "explain": "공격 시 7% 추가 데미지",
           "explainDetail": "공격 시 7% 추가 데미지 (1%~7%)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 7% 증가 (1%~7%)"
         }
       ]
     },
@@ -30064,6 +37952,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 27% 증가",
@@ -30115,29 +38004,25 @@
           "explain": "모든 속성 강화 +16",
           "explainDetail": "모든 속성 강화 +16 (8~16, 해당 옵션 수치는 4의 배수로만 나옵니다.)",
           "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가 (3%~5%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 5% 증가 (3%~5%)"
         },
         {
           "explain": "공격 시 적에게 입힌 피해의 10% 만큼 3초동안 지속피해 발생",
           "explainDetail": "공격 시 적에게 입힌 피해의 10% 만큼 3초동안 지속피해 발생 (1%~10%)",
           "buffExplain": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가",
-          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가 (1%~10%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "30Lv 버프 스킬 힘, 지능 증가량 10% 증가 (1%~10%)"
         },
         {
           "explain": "크리티컬 공격 시 데미지 증가량 8% 추가 증가",
           "explainDetail": "크리티컬 공격 시 데미지 증가량 8% 추가 증가 (1%~8%)",
           "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 8% 증가",
-          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 8% 증가 (1%~8%)",
-          "optionType": "mythology"
+          "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 8% 증가 (1%~8%)"
         },
         {
           "explain": "힘, 지능 140 증가",
           "explainDetail": "힘, 지능 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
           "buffExplain": "수호의 은총 체력, 정신력 140 증가",
-          "buffExplainDetail": "수호의 은총 체력, 정신력 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
-          "optionType": "mythology"
+          "buffExplainDetail": "수호의 은총 체력, 정신력 140 증가 (80~140, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
         }
       ]
     },
@@ -30213,6 +38098,7 @@
         }
       ]
     },
+    "hashtag": [],
     "slotName": "귀걸이",
     "explain": [
       "스킬 공격력 27% 증가",

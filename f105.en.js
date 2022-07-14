@@ -128,7 +128,7 @@
   "물들지 않는 의지의 고결함": "Nobility of the Untainted Will",
   "헌티드 레어 아티팩트": "Haunted Rare Artifect",
   "매드 사이언티스트 지젤": "Mad Scientist Gizel",
-  "이스핀즈": 'Ispins',
+  "이스핀즈": "Ispins",
   "숲속의 마녀": "Witch in the Woods",
   "엔트 정령": "Treant Spirit",
   "블루 베릴": "Blue Beryl",
