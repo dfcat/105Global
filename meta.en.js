@@ -7537,8 +7537,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "모든 직업 1~30Lv 스킬 공격력 12% 증가",
-            "무색 큐브 조각을 소모하지 않는 스킬 무색 큐브 소모량 2개 추가"
+            "All classes 1-30 Lv skill attack power increased by 12%",
+            "Skills that do not consume colorless cube fragments increase colorless cube consumption by 2"
           ],
           "damage": 674,
           "buff": 499
@@ -7547,10 +7547,10 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 시전 시 소모한 무색 큐브 조각 개수에 따라 해당 스킬의 공격력 증가",
-            "- 무색 큐브 조각 1개 이상 소모 시 스킬 공격력 2% 증가",
-            "- 무색 큐브 조각 15개 이상 소모 시 스킬 공격력 10% 증가",
-            "- 무색 큐브 조각 30개 이상 소모 시 스킬 공격력 20% 증가"
+            "When casting a skill, the attack power of the skill increases according to the number of colorless cube pieces consumed",
+            "- When 1 or more colorless cube pieces are consumed, skill attack power increases by 2%",
+            "- When 15 or more colorless cube pieces are consumed, skill attack power increases by 10%",
+            "- When 30 or more colorless cube pieces are consumed, skill attack power increases by 20%"
           ],
           "damage": 674,
           "buff": 499
@@ -7559,7 +7559,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "스킬 MP 소모량 7% 감소"
+            "Skill MP consumption reduced by 7%"
           ],
           "damage": 1186,
           "buff": 494
@@ -7568,8 +7568,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 크리티컬 히트 +5%",
-            "마법 크리티컬 히트 +5%"
+            "Physical Critical Hit +5%",
+            "Magic Critical Hit +5%"
           ],
           "damage": 1186,
           "buff": 494
@@ -10187,8 +10187,9 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "장착 시 20초마다 25초 동안 불 버프를 생성하여 무기에 화속성 부여",
-            "- 수속성 피격 시 20초 동안 불 버프 삭제"
+            "Creates a fire buff for 20 seconds every 20 seconds when equipped",
+            "- Gives fire attack attribute when in the state of fire buff",
+            "Removes fire buff for 20 seconds when attacked with water property"
           ],
           "damage": 2021,
           "buff": 475
@@ -10197,8 +10198,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성으로 공격 시 적을 15초 동안 화상 상태로 만듦 (쿨타임 10초)",
-            "화상 상태의 적을 화속성으로 공격 시 스킬 공격력 5% 증가"
+            "Burns the enemy when attacking with fire property (Cooldown 10 seconds)"
           ],
           "damage": 2021,
           "buff": 475
@@ -10207,7 +10207,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "500px 범위 내 화상 상태인 대상 하나 당 피해 증가 +356 (최대 10중첩)"
+            "+356 damage per burn target within 500px range (stacks up to 10)"
           ],
           "damage": 1186,
           "buff": 504
@@ -10216,7 +10216,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "화속성 강화 15 증가"
+            "Increases fire property enhancement by 15"
           ],
           "damage": 1186,
           "buff": 494
@@ -16496,8 +16496,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "공격 시 자신과 적에게 피해를 주는 명속성 폭발 발생 (쿨타임 5초, 적의 방어력과 상관없이 총 피해 증가 수치의 120%만큼 피해를 줌)",
-            "- 자신에게 1의 고정 피해 적용"
+            "When attacking, a light property explosion that deals damage to self and enemies occurs (cooldown 5 seconds)"
           ],
           "damage": 1886,
           "buff": 485
@@ -16506,7 +16505,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 피격 시 10초 동안 명속성 강화 +30 (최대 1중첩)"
+            "Light property enhancement +30 for 10 seconds when attacked with light property (stacks up to 1)"
           ],
           "damage": 1886,
           "buff": 485
@@ -16515,8 +16514,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "물리 방어력 +7000",
-            "마법 방어력 +7000"
+            "Increases physical defense by 7000",
+            "Increases magic defense by 7000"
           ],
           "damage": 1186,
           "buff": 494
@@ -16525,7 +16524,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "명속성 저항 10 증가"
+            "Increases light resistance by 10"
           ],
           "damage": 1186,
           "buff": 494
@@ -22385,12 +22384,11 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "던전 입장 시 배터리 버프가 발동하여 아래의 효과 적용",
-            "- 공격 시 배터리 1스택 증가 (쿨타임 10초)",
-            "- 배터리 1스택 당 피해 증가 +963 (최대 4중첩)",
-            "- 백스텝 시전 시 배터리 1스택 감소",
-            "- 배터리 스택이 5일 때 3초 후 배터리 폭발이 발생하여 적에게 피해를 주고, 자신의 HP가 30% 감소하며 배터리 스택 초기화 (적의 방어력과 상관없이 총 피해 증가 수치의 500%만큼 피해를 줌)",
-            "배터리 폭발 발생 시 30초 동안 물리, 마법 방어력 -20000, 모든 속도 +40%"
+            "Increases battery stack by 1 when attacking (10 seconds cooldown)\n",
+            "+667 damage per stack of battery (stacks up to 4)\n",
+            "The battery becomes 5 stacks, and after 3 seconds, a powerful explosion occurs, reducing HP by 30% and resetting the stack.\n",
+            "When the battery explodes, your physical and magic defense is reduced by 20000, attack, casting, and movement speed are increased by 40% for 30 seconds\n",
+            "Reduces battery stack by 1 when backstepping"
           ],
           "damage": 1616,
           "buff": 480
@@ -22399,7 +22397,8 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "이동 속도 10%당 물리, 마법 크리티컬 히트 +1% (최대 10% 증가)"
+            "Increases physical critical hit and magic critical hit by 1% per 10% of movement speed (up to 10% increase)",
+            "-30% movement speed"
           ],
           "damage": 1616,
           "buff": 480
@@ -22408,7 +22407,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "HP 1분당 460.2 회복"
+            "Recover 460.2 HP per minute"
           ],
           "damage": 1186,
           "buff": 494
@@ -22417,7 +22416,7 @@
           "level": 1,
           "expRate": 0,
           "explain": [
-            "회피율 +8%"
+            "Evasion +8%"
           ],
           "damage": 1186,
           "buff": 494
